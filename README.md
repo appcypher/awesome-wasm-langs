@@ -17,6 +17,7 @@ This repo contains a list of languages that currently compile to WebAssembly(was
 - [Forest](#forest) :egg:
 - [Haskell](#haskell) :egg:
 - [Java](#java) :hatching_chick:
+- [Kotlin](#kotlin) :hatching_chick:
 - [Kou](#kou) :egg:
 - [Lua](#lua) :hatched_chick:
 - [Ocaml](#ocaml) :egg:
@@ -68,7 +69,7 @@ This repo contains a list of languages that currently compile to WebAssembly(was
 
 --------------------
 
-### <a name="csharp"></a>C# # <sup>[top⇈](#contents)</sup>
+### <a name="csharp"></a>C# <sup>[top⇈](#contents)</sup>
 > C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.
 > Its development team is led by Anders Hejlsberg
 * See [.Net](#dotnet)
@@ -113,6 +114,13 @@ This repo contains a list of languages that currently compile to WebAssembly(was
 > Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
 > Java was originally developed by James Gosling at Sun Microsystems and released in 1995 as a core component of Sun Microsystems' Java platform. The language derives much of its syntax from C and C++, but it has fewer low-level facilities than either of them.
 * [TeaVM](https://github.com/konsoletyper/teavm) - an ahead-of-time translating compiler (transpiler) of Java bytecode, that's capable of emitting JavaScript and WebAssembly
+
+
+--------------------
+
+### <a name="kotlin"></a>Kotlin <sup>[top⇈](#contents)</sup>
+> Kotlin is a statically-typed programming language that runs on the Java virtual machine and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. Its primary development is from a team of JetBrains programmers based in Saint Petersburg, Russia. While the syntax is not compatible with Java, Kotlin is designed to interoperate with Java code and is reliant on Java code from the existing Java Class Library, such as the collections framework.
+* [Kotlin](https://github.com/JetBrains/kotlin) - main repository
 
 --------------------
 
