@@ -1,5 +1,8 @@
 # WebAssembly Languages
-A list of languages that currently compile to WebAssembly(wasm) :octocat:
+WebAssembly, or wasm for short, is a low-level bytecode format that runs in the browser just like JavaScript.
+It is designed to be faster to parse than JavaScript, as well as faster to execute which makes it a suitable compilation target for new and existing languages.
+
+This repo contains a list of languages that currently compile to WebAssembly(wasm) :octocat:
 
 ## Contents
 - [.Net](#dotnet) :hatching_chick:
