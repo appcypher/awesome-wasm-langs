@@ -105,8 +105,8 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="haskell"></a>Haskell <sup>[top⇈](#contents)</sup>
 > Haskell is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry.[1] The latest standard of Haskell is Haskell 2010. As of May 2016, a group is working on the next version, Haskell 2020.
-* [DHC](https://github.com/dfinity/dhc) - a Haskell compiler that accepts only a tiny subset of the language and produces WebAssembly binary.
-* [HaskellWasm](https://github.com/haskell-wasm/wasm) - a haskell compiler infrastructure for generating WebAssembly
+* [DHC](https://github.com/dfinity/dhc) - a Haskell compiler that accepts only a tiny subset of the language and produces WebAssembly binaries
+* [HaskellWasm](https://github.com/haskell-wasm/wasm) - a Haskell compiler infrastructure for generating WebAssembly
 
 --------------------
 
@@ -133,15 +133,15 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="lua"></a>Lua <sup>[top⇈](#contents)</sup>
 > Lua is a lightweight, multi-paradigm programming language designed primarily for embedded systems and clients.[2] Lua is cross-platform, since the interpreter is written in ANSI C, and has a relatively simple C API.
 > Lua was originally designed in 1993 as a language for extending software applications to meet the increasing demand for customization at the time.
-* [WasmLua](https://github.com/vvanders/wasm_lua)
-* [Luwa](https://github.com/serprex/luwa)
+* [WasmLua](https://github.com/vvanders/wasm_lua) - a Lua VM running in the browser
+* [Luwa](https://github.com/serprex/luwa) - a wasm-to-Lua JIT compiler
 
 --------------------
 
 ### <a name="ocaml"></a>Ocaml <sup>[top⇈](#contents)</sup>
 > OCaml, originally named Objective Caml, is the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs.
-* [Ocaml](https://github.com/SanderSpies/ocaml/tree/wasm/wasmcomp)
-* [OcamlRun](https://github.com/sebmarkbage/ocamlrun-wasm) 
+* [Ocaml](https://github.com/SanderSpies/ocaml/tree/wasm/wasmcomp) - a fork of main repo contianing work on OCaml to wasm compilation
+* [OcamlRun](https://github.com/sebmarkbage/ocamlrun-wasm) - a build script for compiling OCaml bytecode interpreter to wasm using emscripten
 
 --------------------
 
