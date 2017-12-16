@@ -34,8 +34,8 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="dotnet"></a>.Net <sup>[top⇈](#contents)</sup>
 > .NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library named Framework Class Library (FCL) and provides language interoperability (each language can use code written in other languages) across several programming languages.
-* [DotnetWebassembly](https://github.com/RyanLamansky/dotnet-webassembly) - an experimental web UI framework using C#/Razor and HTML, running client-side via WebAssembly
-* [Blazor](https://github.com/SteveSanderson/Blazor) - a library able to create, read, modify, write and execute WebAssembly files from .NET-based applications
+* [DotnetWebassembly](https://github.com/RyanLamansky/dotnet-webassembly) - a library able to create, read, modify, write and execute WebAssembly files from .NET-based applications
+* [Blazor](https://github.com/SteveSanderson/Blazor) - an experimental web UI framework using C#/Razor and HTML, running client-side via WebAssembly
 
 --------------------
 
