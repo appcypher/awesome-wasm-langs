@@ -1,4 +1,4 @@
-# WebAssembly Languages
+# Awesome WebAssembly Languages ![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)
 WebAssembly, or wasm for short, is a low-level bytecode format that runs in the browser just like JavaScript.
 It is designed to be faster to parse than JavaScript, as well as faster to execute which makes it a suitable compilation target for new and existing languages.
 
@@ -98,7 +98,7 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 ### <a name="forest"></a>Forest <sup>[top⇈](#contents)</sup>
-> Forest is a functional programming language that compiles to WebAssembly. This repository contains the compiler and core syntaxes, currently implemented in Haskell.
+> Forest is a functional programming language that compiles to WebAssembly. The main repo contains the compiler and core syntaxes, currently implemented in Haskell.
 * [ForestLang](https://github.com/forest-lang/core) - main repository
 
 --------------------
@@ -154,7 +154,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="rust"></a>Rust <sup>[top⇈](#contents)</sup>
 > Rust is a systems programming language sponsored by Mozilla Research, which describes it as a "safe, concurrent, practical language,"supporting functional and imperative-procedural paradigms. Rust is syntactically similar to C++, but its designers intend it to provide better memory safety while maintaining performance.
 * [Wargo](https://github.com/lord/wargo) - a simple npm package that makes compiling Rust to WebAssembly easy on macOS or Linux.
-* [RustWasmLoader](https://github.com/ianjsikes/rust-wasm-loader) - A simple Webpack loader that shells out to cargo to build a Rust project targeting WebAssembly. See this post for more details on using Rust to target the web
+* [RustWasmLoader](https://github.com/ianjsikes/rust-wasm-loader) - A simple Webpack loader that shells out to cargo to build a Rust project targeting WebAssembly. 
 
 --------------------
 
@@ -191,3 +191,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="xlang"></a>Xlang <sup>[top⇈](#contents)</sup>
 > A programming language similar to Go and TypeScript.
 * [Xlang](https://github.com/rsms/xlang) - main repository
+
+--------------------
+
+Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
