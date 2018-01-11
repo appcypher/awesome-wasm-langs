@@ -15,6 +15,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Elixir](#elixir) :egg:
 - [Faust](#faust) :egg:
 - [Forest](#forest) :egg:
+- [Forth](#forth) :hatched_chick:
 - [Haskell](#haskell) :egg:
 - [Java](#java) :hatching_chick:
 - [Kotlin](#kotlin) :hatching_chick:
@@ -53,7 +54,7 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 ### <a name="brainfuck"></a>Brainfuck <sup>[top⇈](#contents)</sup>
-> Brainfuck is an esoteric programming language created in 1993 by Urban Müller, and notable for its extreme minimalism. 
+> Brainfuck is an esoteric programming language created in 1993 by Urban Müller, and notable for its extreme minimalism.
 > The language consists of only eight simple commands and an instruction pointer. While it is fully Turing-complete, it is not intended for practical use, but to challenge and amuse programmers.
 * [BrainfuckWebassembly](https://github.com/serprex/brainwebfuckassembly) - a simple Brainfuck-to-wasm compiler in one function
 * [Brainfuck2Wasm](https://github.com/verdie-g/brainfuck2wasm) - a Brainfuck-to-wasm compiler and playground
@@ -100,6 +101,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="forest"></a>Forest <sup>[top⇈](#contents)</sup>
 > Forest is a functional programming language that compiles to WebAssembly. The main repo contains the compiler and core syntaxes, currently implemented in Haskell.
 * [ForestLang](https://github.com/forest-lang/core) - main repository
+
+--------------------
+
+### <a name="forth"></a>Forth <sup>[top⇈](#contents)</sup>
+> Forth is an interactive, extensible, imperative, untyped, stack-based programming language.
+* [WASM Forth](https://github.com/stefano/wasm-forth) - Forth implementation for wasm
 
 --------------------
 
@@ -154,7 +161,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="rust"></a>Rust <sup>[top⇈](#contents)</sup>
 > Rust is a systems programming language sponsored by Mozilla Research, which describes it as a "safe, concurrent, practical language,"supporting functional and imperative-procedural paradigms. Rust is syntactically similar to C++, but its designers intend it to provide better memory safety while maintaining performance.
 * [Wargo](https://github.com/lord/wargo) - a simple npm package that makes compiling Rust to WebAssembly easy on macOS or Linux.
-* [RustWasmLoader](https://github.com/ianjsikes/rust-wasm-loader) - A simple Webpack loader that shells out to cargo to build a Rust project targeting WebAssembly. 
+* [RustWasmLoader](https://github.com/ianjsikes/rust-wasm-loader) - A simple Webpack loader that shells out to cargo to build a Rust project targeting WebAssembly.
 
 --------------------
 
