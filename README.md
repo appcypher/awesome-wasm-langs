@@ -18,7 +18,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Forth](#forth) :hatched_chick:
 - [Haskell](#haskell) :egg:
 - [Java](#java) :hatching_chick:
-- [Kotlin](#kotlin) :hatching_chick:
+- [Kotlin/Native](#kotlin) :hatching_chick:
 - [Kou](#kou) :egg:
 - [Lua](#lua) :hatched_chick:
 - [Ocaml](#ocaml) :egg:
@@ -126,7 +126,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="kotlin"></a>Kotlin <sup>[top⇈](#contents)</sup>
 > Kotlin is a statically-typed programming language that runs on the Java virtual machine and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. Its primary development is from a team of JetBrains programmers based in Saint Petersburg, Russia. While the syntax is not compatible with Java, Kotlin is designed to interoperate with Java code and is reliant on Java code from the existing Java Class Library, such as the collections framework.
-* [Kotlin](https://github.com/JetBrains/kotlin) - main repository
+* [Kotlin/Native](https://github.com/JetBrains/kotlin-native/) - main repository
 
 --------------------
 
