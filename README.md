@@ -29,6 +29,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Wah](#wah) :hatched_chick:
 - [Walt](#walt) :hatching_chick:
 - [Wracket](#wracket) :egg:
+- [WasmAdventure](#wasmadventure) :egg:
 - [Xlang](#xlang) :egg:
 
 --------------------
@@ -187,6 +188,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="walt"></a>WAlt <sup>[top⇈](#contents)</sup>
 > WAlt is an alternative syntax for WebAssembly text format. It's an experiment for using JavaScript syntax to write to as 'close to the metal' as possible. It's JavaScript with rules. .walt files compile directly to WebAssembly binary format.
 * [Walt](https://github.com/ballercat/walt) - main repository
+
+--------------------
+
+### <a name="wasmadventure"></a>Wasm Adventure <sup>[top⇈](#contents)</sup>
+> A Racket language to make 2D games and compile them to WebAssembly
+* [WasmAdventure](https://github.com/euhmeuh/wasm-adventure) - main repository
 
 --------------------
 
