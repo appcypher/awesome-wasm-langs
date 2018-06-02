@@ -25,6 +25,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Plorth](#plorth) :egg:
 - [Python](#python) :hatching_chick:
 - [Rust](#rust) :hatched_chick:
+- [Scheme](#scheme) :hatching_chick:
 - [Speedy.js](#speedyjs) :hatching_chick:
 - [Turboscript](#turboscript) :hatching_chick:
 - [Wah](#wah) :hatched_chick:
@@ -169,6 +170,13 @@ This repo contains a list of languages that currently compile to or have their V
 * [Wargo](https://github.com/lord/wargo) - a simple npm package that makes compiling Rust to WebAssembly easy on macOS or Linux.
 * [RustWasmLoader](https://github.com/ianjsikes/rust-wasm-loader) - A simple Webpack loader that shells out to cargo to build a Rust project targeting WebAssembly.
 * [CargoWeb](https://github.com/koute/cargo-web) - This cargo subcommand aims to make it easy and convenient to build, develop and deploy client-side Web applications written in Rust.
+
+
+--------------------
+
+### <a name="scheme"></a>Scheme <sup>[top⇈](#contents)</sup>
+> Scheme is a programming language that supports multiple paradigms, including functional programming and imperative programming, and is one of the two main dialects of Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension..
+* [Schism](https://github.com/google/schism) - Schism is an experimental self-hosting compiler from a subset of R6RS Scheme to WebAssembly. Development so far has focused on features necessary for self-hosting. The compiler itself is written in, and compiles, a very small subset of Scheme.
 
 --------------------
 
