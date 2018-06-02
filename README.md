@@ -209,3 +209,12 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
+
+
+--------------------
+
+### License
+
+[![CC0](http://mirrors.creativecommons.org/presskit/buttons/88x31/svg/cc-zero.svg)](https://creativecommons.org/publicdomain/zero/1.0/)
+
+To the extent possible under law, [Steve Akinyemi](https://github.com/appcypher) has waived all copyright and related or neighboring rights to this work.
