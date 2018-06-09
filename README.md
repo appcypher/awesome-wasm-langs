@@ -49,7 +49,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="astro"></a>Astro <sup>[top⇈](#contents)</sup>
 > Astro is a high-performance statically-typed programming language that compiles to native code and WebAssembly. It has a Python-like syntax and technical-computing orientation like Julia.
-* [Astro](https://github.com/AppCypher/Astro) - main repository.
+* [Astro](https://github.com/astrolang/astro) - main repository.
 
 --------------------
 
