@@ -24,6 +24,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Ocaml](#ocaml) :egg:
 - [Plorth](#plorth) :egg:
 - [Python](#python) :hatching_chick:
+- [Prolog](#prolog) :hatching_chick:
 - [Rust](#rust) :hatched_chick:
 - [Scheme](#scheme) :hatching_chick:
 - [Speedy.js](#speedyjs) :hatching_chick:
@@ -161,6 +162,13 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="python"></a>Python <sup>[top⇈](#contents)</sup>
 > Python is an open source interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales.
 * [Pyodide](https://github.com/iodide-project/pyodide) - a port of Python to WebAssembly that includes the core packages of the scientific Python stack (Numpy, Pandas, matplotlib).  Objects transparently convert and share between Python and Javascript.
+
+--------------------
+
+### <a name="prolog"></a>Prolog <sup>[top⇈](#contents)</sup>
+
+> Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
+* [SWI-Prolog port to WebAssembly](https://github.com/rla/swi-prolog-wasm) - a port of SWI-Prolog to WebAssembly. SWI-Prolog is a free implementation of the programming language Prolog commonly used for teaching and semantic web applications.
 
 --------------------
 
