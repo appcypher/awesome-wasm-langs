@@ -18,6 +18,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Forth](#forth) :hatched_chick:
 - [Haskell](#haskell) :egg:
 - [Java](#java) :hatching_chick:
+- [Idris](#idris) :hatching_chick:
 - [Kotlin/Native](#kotlin) :hatching_chick:
 - [Kou](#kou) :egg:
 - [Lua](#lua) :hatched_chick:
@@ -114,6 +115,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Haskell is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry.[1] The latest standard of Haskell is Haskell 2010. As of May 2016, a group is working on the next version, Haskell 2020.
 * [DHC](https://github.com/dfinity/dhc) - a Haskell compiler that accepts only a tiny subset of the language and produces WebAssembly binaries.
 * [HaskellWasm](https://github.com/haskell-wasm/wasm) - a Haskell compiler infrastructure for generating WebAssembly.
+* [haskell-wasm](https://github.com/SPY/haskell-wasm) - Haskell WebAssembly Toolkit. It inlcludes Language helpers and fully spec-compatible WASM interpreter.
 
 --------------------
 
@@ -122,6 +124,12 @@ This repo contains a list of languages that currently compile to or have their V
 > Java was originally developed by James Gosling at Sun Microsystems and released in 1995 as a core component of Sun Microsystems' Java platform. The language derives much of its syntax from C and C++, but it has fewer low-level facilities than either of them.
 * [TeaVM](https://github.com/konsoletyper/teavm) - an ahead-of-time translating compiler (transpiler) of Java bytecode, that's capable of emitting JavaScript and WebAssembly.
 * [JWebAssembly](https://github.com/i-net-software/JWebAssembly) - A Java bytecode to WebAssembly compiler. It can generate the WebAssembly binary or text format. It is written in Java itself and can be integrated with other Java build tools.
+
+--------------------
+
+### <a name="idris"></a>Idris <sup>[top⇈](#contents)</sup>
+> Idris is a general purpose pure functional programming language with dependent types. Dependent types allow types to be predicated on values, meaning that some aspects of a program’s behaviour can be specified precisely in the type. It is compiled, with eager evaluation. Its features are influenced by Haskell and ML.
+* [Idris-codegen-WASM](https://github.com/SPY/idris-codegen-wasm) - WASM codegen repository.
 
 --------------------
 
