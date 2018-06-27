@@ -16,6 +16,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Faust](#faust) :egg:
 - [Forest](#forest) :egg:
 - [Forth](#forth) :hatched_chick:
+- [Grain](#grain) :egg:
 - [Haskell](#haskell) :egg:
 - [Java](#java) :hatching_chick:
 - [Idris](#idris) :hatching_chick:
@@ -109,6 +110,13 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="forth"></a>Forth <sup>[top⇈](#contents)</sup>
 > Forth is an interactive, extensible, imperative, untyped, stack-based programming language.
 * [WASM Forth](https://github.com/stefano/wasm-forth) - Forth implementation for wasm.
+
+--------------------
+
+### <a name="grain"></a>Grain <sup>[top⇈](#contents)</sup>
+> Grain is a strongly-typed functional programming language built for the modern web.
+* [Grain](https://github.com/grain-lang/grain) - Main repository.
+* [GrainWeb](https://grain-lang.org/) - Web page.
 
 --------------------
 
