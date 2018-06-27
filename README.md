@@ -52,7 +52,7 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 ### <a name="astro"></a>Astro <sup>[top⇈](#contents)</sup>
-> Astro is A fun safe language for rapid prototyping and high performance applications.
+> Astro is a fun safe language for rapid prototyping and high performance applications.
 * [Astro](https://github.com/astrolang/astro) - main repository.
 
 --------------------
