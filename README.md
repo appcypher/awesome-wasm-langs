@@ -16,6 +16,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Faust](#faust) :egg:
 - [Forest](#forest) :egg:
 - [Forth](#forth) :hatched_chick:
+- [Go](#go) :hatching_chick:
 - [Grain](#grain) :egg:
 - [Haskell](#haskell) :egg:
 - [Java](#java) :hatching_chick:
@@ -51,7 +52,7 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 ### <a name="astro"></a>Astro <sup>[top⇈](#contents)</sup>
-> Astro is a high-performance statically-typed programming language that compiles to native code and WebAssembly. It has a Python-like syntax and technical-computing orientation like Julia.
+> Astro is A fun safe language for rapid prototyping and high performance applications.
 * [Astro](https://github.com/astrolang/astro) - main repository.
 
 --------------------
@@ -113,9 +114,14 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="grain"></a>Go <sup>[top⇈](#contents)</sup>
+> Go is a statically typed compiled language in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added.
+* [Go](https://github.com/golang/go) - main repository.
+
+--------------------
 ### <a name="grain"></a>Grain <sup>[top⇈](#contents)</sup>
 > Grain is a strongly-typed functional programming language built for the modern web.
-* [Grain](https://github.com/grain-lang/grain) - Main repository.
+* [Grain](https://github.com/grain-lang/grain) - main repository.
 * [GrainWeb](https://grain-lang.org/) - Web page.
 
 --------------------
