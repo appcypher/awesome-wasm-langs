@@ -35,7 +35,7 @@ This repo contains a list of languages that currently compile to or have their V
 - ~[Turboscript](#turboscript) :hatching_chick: [Unmaintained]~
 - [Wah](#wah) :hatched_chick:
 - [Walt](#walt) :hatching_chick:
-- [Wracket](#wracket) :egg:
+- ~[Wracket](#wracket) :egg: [Unmaintained]~
 - [Xlang](#xlang) :egg:
 
 --------------------
