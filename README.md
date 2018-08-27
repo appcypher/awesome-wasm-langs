@@ -31,8 +31,8 @@ This repo contains a list of languages that currently compile to or have their V
 - [Prolog](#prolog) :hatching_chick:
 - [Rust](#rust) :hatched_chick:
 - [Scheme](#scheme) :hatching_chick:
-- [Speedy.js](#speedyjs) :hatching_chick:
-- [Turboscript](#turboscript) :hatching_chick:
+- ~[Speedy.js](#speedyjs) :hatching_chick: [Unmaintained]~
+- ~[Turboscript](#turboscript) :hatching_chick: [Unmaintained]~
 - [Wah](#wah) :hatched_chick:
 - [Walt](#walt) :hatching_chick:
 - [Wracket](#wracket) :egg:
