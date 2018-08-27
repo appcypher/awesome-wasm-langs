@@ -12,6 +12,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [C](#c) :hatched_chick:
 - [C#](#csharp) :hatching_chick:
 - [C++](#cpp) :hatched_chick:
+- [D](#d) :hatching_chick:
 - [Elixir](#elixir) :egg:
 - [Faust](#faust) :egg:
 - [Forest](#forest) :egg:
@@ -86,6 +87,12 @@ This repo contains a list of languages that currently compile to or have their V
 > It was designed with a bias toward system programming and embedded, resource-constrained and large systems, with performance, efficiency and flexibility of use as its design highlights.
 > The developement of the language was sterated in 1979 by Bjarne Stroustrup as a "C with Classes".
 * See [C](#c).
+
+--------------------
+
+### <a name="d"></a>D <sup>[top⇈](#contents)</sup>
+> D is a general-purpose programming language with static typing, systems-level access, and C-like syntax.
+* [LDC](https://github.com/ldc-developers/ldc) - LLVM-based D compiler, which can generate WASM since version 1.11.0.
 
 --------------------
 
