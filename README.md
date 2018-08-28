@@ -27,6 +27,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Lua](#lua) :hatched_chick:
 - [Ocaml](#ocaml) :egg:
 - [Plorth](#plorth) :egg:
+- [Poetry](#poetry) :hatching_chick:
 - [Python](#python) :hatching_chick:
 - [Prolog](#prolog) :hatching_chick:
 - [Rust](#rust) :hatched_chick:
@@ -185,6 +186,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="plorth"></a>Plorth <sup>[top⇈](#contents)</sup>
 > Plorth is stack based, concatenative, strongly typed functional scripting language which is easy to embed to applications written in C++. It's inspired by Forth and Factor programming languages.
 * [Plorth](https://github.com/RauliL/plorth-webassembly) - main repository.
+
+--------------------
+
+### <a name="poetry"></a>Poetry <sup>[top⇈](#contents)</sup>
+> Poetry is a poetically dynamic and simple programming language that compiles to WebAssembly. It has a minimalisting syntax akin to CoffeeScript and gives you full control over wasm imports and exports.
+* [Poetry](https://github.com/FantasyInternet/poetry) - main repository.
 
 --------------------
 
