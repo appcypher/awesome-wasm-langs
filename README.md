@@ -26,6 +26,8 @@ This repo contains a list of languages that currently compile to or have their V
 - [Kou](#kou) :egg:
 - [Lua](#lua) :hatched_chick:
 - [Ocaml](#ocaml) :egg:
+- [Perl](#perl) :hatching_chick:
+- [PHP](#php) :hatching_chick:
 - [Plorth](#plorth) :egg:
 - [Poetry](#poetry) :hatching_chick:
 - [Python](#python) :hatching_chick:
@@ -180,6 +182,20 @@ This repo contains a list of languages that currently compile to or have their V
 > OCaml, originally named Objective Caml, is the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs.
 * [Ocaml](https://github.com/SanderSpies/ocaml/tree/wasm/wasmcomp) - a fork of main repo contianing work on OCaml to wasm compilation.
 * ~[OcamlRun](https://github.com/sebmarkbage/ocamlrun-wasm) - a build script for compiling OCaml bytecode interpreter to wasm using emscripten [Unmaintained]~.
+
+--------------------
+
+### <a name="perl"></a>Perl <sup>[top⇈](#contents)</sup>
+> Perl is a general-purpose programming language originally developed for text manipulation and now used for a wide range of tasks including system administration, web development, network programming, GUI development, and more.
+* [WebPerl](https://github.com/haukex/webperl) - Perl 5 in the browser.
+
+--------------------
+
+
+### <a name="php"></a>PHP <sup>[top⇈](#contents)</sup>
+> PHP is a general-purpose scripting language that is especially suited to server-side web development, in which case PHP generally runs on a web server. Any PHP code in a requested file is executed by the PHP runtime, usually to create dynamic web page content or dynamic images used on websites or elsewhere.
+* [PIB](https://github.com/oraoto/pib) - a PHP runtime in the broswer.
+
 
 --------------------
 
