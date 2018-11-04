@@ -127,6 +127,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="go"></a>Go <sup>[top⇈](#contents)</sup>
 > Go is a statically typed compiled language in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added.
 * [Go](https://github.com/golang/go) - main repository.
+* [TinyGo](https://github.com/aykevl/tinygo) - a subset of Go targeted to embedded devices and WebAssembly.
 
 --------------------
 ### <a name="grain"></a>Grain <sup>[top⇈](#contents)</sup>
