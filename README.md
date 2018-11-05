@@ -40,6 +40,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Walt](#walt) :hatching_chick:
 - ~[Wracket](#wracket) :egg: [Unmaintained]~
 - [Xlang](#xlang) :egg:
+- [Zig](#zig) :egg:
 
 --------------------
 
@@ -274,6 +275,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="xlang"></a>Xlang <sup>[top⇈](#contents)</sup>
 > A programming language similar to Go and TypeScript.
 * [Xlang](https://github.com/rsms/xlang) - main repository
+
+--------------------
+
+### <a name="zig"></a>Zig <sup>[top⇈](#contents)</sup>
+> Zig is an open-source programming language designed for robustness, optimality, and clarity.
+* [Zig](https://github.com/ziglang/zig) - main repository
 
 --------------------
 
