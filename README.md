@@ -237,7 +237,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="ruby"></a>Ruby <sup>[top⇈](#contents)</sup>
 > Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
-* [Wruby web ruby](https://github.com/pannous/wruby) - a port of minimal ruby (mruby).
+* [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
 
 --------------------
 
