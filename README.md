@@ -25,6 +25,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Kotlin/Native](#kotlin) :hatching_chick:
 - [Kou](#kou) :egg:
 - [Lua](#lua) :hatched_chick:
+- [Nim](#nim) :egg:
 - [Ocaml](#ocaml) :egg:
 - [Perl](#perl) :hatching_chick:
 - [PHP](#php) :hatching_chick:
@@ -32,6 +33,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Poetry](#poetry) :hatching_chick:
 - [Python](#python) :hatching_chick:
 - [Prolog](#prolog) :hatching_chick:
+- [Ruby](#ruby) :hatching_chick:
 - [Rust](#rust) :hatched_chick:
 - [Scheme](#scheme) :hatching_chick:
 - ~[Speedy.js](#speedyjs) :hatching_chick: [Unmaintained]~
@@ -180,6 +182,13 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="nim"></a>Nim <sup>[top⇈](#contents)</sup>
+> A fringe language with some beautiful design patterns.
+* [Nim wasm helpers] https://github.com/Feneric/nim-wasm-helpers
+* [nwasm] https://github.com/stisa/nwasm
+
+--------------------
+
 ### <a name="ocaml"></a>Ocaml <sup>[top⇈](#contents)</sup>
 > OCaml, originally named Objective Caml, is the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs.
 * [Ocaml](https://github.com/SanderSpies/ocaml/tree/wasm/wasmcomp) - a fork of main repo contianing work on OCaml to wasm compilation.
@@ -223,6 +232,12 @@ This repo contains a list of languages that currently compile to or have their V
 
 > Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
 * [SWI-Prolog port to WebAssembly](https://github.com/SWI-Prolog/swipl-wasm) - a port of SWI-Prolog to WebAssembly. SWI-Prolog is a free implementation of the programming language Prolog commonly used for teaching and semantic web applications.
+
+--------------------
+
+### <a name="ruby"></a>Ruby <sup>[top⇈](#contents)</sup>
+> Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
+* [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
 
 --------------------
 
