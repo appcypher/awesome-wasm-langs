@@ -40,6 +40,7 @@ This repo contains a list of languages that currently compile to or have their V
 - ~[Turboscript](#turboscript) :hatching_chick: [Unmaintained]~
 - [Wah](#wah) :hatched_chick:
 - [Walt](#walt) :hatching_chick:
+- [Wam](#wam) :hatching_chick:
 - ~[Wracket](#wracket) :egg: [Unmaintained]~
 - [Xlang](#xlang) :egg:
 - [Zig](#zig) :egg:
@@ -283,6 +284,11 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="wam"></a>Wam <sup>[top⇈](#contents)</sup>
+> WebAssembly Macro language: Wam syntax is a near superset of wast syntax that is more convenient for human developers to write directly.
+* [Wam](https://github.com/kanaka/wam) - main repository.
+
+--------------------
 ### <a name="wracket"></a>Wracket <sup>[top⇈](#contents)</sup>
 > A lisp-like language that compiles to WebAssembly, written in racket
 * [Wracket](https://github.com/sschauss/wracket) - main repository.
