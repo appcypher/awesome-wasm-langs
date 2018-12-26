@@ -21,6 +21,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Grain](#grain) :egg:
 - [Haskell](#haskell) :egg:
 - [Java](#java) :hatching_chick:
+- [JavaScript](#javascript) :hatching_chick:
 - [Idris](#idris) :hatching_chick:
 - [Kotlin/Native](#kotlin) :hatching_chick:
 - [Kou](#kou) :egg:
@@ -155,6 +156,12 @@ This repo contains a list of languages that currently compile to or have their V
 * [TeaVM](https://github.com/konsoletyper/teavm) - an ahead-of-time translating compiler (transpiler) of Java bytecode, that's capable of emitting JavaScript and WebAssembly.
 * [JWebAssembly](https://github.com/i-net-software/JWebAssembly) - A Java bytecode to WebAssembly compiler. It can generate the WebAssembly binary or text format. It is written in Java itself and can be integrated with other Java build tools.
 * [Bytecoder](https://github.com/mirkosertic/Bytecoder) - A Rich Domain Model for Java Bytecode and Framework to interpret and transpile it to other languages such as JavaScript, OpenCL or WebAssembly.
+
+--------------------
+
+### <a name="javascript"></a>JavaScript <sup>[top⇈](#contents)</sup>
+> JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+* [Duktape](https://github.com/svaarala/duktape) - an embeddable Javascript engine, with a focus on portability and compact footprint that's capable of being run in the browser via WebAssembly.
 
 --------------------
 
