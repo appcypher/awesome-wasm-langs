@@ -22,6 +22,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Haskell](#haskell) :egg:
 - [Java](#java) :hatching_chick:
 - [JavaScript](#javascript) :hatching_chick:
+- [Julia](#julia) :egg:
 - [Idris](#idris) :hatching_chick:
 - [Kotlin/Native](#kotlin) :hatching_chick:
 - [Kou](#kou) :egg:
@@ -189,6 +190,12 @@ This repo contains a list of languages that currently compile to or have their V
 > Lua was originally designed in 1993 as a language for extending software applications to meet the increasing demand for customization at the time.
 * [WasmLua](https://github.com/vvanders/wasm_lua) - a Lua VM running in the browser.
 * [Luwa](https://github.com/serprex/luwa) - a wasm-to-Lua JIT compiler.
+
+--------------------
+
+### <a name="julia"></a>Julia <sup>[top⇈](#contents)</sup>
+> Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
+* [Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to web assembly/Javascript compiler
 
 --------------------
 
