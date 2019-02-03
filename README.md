@@ -10,7 +10,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Astro](#astro) :egg:
 - [Brainfuck](#brainfuck) :hatched_chick:
 - [C](#c) :hatched_chick:
-- [C#](#csharp) :hatching_chick:
+- [C#](#csharp) :hatched_chick:
 - [C++](#cpp) :hatched_chick:
 - [D](#d) :hatching_chick:
 - [Elixir](#elixir) :egg:
