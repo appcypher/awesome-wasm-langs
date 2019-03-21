@@ -27,6 +27,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Kotlin/Native](#kotlin) :hatching_chick:
 - [Kou](#kou) :egg:
 - [Lua](#lua) :hatched_chick:
+- [Lys](#lys) :hatching_chick:
 - [Nim](#nim) :egg:
 - [Ocaml](#ocaml) :egg:
 - [Perl](#perl) :hatching_chick:
@@ -190,6 +191,13 @@ This repo contains a list of languages that currently compile to or have their V
 > Lua was originally designed in 1993 as a language for extending software applications to meet the increasing demand for customization at the time.
 * [WasmLua](https://github.com/vvanders/wasm_lua) - a Lua VM running in the browser.
 * [Luwa](https://github.com/serprex/luwa) - a wasm-to-Lua JIT compiler.
+
+--------------------
+
+### <a name="lys"></a>Lys <sup>[top⇈](#contents)</sup>
+> Lys is a typed functional language that compiles directly to WebAssembly.
+
+* [Lys](https://github.com/lys-lang/lys) - main repository.
 
 --------------------
 
