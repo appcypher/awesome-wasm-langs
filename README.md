@@ -174,6 +174,12 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="julia"></a>Julia <sup>[top⇈](#contents)</sup>
+> Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
+* [Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to web assembly/Javascript compiler
+
+--------------------
+
 ### <a name="kotlin"></a>Kotlin <sup>[top⇈](#contents)</sup>
 > Kotlin is a statically-typed programming language that runs on the Java virtual machine and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. Its primary development is from a team of JetBrains programmers based in Saint Petersburg, Russia. While the syntax is not compatible with Java, Kotlin is designed to interoperate with Java code and is reliant on Java code from the existing Java Class Library, such as the collections framework.
 * [Kotlin/Native](https://github.com/JetBrains/kotlin-native/) - main repository.
@@ -198,12 +204,6 @@ This repo contains a list of languages that currently compile to or have their V
 > Lys is a typed functional language that compiles directly to WebAssembly.
 
 * [Lys](https://github.com/lys-lang/lys) - main repository.
-
---------------------
-
-### <a name="julia"></a>Julia <sup>[top⇈](#contents)</sup>
-> Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
-* [Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to web assembly/Javascript compiler
 
 --------------------
 
