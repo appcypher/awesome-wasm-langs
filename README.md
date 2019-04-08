@@ -53,6 +53,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="dotnet"></a>.Net <sup>[top⇈](#contents)</sup>
 > .NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library named Framework Class Library (FCL) and provides language interoperability (each language can use code written in other languages) across several programming languages.
 * [Blazor](https://github.com/aspnet/blazor) - an experimental web UI framework using C#/Razor and HTML, running client-side via WebAssembly.
+* [Bolero] (https://github.com/fsbolero/bolero) - Bolero brings Blazor to F# developers with an easy to use Model-View-Update architecture, HTML combinators, hot reloaded templates, type-safe endpoints, advanced routing and remoting capabilities, and more.
 
 --------------------
 
