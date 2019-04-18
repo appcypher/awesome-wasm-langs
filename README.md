@@ -5,7 +5,6 @@ It is designed to be faster to parse than JavaScript, as well as faster to execu
 This repo contains a list of languages that currently compile to or have their VMs in WebAssembly(wasm)  :octocat:
 
 ## Contents
-### Languages
 - [.Net](#dotnet) :hatching_chick:
 - [AssemblyScript](#assemblyscript) :hatching_chick:
 - [Astro](#astro) :egg:
