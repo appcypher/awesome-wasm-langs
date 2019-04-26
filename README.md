@@ -48,6 +48,11 @@ This repo contains a list of languages that currently compile to or have their V
 - [Xlang](#xlang) :egg:
 - [Zig](#zig) :egg:
 
+### Legend
+- :egg: - Work in progress.
+- :hatching_chick: - Unstable but usable.
+- :hatched_chick: - Stable for production usage.
+
 --------------------
 
 ### <a name="dotnet"></a>.Net <sup>[top⇈](#contents)</sup>
