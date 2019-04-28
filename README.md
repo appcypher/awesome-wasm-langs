@@ -6,7 +6,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ## Contents
 - [.Net](#dotnet) :hatching_chick:
-- [AssemblyScript](#assemblyscript) :hatching_chick:
+- [AssemblyScript](#assemblyscript) :hatched_chick:
 - [Astro](#astro) :egg:
 - [Brainfuck](#brainfuck) :hatched_chick:
 - [C](#c) :hatched_chick:
@@ -17,7 +17,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Faust](#faust) :egg:
 - [Forest](#forest) :egg:
 - [Forth](#forth) :hatched_chick:
-- [Go](#go) :hatching_chick:
+- [Go](#go) :hatched_chick:
 - [Grain](#grain) :egg:
 - [Haskell](#haskell) :egg:
 - [Java](#java) :hatching_chick:
@@ -41,6 +41,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Scheme](#scheme) :hatching_chick:
 - ~[Speedy.js](#speedyjs) :hatching_chick: [Unmaintained]~
 - ~[Turboscript](#turboscript) :hatching_chick: [Unmaintained]~
+- [TypeScript](#typescript) :hatched_chick:
 - [Wah](#wah) :hatched_chick:
 - [Walt](#walt) :hatching_chick:
 - [Wam](#wam) :hatching_chick:
@@ -57,7 +58,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="dotnet"></a>.Net <sup>[top⇈](#contents)</sup>
 > .NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library named Framework Class Library (FCL) and provides language interoperability (each language can use code written in other languages) across several programming languages.
-* [Blazor](https://github.com/aspnet/blazor) - an experimental web UI framework using C#/Razor and HTML, running client-side via WebAssembly.
+* [Mono](https://github.com/mono/mono/tree/master/sdks/wasm) - an open source implementation of Microsoft's .NET Framework based on the ECMA standards for C# and the Common Language Runtime.
 
 --------------------
 
@@ -298,6 +299,13 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="turboscript"></a>TurboScript <sup>[top⇈](#contents)</sup>
 > TurboScript is an experimental programming language for parallel programming for web which compiles to JavaScript (asm.js) and WebAssembly (targeting post-MVP). The syntax is similar to TypeScript and the compiler is open source and written in TypeScript. TurboScript has zero dependencies.
 * [TurboScript](https://github.com/01alchemist/TurboScript) - main repository.
+
+--------------------
+
+
+### <a name="typescript"></a>TypeScript <sup>[top⇈](#contents)</sup>
+> TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.
+* See [AssemblyScript](#assemblyscript)
 
 --------------------
 
