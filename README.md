@@ -40,6 +40,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Rust](#rust) :hatched_chick:
 - [Scheme](#scheme) :hatching_chick:
 - ~[Speedy.js](#speedyjs) :hatching_chick: [Unmaintained]~
+- [Swift](#swift) :hatching_chick:
 - ~[Turboscript](#turboscript) :hatching_chick: [Unmaintained]~
 - [TypeScript](#typescript) :hatched_chick:
 - [Wah](#wah) :hatched_chick:
@@ -293,6 +294,13 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="speedyjs"></a>Speedy.js <sup>[top⇈](#contents)</sup>
 > Speedy.js is a compiler for a well considered, performance pitfalls free subset of JavaScript targeting WebAssembly. Because WebAssembly is statically-typed, the project uses TypeScript as type-checker and to resolve the types of the program symbols.
 * [Speedy.js](https://github.com/MichaReiser/speedy.js) - main repository.
+
+--------------------
+
+### <a name="swift"></a>Swift <sup>[top⇈](#contents)</sup>
+> WebAssembly backend for the Swift Programming Language
+* [Website](https://swiftwasm.org/) - website
+* [SwiftWasm](https://github.com/swiftwasm) - GitHub organization.
 
 --------------------
 
