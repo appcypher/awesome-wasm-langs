@@ -12,6 +12,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [C](#c) :hatched_chick:
 - [C#](#csharp) :hatched_chick:
 - [C++](#cpp) :hatched_chick:
+- [Clean](#clean) :hatched_chick:
 - [D](#d) :hatching_chick:
 - [Elixir](#elixir) :egg:
 - [Faust](#faust) :egg:
@@ -104,6 +105,14 @@ This repo contains a list of languages that currently compile to or have their V
 > It was designed with a bias toward system programming and embedded, resource-constrained and large systems, with performance, efficiency and flexibility of use as its design highlights.
 > The developement of the language was sterated in 1979 by Bjarne Stroustrup as a "C with Classes".
 * See [C](#c).
+
+--------------------
+
+### <a name="clean"></a>Clean <sup>[top⇈](#contents)</sup>
+> Clean is a general purpose, state-of-the-art, pure and lazy functional programming language designed for making real-world applications.
+> Some of its most notable language features are uniqueness typing, dynamic typing, and generic functions.
+* [ABC interpreter](https://gitlab.science.ru.nl/clean-and-itasks/abc-interpreter) - interpreter for Clean's intermediate language ABC, with a WebAssembly version.
+* [iTasks](https://gitlab.science.ru.nl/clean-and-itasks/iTasks-SDK) - integration of the above ABC interpreter with browser applications.
 
 --------------------
 
