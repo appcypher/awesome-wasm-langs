@@ -192,7 +192,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="julia"></a>Julia <sup>[top⇈](#contents)</sup>
 > Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
-* [Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to web assembly/Javascript compiler
+* [Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to WebAssembly/Javascript compiler
 
 --------------------
 
@@ -279,7 +279,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="ruby"></a>Ruby <sup>[top⇈](#contents)</sup>
 > Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
 * [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
-* * [run.rb](https://github.com/jasoncharnes/run.rb) run.rb - allows you to run Ruby code in the browser
+* [run.rb](https://github.com/jasoncharnes/run.rb) run.rb - allows you to run Ruby code in the browser
 
 --------------------
 
@@ -307,8 +307,7 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 ### <a name="swift"></a>Swift <sup>[top⇈](#contents)</sup>
-> WebAssembly backend for the Swift Programming Language
-* [Website](https://swiftwasm.org/) - website
+> Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, Linux, and z/OS.
 * [SwiftWasm](https://github.com/swiftwasm) - GitHub organization.
 
 --------------------
@@ -360,6 +359,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [Zig WebAssembly](https://ziglang.org/documentation/master/#WebAssembly) - documentation on WebAssembly
 
 --------------------
+
 
 Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
 
