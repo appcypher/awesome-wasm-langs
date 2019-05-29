@@ -49,7 +49,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Wam](#wam) :hatching_chick:
 - ~[Wracket](#wracket) :egg: [Unmaintained]~
 - [Xlang](#xlang) :egg:
-- [Zig](#zig) :egg:
+- [Zig](#zig) :hatched_chick:
 
 ### Legend
 - :egg: - Work in progress.
@@ -356,8 +356,8 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 ### <a name="zig"></a>Zig <sup>[top⇈](#contents)</sup>
-> Zig is an open-source programming language designed for robustness, optimality, and clarity.
-* [Zig](https://github.com/ziglang/zig) - main repository
+> Zig is a general-purpose programming language designed for robustness, optimality, and maintainability.
+* [Zig WebAssembly](https://ziglang.org/documentation/master/#WebAssembly) - documentation on WebAssembly
 
 --------------------
 
