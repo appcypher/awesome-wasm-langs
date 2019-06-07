@@ -225,6 +225,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="nim"></a>Nim <sup>[top⇈](#contents)</sup>
 > A fringe language with some beautiful design patterns.
+* [nlvm](https://github.com/arnetheduck/nlvm) - LLVM-based compiler for Nim with a WebAssembly target supported out of the box
 * [nwasm](https://github.com/stisa/nwasm) - a webassembly backend for nim.
 * [Nim wasm helpers](https://github.com/Feneric/nim-wasm-helpers) - a helper to set up a VM configured to build WebAssembly code using Nim.
 
