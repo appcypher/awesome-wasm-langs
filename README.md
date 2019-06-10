@@ -5,56 +5,56 @@ It is designed to be faster to parse than JavaScript, as well as faster to execu
 This repo contains a list of languages that currently compile to or have their VMs in WebAssembly(wasm)  :octocat:
 
 ## Contents
-- [.Net](#dotnet) :hatching_chick:
-- [AssemblyScript](#assemblyscript) :hatched_chick:
-- [Astro](#astro) :egg:
-- [Brainfuck](#brainfuck) :hatched_chick:
-- [C](#c) :hatched_chick:
-- [C#](#csharp) :hatched_chick:
-- [C++](#cpp) :hatched_chick:
-- [Clean](#clean) :hatched_chick:
-- [D](#d) :hatching_chick:
-- [Elixir](#elixir) :egg:
-- [Faust](#faust) :egg:
-- [Forest](#forest) :egg:
-- [Forth](#forth) :hatched_chick:
-- [Go](#go) :hatched_chick:
-- [Grain](#grain) :egg:
-- [Haskell](#haskell) :egg:
-- [Java](#java) :hatching_chick:
-- [JavaScript](#javascript) :hatching_chick:
-- [Julia](#julia) :egg:
-- [Idris](#idris) :hatching_chick:
-- [Kotlin/Native](#kotlin) :hatching_chick:
-- [Kou](#kou) :egg:
-- [Lua](#lua) :hatched_chick:
-- [Lys](#lys) :hatching_chick:
-- [Nim](#nim) :egg:
-- [Ocaml](#ocaml) :egg:
-- [Perl](#perl) :hatching_chick:
-- [PHP](#php) :hatching_chick:
-- [Plorth](#plorth) :egg:
-- [Poetry](#poetry) :hatching_chick:
-- [Python](#python) :hatching_chick:
-- [Prolog](#prolog) :hatching_chick:
-- [Ruby](#ruby) :hatching_chick:
-- [Rust](#rust) :hatched_chick:
-- [Scheme](#scheme) :hatching_chick:
-- ~[Speedy.js](#speedyjs) :hatching_chick: [Unmaintained]~
-- [Swift](#swift) :hatching_chick:
-- ~[Turboscript](#turboscript) :hatching_chick: [Unmaintained]~
-- [TypeScript](#typescript) :hatched_chick:
-- [Wah](#wah) :hatched_chick:
-- [Walt](#walt) :hatching_chick:
-- [Wam](#wam) :hatching_chick:
-- ~[Wracket](#wracket) :egg: [Unmaintained]~
-- [Xlang](#xlang) :egg:
-- [Zig](#zig) :hatched_chick:
+:hatching_chick: [.Net](#dotnet)</br>
+:hatched_chick: [AssemblyScript](#assemblyscript)</br>
+:egg: [Astro](#astro)</br>
+:hatched_chick: [Brainfuck](#brainfuck)</br>
+:hatched_chick: [C](#c)</br>
+:hatched_chick: [C#](#csharp)</br>
+:hatched_chick: [C++](#cpp)</br>
+:hatched_chick: [Clean](#clean)</br>
+:hatching_chick: [D](#d)</br>
+:egg: [Elixir](#elixir)</br>
+:egg: [Faust](#faust)</br>
+:egg: [Forest](#forest)</br>
+:hatched_chick: [Forth](#forth)</br>
+:hatched_chick: [Go](#go)</br>
+:egg: [Grain](#grain)</br>
+:egg: [Haskell](#haskell)</br>
+:hatching_chick: [Java](#java)</br>
+:hatching_chick: [JavaScript](#javascript)</br>
+:egg: [Julia](#julia)</br>
+:hatching_chick: [Idris](#idris)</br>
+:hatching_chick: [Kotlin/Native](#kotlin)</br>
+:egg: [Kou](#kou)</br>
+:hatched_chick: [Lua](#lua)</br>
+:hatching_chick: [Lys](#lys)</br>
+:egg: [Nim](#nim)</br>
+:egg: [Ocaml](#ocaml)</br>
+:hatching_chick: [Perl](#perl)</br>
+:hatching_chick: [PHP](#php)</br>
+:egg: [Plorth](#plorth)</br>
+:hatching_chick: [Poetry](#poetry)</br>
+:hatching_chick: [Python](#python)</br>
+:hatching_chick: [Prolog](#prolog)</br>
+:hatching_chick: [Ruby](#ruby)</br>
+:hatched_chick: [Rust](#rust)</br>
+:hatching_chick: [Scheme](#scheme)</br>
+:hatching_chick: ~[Speedy.js](#speedyjs)~ `Unmaintained`</br>
+:hatching_chick: [Swift](#swift)</br>
+:hatching_chick: ~[Turboscript](#turboscript)~ `Unmaintained`</br>
+:hatched_chick: [TypeScript](#typescript)</br>
+:hatched_chick: [Wah](#wah)</br>
+:hatching_chick: [Walt](#walt)</br>
+:hatching_chick: [Wam](#wam)</br>
+:egg: ~[Wracket](#wracket)~ `Unmaintained`</br>
+:egg: [Xlang](#xlang)</br>
+:hatched_chick: [Zig](#zig)</br>
 
 ### Legend
-- :egg: - Work in progress.
-- :hatching_chick: - Unstable but usable.
-- :hatched_chick: - Stable for production usage.
+:egg: - Work in progress.</br>
+:hatching_chick: - Unstable but usable.</br>
+:hatched_chick: - Stable for production usage.</br>
 
 --------------------
 
