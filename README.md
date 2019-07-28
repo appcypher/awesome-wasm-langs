@@ -4,6 +4,11 @@ It is designed to be faster to parse than JavaScript, as well as faster to execu
 
 This repo contains a list of languages that currently compile to or have their VMs in WebAssembly(wasm)  :octocat:
 
+#### Legend
+:egg: - Work in progress.</br>
+:hatching_chick: - Unstable but usable.</br>
+:hatched_chick: - Stable for production usage.</br>
+
 ## Contents
 :hatching_chick: [.Net](#dotnet)</br>
 :hatched_chick: [AssemblyScript](#assemblyscript)</br>
@@ -50,11 +55,6 @@ This repo contains a list of languages that currently compile to or have their V
 :egg: ~[Wracket](#wracket)~ `Unmaintained`</br>
 :egg: [Xlang](#xlang)</br>
 :hatched_chick: [Zig](#zig)</br>
-
-### Legend
-:egg: - Work in progress.</br>
-:hatching_chick: - Unstable but usable.</br>
-:hatched_chick: - Stable for production usage.</br>
 
 --------------------
 
