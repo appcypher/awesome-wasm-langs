@@ -4,53 +4,65 @@ It is designed to be faster to parse than JavaScript, as well as faster to execu
 
 This repo contains a list of languages that currently compile to or have their VMs in WebAssembly(wasm)  :octocat:
 
+#### Legend
+:egg: - Work in progress.</br>
+:hatching_chick: - Unstable but usable.</br>
+:hatched_chick: - Stable for production usage.</br>
+
 ## Contents
-- [.Net](#dotnet) :hatching_chick:
-- [AssemblyScript](#assemblyscript) :hatching_chick:
-- [Astro](#astro) :egg:
-- [Brainfuck](#brainfuck) :hatched_chick:
-- [C](#c) :hatched_chick:
-- [C#](#csharp) :hatching_chick:
-- [C++](#cpp) :hatched_chick:
-- [D](#d) :hatching_chick:
-- [Elixir](#elixir) :egg:
-- [Faust](#faust) :egg:
-- [Forest](#forest) :egg:
-- [Forth](#forth) :hatched_chick:
-- [Go](#go) :hatching_chick:
-- [Grain](#grain) :egg:
-- [Haskell](#haskell) :egg:
-- [Java](#java) :hatching_chick:
-- [Idris](#idris) :hatching_chick:
-- [Kotlin/Native](#kotlin) :hatching_chick:
-- [Kou](#kou) :egg:
-- [Lua](#lua) :hatched_chick:
-- [Nim](#nim) :egg:
-- [Ocaml](#ocaml) :egg:
-- [Perl](#perl) :hatching_chick:
-- [PHP](#php) :hatching_chick:
-- [Plorth](#plorth) :egg:
-- [Poetry](#poetry) :hatching_chick:
-- [Python](#python) :hatching_chick:
-- [Prolog](#prolog) :hatching_chick:
-- [Ruby](#ruby) :hatching_chick:
-- [Rust](#rust) :hatched_chick:
-- [Scheme](#scheme) :hatching_chick:
-- [Scopes](#scopes) :egg:
-- ~[Speedy.js](#speedyjs) :hatching_chick: [Unmaintained]~
-- ~[Turboscript](#turboscript) :hatching_chick: [Unmaintained]~
-- [Wah](#wah) :hatched_chick:
-- [Walt](#walt) :hatching_chick:
-- ~[Wracket](#wracket) :egg: [Unmaintained]~
-- [Xlang](#xlang) :egg:
-- [Zig](#zig) :egg:
+:hatched_chick: [.Net](#dotnet)</br>
+:hatched_chick: [AssemblyScript](#assemblyscript)</br>
+:egg: [Astro](#astro)</br>
+:hatched_chick: [Brainfuck](#brainfuck)</br>
+:hatched_chick: [C](#c)</br>
+:hatched_chick: [C#](#csharp)</br>
+:hatched_chick: [C++](#cpp)</br>
+:hatched_chick: [Clean](#clean)</br>
+:hatching_chick: [D](#d)</br>
+:hatching_chick: [Elixir](#elixir)</br>
+:egg: [Faust](#faust)</br>
+:egg: [Forest](#forest)</br>
+:hatched_chick: [Forth](#forth)</br>
+:hatched_chick: [Go](#go)</br>
+:egg: [Grain](#grain)</br>
+:egg: [Haskell](#haskell)</br>
+:hatching_chick: [Java](#java)</br>
+:hatching_chick: [JavaScript](#javascript)</br>
+:egg: [Julia](#julia)</br>
+:hatching_chick: [Idris](#idris)</br>
+:hatching_chick: [Kotlin/Native](#kotlin)</br>
+:egg: [Kou](#kou)</br>
+:hatched_chick: [Lua](#lua)</br>
+:hatching_chick: [Lys](#lys)</br>
+:egg: [Nim](#nim)</br>
+:egg: [Ocaml](#ocaml)</br>
+:hatching_chick: [Perl](#perl)</br>
+:hatching_chick: [PHP](#php)</br>
+:egg: [Plorth](#plorth)</br>
+:hatching_chick: [Poetry](#poetry)</br>
+:hatching_chick: [Python](#python)</br>
+:hatching_chick: [Prolog](#prolog)</br>
+:hatching_chick: [Ruby](#ruby)</br>
+:hatched_chick: [Rust](#rust)</br>
+:hatching_chick: [Scheme](#scheme)</br>
+:egg: [Scopes](#scopes)</br>
+:hatching_chick: ~[Speedy.js](#speedyjs)~ `Unmaintained`</br>
+:hatching_chick: [Swift](#swift)</br>
+:hatching_chick: ~[Turboscript](#turboscript)~ `Unmaintained`</br>
+:hatched_chick: [TypeScript](#typescript)</br>
+:hatched_chick: [Wah](#wah)</br>
+:hatching_chick: [Walt](#walt)</br>
+:hatching_chick: [Wam](#wam)</br>
+:egg: ~[Wracket](#wracket)~ `Unmaintained`</br>
+:egg: [Xlang](#xlang)</br>
+:hatched_chick: [Zig](#zig)</br>
 
 --------------------
 
 ### <a name="dotnet"></a>.Net <sup>[top⇈](#contents)</sup>
 > .NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library named Framework Class Library (FCL) and provides language interoperability (each language can use code written in other languages) across several programming languages.
+* [Mono](https://github.com/mono/mono/tree/master/sdks/wasm) - an open source implementation of Microsoft's .NET Framework based on the ECMA standards for C# and the Common Language Runtime. For a real-work example, see this repository which contains the [Windows 10 calculator](https://github.com/nventive/calculator). The application is built using standard C++ 11 and C++/CX, with a calculation engine that dates back from 1995. Made by possible with mono via [Uno Platform](https://platform.uno/a-piece-of-windows-10-is-now-running-on-webassembly-natively-on-ios-and-android/).
 * [Blazor](https://github.com/aspnet/blazor) - an experimental web UI framework using C#/Razor and HTML, running client-side via WebAssembly.
-
 --------------------
 
 ### <a name="assemblyscript"></a>AssemblyScript <sup>[top⇈](#contents)</sup>
@@ -97,6 +109,14 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="clean"></a>Clean <sup>[top⇈](#contents)</sup>
+> Clean is a general purpose, state-of-the-art, pure and lazy functional programming language designed for making real-world applications.
+> Some of its most notable language features are uniqueness typing, dynamic typing, and generic functions.
+* [ABC interpreter](https://gitlab.science.ru.nl/clean-and-itasks/abc-interpreter) - interpreter for Clean's intermediate language ABC, with a WebAssembly version.
+* [iTasks](https://gitlab.science.ru.nl/clean-and-itasks/iTasks-SDK) - integration of the above ABC interpreter with browser applications.
+
+--------------------
+
 ### <a name="d"></a>D <sup>[top⇈](#contents)</sup>
 > D is a general-purpose programming language with static typing, systems-level access, and C-like syntax.
 * [LDC](https://github.com/ldc-developers/ldc) - LLVM-based D compiler, which can generate WASM since version 1.11.0.
@@ -107,6 +127,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 > Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.
 * [ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm.
+* [Lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation (with AOT compiler) designed for WebAssembly.
 
 --------------------
 
@@ -143,6 +164,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="haskell"></a>Haskell <sup>[top⇈](#contents)</sup>
 > Haskell is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry.[1] The latest standard of Haskell is Haskell 2010. As of May 2016, a group is working on the next version, Haskell 2020.
+* [Asterius](https://github.com/tweag/asterius) - a Haskell to WebAssembly compiler
 * [DHC](https://github.com/dfinity/dhc) - a Haskell compiler that accepts only a tiny subset of the language and produces WebAssembly binaries.
 * [HaskellWasm](https://github.com/haskell-wasm/wasm) - a Haskell compiler infrastructure for generating WebAssembly.
 * [haskell-wasm](https://github.com/SPY/haskell-wasm) - Haskell WebAssembly Toolkit. It includes Language helpers and a fully spec-compatible WASM interpreter.
@@ -158,9 +180,21 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="javascript"></a>JavaScript <sup>[top⇈](#contents)</sup>
+> JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
+* [Duktape](https://github.com/svaarala/duktape) - an embeddable Javascript engine, with a focus on portability and compact footprint that's capable of being run in the browser via WebAssembly.
+
+--------------------
+
 ### <a name="idris"></a>Idris <sup>[top⇈](#contents)</sup>
 > Idris is a general purpose pure functional programming language with dependent types. Dependent types allow types to be predicated on values, meaning that some aspects of a program’s behaviour can be specified precisely in the type. It is compiled, with eager evaluation. Its features are influenced by Haskell and ML.
 * [Idris-codegen-WASM](https://github.com/SPY/idris-codegen-wasm) - WASM codegen repository.
+
+--------------------
+
+### <a name="julia"></a>Julia <sup>[top⇈](#contents)</sup>
+> Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
+* [Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to WebAssembly/Javascript compiler
 
 --------------------
 
@@ -184,8 +218,16 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="lys"></a>Lys <sup>[top⇈](#contents)</sup>
+> Lys is a typed functional language that compiles directly to WebAssembly.
+
+* [Lys](https://github.com/lys-lang/lys) - main repository.
+
+--------------------
+
 ### <a name="nim"></a>Nim <sup>[top⇈](#contents)</sup>
 > A fringe language with some beautiful design patterns.
+* [nlvm](https://github.com/arnetheduck/nlvm) - LLVM-based compiler for Nim with a WebAssembly target supported out of the box
 * [nwasm](https://github.com/stisa/nwasm) - a webassembly backend for nim.
 * [Nim wasm helpers](https://github.com/Feneric/nim-wasm-helpers) - a helper to set up a VM configured to build WebAssembly code using Nim.
 
@@ -227,7 +269,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="python"></a>Python <sup>[top⇈](#contents)</sup>
 > Python is an open source interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales.
 * [Pyodide](https://github.com/iodide-project/pyodide) - a port of Python to WebAssembly that includes the core packages of the scientific Python stack (Numpy, Pandas, matplotlib).  Objects transparently convert and share between Python and Javascript.
-
+* [MicroPython](https://github.com/micropython/micropython/tree/master/ports/javascript) - a lean and efficient Python implementation for microcontrollers and constrained systems.
 --------------------
 
 ### <a name="prolog"></a>Prolog <sup>[top⇈](#contents)</sup>
@@ -240,6 +282,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="ruby"></a>Ruby <sup>[top⇈](#contents)</sup>
 > Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
 * [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
+* [run.rb](https://github.com/jasoncharnes/run.rb) run.rb - allows you to run Ruby code in the browser
 
 --------------------
 
@@ -250,6 +293,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [RustWasmLoader](https://github.com/ianjsikes/rust-wasm-loader) - A simple Webpack loader that shells out to cargo to build a Rust project targeting WebAssembly.
 * [CargoWeb](https://github.com/koute/cargo-web) - This cargo subcommand aims to make it easy and convenient to build, develop and deploy client-side Web applications written in Rust.
 * [Wasm-Bindgen](https://github.com/rustwasm/wasm-bindgen) - A library and a CLI for Rust that facilitate high-level interactions between wasm modules and JavaScript.
+* [Woz](https://github.com/alexkehayias/woz) - Woz is a WebAssembly progressive web app (PWA) toolchain for building and deploying performant mobile apps with Rust. Distributed your app is as simple as sharing a hyperlink.
 
 
 --------------------
@@ -275,9 +319,22 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="swift"></a>Swift <sup>[top⇈](#contents)</sup>
+> Swift is a general-purpose, multi-paradigm, compiled programming language developed by Apple Inc. for iOS, macOS, watchOS, tvOS, Linux, and z/OS.
+* [SwiftWasm](https://github.com/swiftwasm) - GitHub organization.
+
+--------------------
+
 ### <a name="turboscript"></a>TurboScript <sup>[top⇈](#contents)</sup>
 > TurboScript is an experimental programming language for parallel programming for web which compiles to JavaScript (asm.js) and WebAssembly (targeting post-MVP). The syntax is similar to TypeScript and the compiler is open source and written in TypeScript. TurboScript has zero dependencies.
 * [TurboScript](https://github.com/01alchemist/TurboScript) - main repository.
+
+--------------------
+
+
+### <a name="typescript"></a>TypeScript <sup>[top⇈](#contents)</sup>
+> TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.
+* See [AssemblyScript](#assemblyscript)
 
 --------------------
 
@@ -293,6 +350,11 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="wam"></a>Wam <sup>[top⇈](#contents)</sup>
+> WebAssembly Macro language: Wam syntax is a near superset of wast syntax that is more convenient for human developers to write directly.
+* [Wam](https://github.com/kanaka/wam) - main repository.
+
+--------------------
 ### <a name="wracket"></a>Wracket <sup>[top⇈](#contents)</sup>
 > A lisp-like language that compiles to WebAssembly, written in racket
 * [Wracket](https://github.com/sschauss/wracket) - main repository.
@@ -306,10 +368,11 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 ### <a name="zig"></a>Zig <sup>[top⇈](#contents)</sup>
-> Zig is an open-source programming language designed for robustness, optimality, and clarity.
-* [Zig](https://github.com/ziglang/zig) - main repository
+> Zig is a general-purpose programming language designed for robustness, optimality, and maintainability.
+* [Zig WebAssembly](https://ziglang.org/documentation/master/#WebAssembly) - documentation on WebAssembly
 
 --------------------
+
 
 Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
 
