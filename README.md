@@ -36,6 +36,7 @@ This repo contains a list of languages that currently compile to or have their V
 - [Ruby](#ruby) :hatching_chick:
 - [Rust](#rust) :hatched_chick:
 - [Scheme](#scheme) :hatching_chick:
+- [Scopes](#scopes) :egg:
 - ~[Speedy.js](#speedyjs) :hatching_chick: [Unmaintained]~
 - ~[Turboscript](#turboscript) :hatching_chick: [Unmaintained]~
 - [Wah](#wah) :hatched_chick:
@@ -258,6 +259,15 @@ This repo contains a list of languages that currently compile to or have their V
 * [Schism](https://github.com/google/schism) - Schism is an experimental self-hosting compiler from a subset of R6RS Scheme to WebAssembly. Development so far has focused on features necessary for self-hosting. The compiler itself is written in, and compiles, a very small subset of Scheme.
 
 --------------------
+
+
+### <a name="scopes"></a>Scopes <sup>[top⇈](#contents)</sup>
+> Scopes is a general purpose programming language and compiler infrastructure specifically suited for short turnaround prototyping and development of high performance applications in need of multi-stage compilation at runtime.
+* [Scopes](https://bitbucket.org/duangle/scopes/wiki/Home) - main repository
+
+
+--------------------
+
 
 ### <a name="speedyjs"></a>Speedy.js <sup>[top⇈](#contents)</sup>
 > Speedy.js is a compiler for a well considered, performance pitfalls free subset of JavaScript targeting WebAssembly. Because WebAssembly is statically-typed, the project uses TypeScript as type-checker and to resolve the types of the program symbols.
