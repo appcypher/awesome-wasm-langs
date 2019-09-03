@@ -20,6 +20,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Clean](#clean)</br>
 :hatching_chick: [D](#d)</br>
 :hatching_chick: [Elixir](#elixir)</br>
+:hatching_chick: [F#](#FSharp)</br>
 :egg: [Faust](#faust)</br>
 :egg: [Forest](#forest)</br>
 :hatched_chick: [Forth](#forth)</br>
@@ -96,6 +97,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="csharp"></a>C# <sup>[top⇈](#contents)</sup>
 > C# is a multi-paradigm programming language encompassing strong typing, imperative, declarative, functional, generic, object-oriented (class-based), and component-oriented programming disciplines.
 > Its development team is led by Anders Hejlsberg.
+> WebAssembly support is achieved through [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor).
 * See [.Net](#dotnet)
 
 --------------------
@@ -127,6 +129,14 @@ This repo contains a list of languages that currently compile to or have their V
 > Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.
 * [ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm.
 * [Lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation (with AOT compiler) designed for WebAssembly.
+
+--------------------
+
+### <a name="FSharp"></a>F# <sup>[top⇈](#contents)</sup>
+> F# is a mature, open source, cross-platform, functional-first programming language. It empowers users and organizations to tackle complex computing problems with simple, maintainable and robust code.
+> WebAssembly support is achieved through [Bolero](https://fsbolero.io/), a set of free and open-source libraries and tools built on top of [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor).
+> F# was mainly conceived by Don Syme of Microsoft Research but it's now maintained by the [F# Foundation](http://foundation.fsharp.org/) and its community.
+* See [.Net](#dotnet)
 
 --------------------
 
