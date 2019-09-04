@@ -45,7 +45,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: [Ruby](#ruby)</br>
 :hatched_chick: [Rust](#rust)</br>
 :hatching_chick: [Scheme](#scheme)</br>
-:egg: [Scopes](#scopes)</br>
+:hatching_chick: [Scopes](#scopes)</br>
 :hatching_chick: ~[Speedy.js](#speedyjs)~ `Unmaintained`</br>
 :hatching_chick: [Swift](#swift)</br>
 :hatching_chick: ~[Turboscript](#turboscript)~ `Unmaintained`</br>
