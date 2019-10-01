@@ -84,6 +84,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [BrainfuckWebassembly](https://github.com/serprex/brainwebfuckassembly) - a simple Brainfuck-to-wasm compiler in one function.
 * [Brainfuck2Wasm](https://github.com/verdie-g/brainfuck2wasm) - a Brainfuck-to-wasm compiler and playground.
 * [BrainfuckRsWasm](https://github.com/shritesh/brainfuck-rs-wasm) - a Brainfuck interpreter written in Rust and compiled to WebAssembly.
+* [bfwasm](https://github.com/surma/bfwasm) - A non-optimizing Brainf_ck to WebAssembly compiler https://npm.im/@surma/bfwasm.
 
 --------------------
 
