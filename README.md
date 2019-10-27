@@ -33,6 +33,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: [Idris](#idris)</br>
 :hatching_chick: [Kotlin/Native](#kotlin)</br>
 :egg: [Kou](#kou)</br>
+:hatched_chick: [Lobster](#lobster)</br>
 :hatched_chick: [Lua](#lua)</br>
 :hatching_chick: [Lys](#lys)</br>
 :egg: [Nim](#nim)</br>
@@ -218,6 +219,17 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="kou"></a>Kou <sup>[top⇈](#contents)</sup>
 > A minimal language compiled into wasm bytecode.
 * [Kou](https://github.com/utatti/kou) - main repository.
+
+--------------------
+
+### <a name="lobster"></a>Lobster <sup>[top⇈](#contents)</sup>
+> Lobster is a statically typed language with flow-sensitive type inference and specialization, compile time reference counting (lifetime analysis) that looks a bit like Python. It was originally intended specifically for games.
+> Lobster has its own Wasm backend that compiles directly to linkable (with LLD) .wasm files.
+* [Lobster home](http://strlen.com/lobster/).
+* [Lobster docs](http://aardappel.github.io/lobster/README_FIRST.html)
+* [Lobster github](https://github.com/aardappel/lobster)
+* [Compile to Wasm](http://aardappel.github.io/lobster/implementation.html) - how to compile.
+* [Wasm backend details](http://aardappel.github.io/lobster/implementation_wasm.html) - how it is implemented, useful for other language implementors.
 
 --------------------
 
