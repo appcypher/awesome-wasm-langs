@@ -12,6 +12,7 @@ This repo contains a list of languages that currently compile to or have their V
 ## Contents
 :hatched_chick: [.Net](#dotnet)</br>
 :hatched_chick: [AssemblyScript](#assemblyscript)</br>
+:hatched_chick: [Arduino](#arduino)</br>
 :egg: [Astro](#astro)</br>
 :hatched_chick: [Brainfuck](#brainfuck)</br>
 :hatched_chick: [C](#c)</br>
@@ -47,6 +48,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: [Ruby](#ruby)</br>
 :hatched_chick: [Rust](#rust)</br>
 :hatching_chick: [Scheme](#scheme)</br>
+:hatched_chick: [Scala](#scala)</br>
 :hatching_chick: [Scopes](#scopes)</br>
 :hatching_chick: ~[Speedy.js](#speedyjs)~ `Unmaintained`</br>
 :hatching_chick: [Swift](#swift)</br>
@@ -70,6 +72,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="assemblyscript"></a>AssemblyScript <sup>[top⇈](#contents)</sup>
 > AssemblyScript is a new compiler targeting WebAssembly while utilizing TypeScript's syntax and node's vibrant ecosystem. Instead of requiring complex toolchains to set up, you can simply npm install it - or run it in a browser.
 * [AssemblyScript](https://github.com/AssemblyScript/assemblyscript) - main repository.
+
+--------------------
+
+### <a name="arduino"></a>Arduino <sup>[top⇈](#contents)</sup>
+
+* [WARDuino](https://github.com/TOPLLab/WARDuino) - Warduino is a port of the Web assembly virtual machine for the ESP32/ESP8266 under the arduino toolchain.
 
 --------------------
 
@@ -325,6 +333,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="scheme"></a>Scheme <sup>[top⇈](#contents)</sup>
 > Scheme is a programming language that supports multiple paradigms, including functional programming and imperative programming, and is one of the two main dialects of Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension..
 * [Schism](https://github.com/google/schism) - Schism is an experimental self-hosting compiler from a subset of R6RS Scheme to WebAssembly. Development so far has focused on features necessary for self-hosting. The compiler itself is written in, and compiles, a very small subset of Scheme.
+
+--------------------
+
+### <a name="scala"></a>Scala <sup>[top⇈](#contents)</sup>
+
+* [SWAM](https://github.com/satabin/swam): WebAssembly implementation in Scala with cats.
 
 --------------------
 
