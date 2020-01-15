@@ -55,6 +55,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Wah](#wah)</br>
 :hatching_chick: [Walt](#walt)</br>
 :hatching_chick: [Wam](#wam)</br>
+:hatched_chick: [WebAssembly](#webassembly)</br>
 :egg: ~[Wracket](#wracket)~ `Unmaintained`</br>
 :egg: [Xlang](#xlang)</br>
 :hatched_chick: [Zig](#zig)</br>
@@ -377,6 +378,13 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="wam"></a>Wam <sup>[top⇈](#contents)</sup>
 > WebAssembly Macro language: Wam syntax is a near superset of wast syntax that is more convenient for human developers to write directly.
 * [Wam](https://github.com/kanaka/wam) - main repository.
+
+--------------------
+
+### <a name="webassembly"></a>WebAssembly <sup>[top⇈](#contents)</sup>
+> Yes, WebAssembly. `Wasm3` is the fastest WebAssembly intrpreter, that enables WebAssembly self-hosting.
+* [Wasm3](https://github.com/wasm3/wasm3) - main repository.
+* [Wasm3 on WAPM](https://wapm.io/package/vshymanskyy/wasm3) - WAPM package.
 
 --------------------
 ### <a name="wracket"></a>Wracket <sup>[top⇈](#contents)</sup>
