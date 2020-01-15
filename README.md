@@ -382,7 +382,7 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 ### <a name="webassembly"></a>WebAssembly <sup>[top⇈](#contents)</sup>
-> Yes, WebAssembly. `Wasm3` is the fastest WebAssembly intrpreter, that enables WebAssembly self-hosting.
+> Yes, WebAssembly. `Wasm3` is the fastest WebAssembly interpreter, that enables WebAssembly self-hosting.
 * [Wasm3](https://github.com/wasm3/wasm3) - main repository.
 * [Wasm3 on WAPM](https://wapm.io/package/vshymanskyy/wasm3) - WAPM package.
 
