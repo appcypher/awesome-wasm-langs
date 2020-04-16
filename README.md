@@ -18,6 +18,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [C#](#csharp)</br>
 :hatched_chick: [C++](#cpp)</br>
 :hatched_chick: [Clean](#clean)</br>
+:hatched_chick: [COBOL](#cobol)</br>
 :hatching_chick: [D](#d)</br>
 :hatching_chick: [Elixir](#elixir)</br>
 :hatching_chick: [F#](#fsharp)</br>
@@ -118,6 +119,13 @@ This repo contains a list of languages that currently compile to or have their V
 > Some of its most notable language features are uniqueness typing, dynamic typing, and generic functions.
 * [ABC interpreter](https://gitlab.science.ru.nl/clean-and-itasks/abc-interpreter) - interpreter for Clean's intermediate language ABC, with a WebAssembly version.
 * [iTasks](https://gitlab.science.ru.nl/clean-and-itasks/iTasks-SDK) - integration of the above ABC interpreter with browser applications.
+
+--------------------
+
+### <a name="cobol"></a>COBOL <sup>[top⇈](#contents)</sup>
+> COBOL is a compiled English-like programming language designed for business use.
+> It is imperative, procedural, and object-oriented. COBOL is primarily used in business, finance, and administrative systems.
+* [COBOL to WebAssembly compiler](https://github.com/cloudflare/cobaul) - toolchain used to [support COBOL in CloudFlare workers](https://blog.cloudflare.com/cloudflare-workers-now-support-cobol/)
 
 --------------------
 
