@@ -125,7 +125,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="cobol"></a>COBOL <sup>[top⇈](#contents)</sup>
 > COBOL is a compiled English-like programming language designed for business use.
 > It is imperative, procedural, and object-oriented. COBOL is primarily used in business, finance, and administrative systems.
-* [COBOL to WebAssembly compiler](https://github.com/cloudflare/cobaul) - toolchain used to [support COBOL in CloudFlare workers](https://blog.cloudflare.com/cloudflare-workers-now-support-cobol/)
+* [Cobaul](https://github.com/cloudflare/cobaul) - toolchain used to [support COBOL in CloudFlare workers](https://blog.cloudflare.com/cloudflare-workers-now-support-cobol/)
 
 --------------------
 
