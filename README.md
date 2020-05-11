@@ -138,7 +138,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="elixir"></a>Elixir <sup>[top⇈](#contents)</sup>
 > Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 > Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.
-* [ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm.
+* ~[ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm. [Unmaintained]~
 * [Lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation (with AOT compiler) designed for WebAssembly.
 
 --------------------
@@ -186,7 +186,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Haskell is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry.[1] The latest standard of Haskell is Haskell 2010. As of May 2016, a group is working on the next version, Haskell 2020.
 * [Asterius](https://github.com/tweag/asterius) - a Haskell to WebAssembly compiler
 * [DHC](https://github.com/dfinity/dhc) - a Haskell compiler that accepts only a tiny subset of the language and produces WebAssembly binaries.
-* [HaskellWasm](https://github.com/haskell-wasm/wasm) - a Haskell compiler infrastructure for generating WebAssembly.
+* ~[HaskellWasm](https://github.com/haskell-wasm/wasm) - a Haskell compiler infrastructure for generating WebAssembly. [Unmaintained]~
 * [haskell-wasm](https://github.com/SPY/haskell-wasm) - Haskell WebAssembly Toolkit. It includes Language helpers and a fully spec-compatible WASM interpreter.
 
 --------------------
@@ -267,7 +267,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="ocaml"></a>Ocaml <sup>[top⇈](#contents)</sup>
 > OCaml, originally named Objective Caml, is the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs.
 * [Ocaml](https://github.com/SanderSpies/ocaml/tree/wasm/wasmcomp) - a fork of main repo contianing work on OCaml to wasm compilation.
-* ~[OcamlRun](https://github.com/sebmarkbage/ocamlrun-wasm) - a build script for compiling OCaml bytecode interpreter to wasm using emscripten [Unmaintained]~.
+* ~[OcamlRun](https://github.com/sebmarkbage/ocamlrun-wasm) - a build script for compiling OCaml bytecode interpreter to wasm using emscripten [Unmaintained]~
 
 --------------------
 
@@ -393,9 +393,9 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
-### <a name="xlang"></a>Xlang <sup>[top⇈](#contents)</sup>
+### <a name="xlang"></a>Co <sup>[top⇈](#contents)</sup>
 > A programming language similar to Go and TypeScript.
-* [Xlang](https://github.com/rsms/xlang) - main repository
+* [Co](https://github.com/rsms/co) - main repository
 
 --------------------
 
