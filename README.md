@@ -21,6 +21,7 @@ This repo contains a list of languages that currently compile to or have their V
 :egg: [Co](#co)</br>
 :hatched_chick: [COBOL](#cobol)</br>
 :hatching_chick: [D](#d)</br>
+:hatching_chick: [Eel](#eel)</br>
 :hatching_chick: [Elixir](#elixir)</br>
 :hatching_chick: [F#](#fsharp)</br>
 :egg: [Faust](#faust)</br>
@@ -142,6 +143,12 @@ This repo contains a list of languages that currently compile to or have their V
 * [LDC](https://github.com/ldc-developers/ldc) - LLVM-based D compiler, which can generate WASM since version 1.11.0.
 
 --------------------
+
+### <a name="eel"></a>Eel <sup>[top⇈](#contents)</sup>
+> Eel is a small language used for, among other things, writing visualizer "presets" for [Milkdrop](http://www.geisswerks.com/milkdrop/), the music visualization program which came with [Winamp](https://en.wikipedia.org/wiki/Winamp).
+* [eel-wasm](https://github.com/captbaritone/eel-wasm) - Compiles Milkdrop flavored Eel to Wasm in the browser. Intended to become a component of [Butterchurn](https://github.com/jberg/butterchurn), a WebGL implementation of the Milkdrop Visualizer.
+
+------------------
 
 ### <a name="elixir"></a>Elixir <sup>[top⇈](#contents)</sup>
 > Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
