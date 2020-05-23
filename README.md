@@ -18,6 +18,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [C#](#csharp)</br>
 :hatched_chick: [C++](#cpp)</br>
 :hatched_chick: [Clean](#clean)</br>
+:egg: [Co](#co)</br>
 :hatched_chick: [COBOL](#cobol)</br>
 :hatching_chick: [D](#d)</br>
 :hatching_chick: [Elixir](#elixir)</br>
@@ -57,7 +58,6 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: [Walt](#walt)</br>
 :hatching_chick: [Wam](#wam)</br>
 :egg: ~[Wracket](#wracket)~ `Unmaintained`</br>
-:egg: [Xlang](#xlang)</br>
 :hatched_chick: [Zig](#zig)</br>
 
 --------------------
@@ -66,6 +66,7 @@ This repo contains a list of languages that currently compile to or have their V
 > .NET Framework is a software framework developed by Microsoft that runs primarily on Microsoft Windows. It includes a large class library named Framework Class Library (FCL) and provides language interoperability (each language can use code written in other languages) across several programming languages.
 * [Mono](https://github.com/mono/mono/tree/master/sdks/wasm) - an open source implementation of Microsoft's .NET Framework based on the ECMA standards for C# and the Common Language Runtime. For a real-work example, see this repository which contains the [Windows 10 calculator](https://github.com/nventive/calculator). The application is built using standard C++ 11 and C++/CX, with a calculation engine that dates back from 1995. Made by possible with mono via [Uno Platform](https://platform.uno/a-piece-of-windows-10-is-now-running-on-webassembly-natively-on-ios-and-android/).
 * [Blazor](https://github.com/aspnet/blazor) - an experimental web UI framework using C#/Razor and HTML, running client-side via WebAssembly.
+
 --------------------
 
 ### <a name="assemblyscript"></a>AssemblyScript <sup>[top⇈](#contents)</sup>
@@ -119,6 +120,12 @@ This repo contains a list of languages that currently compile to or have their V
 > Some of its most notable language features are uniqueness typing, dynamic typing, and generic functions.
 * [ABC interpreter](https://gitlab.science.ru.nl/clean-and-itasks/abc-interpreter) - interpreter for Clean's intermediate language ABC, with a WebAssembly version.
 * [iTasks](https://gitlab.science.ru.nl/clean-and-itasks/iTasks-SDK) - integration of the above ABC interpreter with browser applications.
+
+--------------------
+
+### <a name="co"></a>Co <sup>[top⇈](#contents)</sup>
+> A programming language similar to Go and TypeScript.
+* [Co](https://github.com/rsms/co) - main repository
 
 --------------------
 
@@ -390,12 +397,6 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="wracket"></a>Wracket <sup>[top⇈](#contents)</sup>
 > A lisp-like language that compiles to WebAssembly, written in racket
 * [Wracket](https://github.com/sschauss/wracket) - main repository.
-
---------------------
-
-### <a name="xlang"></a>Co <sup>[top⇈](#contents)</sup>
-> A programming language similar to Go and TypeScript.
-* [Co](https://github.com/rsms/co) - main repository
 
 --------------------
 
