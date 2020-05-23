@@ -38,6 +38,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Lobster](#lobster)</br>
 :hatched_chick: [Lua](#lua)</br>
 :hatching_chick: [Lys](#lys)</br>
+:hatched_chick: [Never](#never)</br>
 :egg: [Nim](#nim)</br>
 :egg: [Ocaml](#ocaml)</br>
 :hatching_chick: [Perl](#perl)</br>
@@ -260,6 +261,13 @@ This repo contains a list of languages that currently compile to or have their V
 > Lys is a typed functional language that compiles directly to WebAssembly.
 
 * [Lys](https://github.com/lys-lang/lys) - main repository.
+
+--------------------
+
+### <a name="never"></a>Never <sup>[top⇈](#contents)</sup>
+> Never is a simple functional programming language. Technically it may be classified as syntactically scoped, strongly typed, call by value, functional programming language.
+* [Never](https://github.com/never-lang/never) - project repository
+* [Never on the Web](https://never-lang.readthedocs.io/en/latest/never-web/) - Never language demo
 
 --------------------
 
