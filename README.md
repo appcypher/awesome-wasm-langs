@@ -113,7 +113,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="cpp"></a>C++ <sup>[top⇈](#contents)</sup>
 > C++ is a general-purpose programming language. It has imperative, object-oriented and generic programming features, while also providing facilities for low-level memory manipulation.
 > It was designed with a bias toward system programming and embedded, resource-constrained and large systems, with performance, efficiency and flexibility of use as its design highlights.
-> The developement of the language was sterated in 1979 by Bjarne Stroustrup as a "C with Classes".
+> The development of the language was started in 1979 by Bjarne Stroustrup as a "C with Classes".
 * See [C](#c).
 
 --------------------
