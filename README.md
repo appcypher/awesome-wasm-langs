@@ -262,6 +262,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Lua was originally designed in 1993 as a language for extending software applications to meet the increasing demand for customization at the time.
 * [WasmLua](https://github.com/vvanders/wasm_lua) - a Lua VM running in the browser.
 * [Luwa](https://github.com/serprex/luwa) - a wasm-to-Lua JIT compiler.
+* [Wasmoon](https://github.com/ceifa/wasmoon) - a high level Lua VM with JS bindings.
 
 --------------------
 
