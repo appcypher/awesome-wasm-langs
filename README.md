@@ -33,7 +33,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: [Java](#java)</br>
 :hatching_chick: [JavaScript](#javascript)</br>
 :egg: [Julia](#julia)</br>
-:hatching_chick: [Idris](#idris)</br>
+:hatching_chick: ~[Idris](#idris)~ `Unmaintained`</br>
 :hatching_chick: [Kotlin/Native](#kotlin)</br>
 :egg: [Kou](#kou)</br>
 :hatched_chick: [Lobster](#lobster)</br>
@@ -213,6 +213,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [TeaVM](https://github.com/konsoletyper/teavm) - an ahead-of-time translating compiler (transpiler) of Java bytecode, that's capable of emitting JavaScript and WebAssembly.
 * [JWebAssembly](https://github.com/i-net-software/JWebAssembly) - A Java bytecode to WebAssembly compiler. It can generate the WebAssembly binary or text format. It is written in Java itself and can be integrated with other Java build tools.
 * [Bytecoder](https://github.com/mirkosertic/Bytecoder) - A Rich Domain Model for Java Bytecode and Framework to interpret and transpile it to other languages such as JavaScript, OpenCL or WebAssembly.
+* [CheerpJ](https://github.com/leaningtech/cheerpj-meta) - A Java compiler for the web that converts any Java client application into standard HTML5/WebAssembly/JavaScript.
 
 --------------------
 
@@ -224,7 +225,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="idris"></a>Idris <sup>[top⇈](#contents)</sup>
 > Idris is a general purpose pure functional programming language with dependent types. Dependent types allow types to be predicated on values, meaning that some aspects of a program’s behaviour can be specified precisely in the type. It is compiled, with eager evaluation. Its features are influenced by Haskell and ML.
-* [Idris-codegen-WASM](https://github.com/SPY/idris-codegen-wasm) - WASM codegen repository.
+* ~[Idris-codegen-WASM](https://github.com/SPY/idris-codegen-wasm) - WASM codegen repository. [Unmaintained]~
 
 --------------------
 
