@@ -56,9 +56,9 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: [Swift](#swift)</br>
 :hatching_chick: ~[Turboscript](#turboscript)~ `Unmaintained`</br>
 :hatched_chick: [TypeScript](#typescript)</br>
-:hatched_chick: [Wah](#wah)~ `Unmaintained`</br>
-:hatching_chick: [Walt](#walt)~ `Unmaintained`</br>
-:hatching_chick: [Wam](#wam)~ `Unmaintained`</br>
+:hatched_chick: ~[Wah](#wah)~ `Unmaintained`</br>
+:hatching_chick: ~[Walt](#walt)~ `Unmaintained`</br>
+:hatching_chick: ~[Wam](#wam)~ `Unmaintained`</br>
 :hatched_chick: [WebAssembly](#webassembly)</br>
 :egg: ~[Wracket](#wracket)~ `Unmaintained`</br>
 :hatched_chick: [Zig](#zig)</br>
