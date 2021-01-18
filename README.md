@@ -12,7 +12,7 @@ This repo contains a list of languages that currently compile to or have their V
 ## Contents
 :hatched_chick: [.Net](#dotnet)</br>
 :hatched_chick: [AssemblyScript](#assemblyscript)</br>
-:egg: [Astro](#astro)</br>
+:egg: ~[Astro](#astro)~ `Unmaintained`</br>
 :hatched_chick: [Brainfuck](#brainfuck)</br>
 :hatched_chick: [C](#c)</br>
 :hatched_chick: [C#](#csharp)</br>
@@ -36,6 +36,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: ~[Idris](#idris)~ `Unmaintained`</br>
 :hatching_chick: [Kotlin/Native](#kotlin)</br>
 :egg: [Kou](#kou)</br>
+:hatching_chick: [Lisp](#lisp)</br>
 :hatched_chick: [Lobster](#lobster)</br>
 :hatched_chick: [Lua](#lua)</br>
 :hatching_chick: [Lys](#lys)</br>
@@ -80,7 +81,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="astro"></a>Astro <sup>[top⇈](#contents)</sup>
 > Astro is a fun safe language for rapid prototyping and high performance applications.
-* [Astro](https://github.com/astrolang/astro) - main repository.
+* ~[Astro](https://github.com/astrolang/astro) - main repository.~ `Unmaintained`
 
 --------------------
 
@@ -207,6 +208,12 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="idris"></a>Idris <sup>[top⇈](#contents)</sup>
+> Idris is a general purpose pure functional programming language with dependent types. Dependent types allow types to be predicated on values, meaning that some aspects of a program’s behaviour can be specified precisely in the type. It is compiled, with eager evaluation. Its features are influenced by Haskell and ML.
+* ~[Idris-codegen-WASM](https://github.com/SPY/idris-codegen-wasm) - WASM codegen repository.~ `Unmaintained`
+
+--------------------
+
 ### <a name="java"></a>Java <sup>[top⇈](#contents)</sup>
 > Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers "write once, run anywhere" (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.
 > Java was originally developed by James Gosling at Sun Microsystems and released in 1995 as a core component of Sun Microsystems' Java platform. The language derives much of its syntax from C and C++, but it has fewer low-level facilities than either of them.
@@ -220,12 +227,6 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="javascript"></a>JavaScript <sup>[top⇈](#contents)</sup>
 > JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 * [Duktape](https://github.com/svaarala/duktape) - an embeddable Javascript engine, with a focus on portability and compact footprint that's capable of being run in the browser via WebAssembly.
-
---------------------
-
-### <a name="idris"></a>Idris <sup>[top⇈](#contents)</sup>
-> Idris is a general purpose pure functional programming language with dependent types. Dependent types allow types to be predicated on values, meaning that some aspects of a program’s behaviour can be specified precisely in the type. It is compiled, with eager evaluation. Its features are influenced by Haskell and ML.
-* ~[Idris-codegen-WASM](https://github.com/SPY/idris-codegen-wasm) - WASM codegen repository. [Unmaintained]~
 
 --------------------
 
@@ -247,6 +248,12 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="lisp"></a>Lisp <sup>[top⇈](#contents)</sup>
+> Lisp (historically LISP) is a family of programming languages with a long history and a distinctive, fully parenthesized prefix notation.
+* [Femto Emacs](https://github.com/FemtoEmacs/wasCm) - translates Low Level Lisp into WebAssembly.
+
+--------------------
+
 ### <a name="lobster"></a>Lobster <sup>[top⇈](#contents)</sup>
 > Lobster is a statically typed language with flow-sensitive type inference and specialization, compile time reference counting (lifetime analysis) that looks a bit like Python. It was originally intended specifically for games.
 > Lobster has its own Wasm backend that compiles directly to linkable (with LLD) .wasm files.
@@ -264,6 +271,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [WasmLua](https://github.com/vvanders/wasm_lua) - a Lua VM running in the browser.
 * [Luwa](https://github.com/serprex/luwa) - a wasm-to-Lua JIT compiler.
 * [Wasmoon](https://github.com/ceifa/wasmoon) - a high level Lua VM with JS bindings.
+* [Wasm2Lua](https://github.com/SwadicalRag/wasm2lua) - can compile WebAssembly modules to pure Lua (or with FFI LuaJIT for extra speed).
 
 --------------------
 
@@ -340,6 +348,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
 * [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
 * [run.rb](https://github.com/jasoncharnes/run.rb) run.rb - allows you to run Ruby code in the browser
+* [Artichoke](https://github.com/artichoke/artichoke/blob/f8e9881403a50c3ba7e2b1ffc16f205c0b5e0255/VISION.md#design-and-goals) - a Ruby implementation written in Rust and Ruby. You can try it out here: https://artichoke.run
 
 --------------------
 
@@ -372,7 +381,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="speedyjs"></a>Speedy.js <sup>[top⇈](#contents)</sup>
 > Speedy.js is a compiler for a well considered, performance pitfalls free subset of JavaScript targeting WebAssembly. Because WebAssembly is statically-typed, the project uses TypeScript as type-checker and to resolve the types of the program symbols.
-* [Speedy.js](https://github.com/MichaReiser/speedy.js) - main repository.
+* ~[Speedy.js](https://github.com/MichaReiser/speedy.js) - main repository.~ `Unmaintained`
 
 --------------------
 
@@ -397,19 +406,19 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="wah"></a>Wah <sup>[top⇈](#contents)</sup>
 > Wah is a slightly higher level language that is a superset of WebAssembly. It aims to make WebAssembly's text format slightly more friendly to humans, without introducing new syntax or datatypes.
-* [Wah](https://github.com/tmcw/wah) - main repository.
+* ~[Wah](https://github.com/tmcw/wah) - main repository.~ `Unmaintained`
 
 --------------------
 
 ### <a name="walt"></a>WAlt <sup>[top⇈](#contents)</sup>
 > WAlt is an alternative syntax for WebAssembly text format. It's an experiment for using JavaScript syntax to write to as 'close to the metal' as possible. It's JavaScript with rules. .walt files compile directly to WebAssembly binary format.
-* [Walt](https://github.com/ballercat/walt) - main repository.
+* ~[Walt](https://github.com/ballercat/walt) - main repository.~ `Unmaintained`
 
 --------------------
 
 ### <a name="wam"></a>Wam <sup>[top⇈](#contents)</sup>
 > WebAssembly Macro language: Wam syntax is a near superset of wast syntax that is more convenient for human developers to write directly.
-* [Wam](https://github.com/kanaka/wam) - main repository.
+* ~[Wam](https://github.com/kanaka/wam) - main repository.~ `Unmaintained`
 
 --------------------
 
@@ -421,7 +430,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="wracket"></a>Wracket <sup>[top⇈](#contents)</sup>
 > A lisp-like language that compiles to WebAssembly, written in racket
-* [Wracket](https://github.com/sschauss/wracket) - main repository.
+* ~[Wracket](https://github.com/sschauss/wracket) - main repository.~ `Unmaintained`
 
 --------------------
 
