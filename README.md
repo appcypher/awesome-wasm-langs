@@ -334,6 +334,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Python is an open source interpreted high-level programming language for general-purpose programming. Created by Guido van Rossum and first released in 1991, Python has a design philosophy that emphasizes code readability, notably using significant whitespace. It provides constructs that enable clear programming on both small and large scales.
 * [Pyodide](https://github.com/iodide-project/pyodide) - a port of Python to WebAssembly that includes the core packages of the scientific Python stack (Numpy, Pandas, matplotlib).  Objects transparently convert and share between Python and Javascript.
 * [MicroPython](https://github.com/micropython/micropython/tree/master/ports/javascript) - a lean and efficient Python implementation for microcontrollers and constrained systems.
+* [RustPython](https://github.com/RustPython/RustPython) - A Python 3 interpreter written in Rust. Check the demo [here](https://rustpython.github.io/demo/)
 
 --------------------
 
