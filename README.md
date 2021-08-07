@@ -314,7 +314,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="php"></a>PHP <sup>[top⇈](#contents)</sup>
 > PHP is a general-purpose scripting language that is especially suited to server-side web development, in which case PHP generally runs on a web server. Any PHP code in a requested file is executed by the PHP runtime, usually to create dynamic web page content or dynamic images used on websites or elsewhere.
 * [PIB](https://github.com/oraoto/pib) - a PHP runtime in the browser.
-
+* [PHP WASM](https://github.com/soyuka/php-wasm) - maintained fork of PIB with PHP 8 support based on the work of [seanmorris](https://github.com/seanmorris/php-wasm).
 
 --------------------
 
