@@ -221,6 +221,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [JWebAssembly](https://github.com/i-net-software/JWebAssembly) - A Java bytecode to WebAssembly compiler. It can generate the WebAssembly binary or text format. It is written in Java itself and can be integrated with other Java build tools.
 * [Bytecoder](https://github.com/mirkosertic/Bytecoder) - A Rich Domain Model for Java Bytecode and Framework to interpret and transpile it to other languages such as JavaScript, OpenCL or WebAssembly.
 * [CheerpJ](https://github.com/leaningtech/cheerpj-meta) - A Java compiler for the web that converts any Java client application into standard HTML5/WebAssembly/JavaScript.
+* [Java2Script](https://github.com/java2script/java2script) - A Java-to-JavaScript transpiler and nearly complete JavaScript implementation of the Java runtime environment, including AWT and Swing.
 
 --------------------
 
