@@ -17,6 +17,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [C](#c)</br>
 :hatched_chick: [C#](#csharp)</br>
 :hatched_chick: [C++](#cpp)</br>
+:hatching_chick: [C4wa](#c4wa)</br>
 :hatched_chick: [Clean](#clean)</br>
 :egg: [Co](#co)</br>
 :hatched_chick: [COBOL](#cobol)</br>
@@ -119,6 +120,13 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="c4wa"></a>c4wa <sup>[top⇈](#contents)</sup>
+> C4wa ("C for Web Assembly") is a subset of Standard C specifically targeted for simple and efficient Web Assembly compilation. 
+> Generated WASM files include no overhead, out of the box compatible with any Web Assembly runtime, support import of variable-argument
+> functions (such as `printf`). There is also an option to create well-formatted and readable WAT files.
+* [c4wa](https://github.com/kign/c4wa) - main repository.
+
+--------------------
 ### <a name="clean"></a>Clean <sup>[top⇈](#contents)</sup>
 > Clean is a general purpose, state-of-the-art, pure and lazy functional programming language designed for making real-world applications.
 > Some of its most notable language features are uniqueness typing, dynamic typing, and generic functions.
