@@ -43,7 +43,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Never](#never)</br>
 :egg: [Nim](#nim)</br>
 :egg: [Ocaml](#ocaml)</br>
-:hatching: [Pascal](#pascal)</br>
+:hatching_chick: [Pascal](#pascal)</br>
 :hatching_chick: [Perl](#perl)</br>
 :hatching_chick: [PHP](#php)</br>
 :egg: [Plorth](#plorth)</br>
