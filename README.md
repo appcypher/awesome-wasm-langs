@@ -43,6 +43,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Never](#never)</br>
 :egg: [Nim](#nim)</br>
 :egg: [Ocaml](#ocaml)</br>
+:hatching: [Pascal](#pascal)</br>
 :hatching_chick: [Perl](#perl)</br>
 :hatching_chick: [PHP](#php)</br>
 :egg: [Plorth](#plorth)</br>
@@ -302,6 +303,15 @@ This repo contains a list of languages that currently compile to or have their V
 > OCaml, originally named Objective Caml, is the main implementation of the programming language Caml, created by Xavier Leroy, Jérôme Vouillon, Damien Doligez, Didier Rémy, Ascánder Suárez and others in 1996. A member of the ML language family, OCaml extends the core Caml language with object-oriented programming constructs.
 * [Ocaml](https://github.com/SanderSpies/ocaml/tree/wasm/wasmcomp) - a fork of main repo contianing work on OCaml to wasm compilation.
 * ~[OcamlRun](https://github.com/sebmarkbage/ocamlrun-wasm) - a build script for compiling OCaml bytecode interpreter to wasm using emscripten [Unmaintained]~
+
+--------------------
+
+### <a name="pascal"></a>Pascal <sup>[top⇈](#contents)</sup>
+> Pascal is a general purpose imperative, procedural and object-oriented
+> static typing programming language. The Free Pascal compiler targets many
+> processor architectures, including wasm32; operating systems, including
+> WASI; and embedded platforms.
+* [Free Pascal](https://wiki.freepascal.org/WebAssembly) - Free Pascal compilation target and Pascal-to-Javascript runtime.
 
 --------------------
 
