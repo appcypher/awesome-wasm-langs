@@ -60,6 +60,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: ~[Wah](#wah)~ `Unmaintained`</br>
 :hatching_chick: ~[Walt](#walt)~ `Unmaintained`</br>
 :hatching_chick: ~[Wam](#wam)~ `Unmaintained`</br>
+:egg: [Wase](#wase)</br>
 :hatched_chick: [WebAssembly](#webassembly)</br>
 :egg: ~[Wracket](#wracket)~ `Unmaintained`</br>
 :hatched_chick: [Zig](#zig)</br>
@@ -422,6 +423,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="wam"></a>Wam <sup>[top⇈](#contents)</sup>
 > WebAssembly Macro language: Wam syntax is a near superset of wast syntax that is more convenient for human developers to write directly.
 * ~[Wam](https://github.com/kanaka/wam) - main repository.~ `Unmaintained`
+
+--------------------
+
+### <a name="wase"></a>Wase <sup>[top⇈](#contents)</sup>
+> WASE: WebAssembly made easy. Wase is a language, which tries to make WASM easy to write. The language maps closely to WebAssembly, and compiles directly to Wasm bytecode. Has strong typing with type inference.
+* [Wase](https://github.com/area9innovation/wase) - main repository.
 
 --------------------
 
