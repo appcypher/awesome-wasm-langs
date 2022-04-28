@@ -231,6 +231,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="javascript"></a>JavaScript <sup>[top⇈](#contents)</sup>
 > JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 * [Duktape](https://github.com/svaarala/duktape) - an embeddable Javascript engine, with a focus on portability and compact footprint that's capable of being run in the browser via WebAssembly.
+* [Javy](https://github.com/shopify/javy) - a JavaScript to WebAssembly toolchain, capable of generating WASI-compatible modules from JS by embedding the QuickJS engine.
 
 --------------------
 
