@@ -63,6 +63,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: ~[Wam](#wam)~ `Unmaintained`</br>
 :egg: [Wase](#wase)</br>
 :hatched_chick: [WebAssembly](#webassembly)</br>
+:hatching_chick: [Whistle](#whistle)</br>
 :egg: ~[Wracket](#wracket)~ `Unmaintained`</br>
 :hatched_chick: [Zig](#zig)</br>
 
@@ -446,8 +447,14 @@ This repo contains a list of languages that currently compile to or have their V
 > Yes, WebAssembly. `Wasm3` is the fastest WebAssembly interpreter, that enables WebAssembly self-hosting.
 * [Wasm3](https://github.com/wasm3/wasm3) - main repository.
 * [Wasm3 on WAPM](https://wapm.io/package/vshymanskyy/wasm3) - WAPM package.
+
 --------------------
 
+### <a name="whistle"></a> Whistle<sup>[top⇈](#contents)</sup>
+> A dope new programming language that still doesnt have a std library. 😎
+* [Whistle](https://github.com/whistle-lang/whistle) - main repository.
+
+--------------------
 ### <a name="wracket"></a>Wracket <sup>[top⇈](#contents)</sup>
 > A lisp-like language that compiles to WebAssembly, written in racket
 * ~[Wracket](https://github.com/sschauss/wracket) - main repository.~ `Unmaintained`
