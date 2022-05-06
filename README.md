@@ -20,6 +20,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Clean](#clean)</br>
 :egg: [Co](#co)</br>
 :hatched_chick: [COBOL](#cobol)</br>
+:egg: [Crystal](#crystal)</br>
 :hatching_chick: [D](#d)</br>
 :hatching_chick: [Eel](#eel)</br>
 :hatching_chick: [Elixir](#elixir)</br>
@@ -141,6 +142,19 @@ This repo contains a list of languages that currently compile to or have their V
 > It is imperative, procedural, and object-oriented. COBOL is primarily used in business, finance, and administrative systems.
 * [Cobaul](https://github.com/cloudflare/cobaul) - toolchain used to [support COBOL in CloudFlare workers](https://blog.cloudflare.com/cloudflare-workers-now-support-cobol/)
 
+--------------------
+
+### <a name="crystal"></a>Crystal <sup>[top⇈](#contents)</sup>
+> Crystal is a programming language with the following goals:
+> 
+> - Have a syntax similar to Ruby (but compatibility with it is not a goal)
+> - Statically type-checked but without having to specify the type of variables or method arguments.
+> - Be able to call C code by writing bindings to it in Crystal.
+> - Have compile-time evaluation and generation of code, to avoid boilerplate code.
+> - Compile to efficient native code.
+    
+* [Crystal](https://github.com/crystal-lang/crystal) - main repository
+  * [Hello WebAssembly!](https://github.com/crystal-lang/crystal/pull/10870) - PR adding initial support for WebAssembly
 --------------------
 
 ### <a name="d"></a>D <sup>[top⇈](#contents)</sup>
