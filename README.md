@@ -186,6 +186,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="forth"></a>Forth <sup>[top⇈](#contents)</sup>
 > Forth is an interactive, extensible, imperative, untyped, stack-based programming language.
 * [WASM Forth](https://github.com/stefano/wasm-forth) - Forth implementation for wasm.
+* [WAForth](https://github.com/remko/waforth) - Bootstrapping Dynamic Forth Interpreter/Compiler for & in WebAssembly.
 
 --------------------
 
