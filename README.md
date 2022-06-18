@@ -237,6 +237,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="julia"></a>Julia <sup>[top⇈](#contents)</sup>
 > Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
 * [Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to WebAssembly/Javascript compiler
+* [julia-wasm](https://github.com/Keno/julia-wasm) - Emscripten & LLVM Julia to WASM compiler.
 
 --------------------
 
