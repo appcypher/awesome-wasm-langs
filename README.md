@@ -21,6 +21,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Clean](#clean)</br>
 :egg: [Co](#co)</br>
 :hatched_chick: [COBOL](#cobol)</br>
+:egg: [Crystal](#crystal)</br>
 :hatching_chick: [D](#d)</br>
 :hatching_chick: [Eel](#eel)</br>
 :hatching_chick: [Elixir](#elixir)</br>
@@ -151,6 +152,20 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="crystal"></a>Crystal <sup>[top⇈](#contents)</sup>
+> Crystal is a programming language with the following goals:
+> 
+> - Have a syntax similar to Ruby (but compatibility with it is not a goal)
+> - Statically type-checked but without having to specify the type of variables or method arguments.
+> - Be able to call C code by writing bindings to it in Crystal.
+> - Have compile-time evaluation and generation of code, to avoid boilerplate code.
+> - Compile to efficient native code.
+    
+* [Crystal](https://github.com/crystal-lang/crystal) - main repository
+* [POC PR](https://github.com/crystal-lang/crystal/pull/10870) - PR adding initial support for WebAssembly
+
+--------------------
+
 ### <a name="d"></a>D <sup>[top⇈](#contents)</sup>
 > D is a general-purpose programming language with static typing, systems-level access, and C-like syntax.
 * [LDC](https://github.com/ldc-developers/ldc) - LLVM-based D compiler, which can generate WASM since version 1.11.0.
@@ -166,8 +181,8 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="elixir"></a>Elixir <sup>[top⇈](#contents)</sup>
 > Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 > Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.
-* ~[ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm. [Unmaintained]~
 * [Lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation (with AOT compiler) designed for WebAssembly.
+* ~[ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm. [Unmaintained]~
 
 --------------------
 
