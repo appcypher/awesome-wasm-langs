@@ -13,6 +13,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [.Net](#dotnet)</br>
 :hatched_chick: [AssemblyScript](#assemblyscript)</br>
 :egg: ~[Astro](#astro)~ `Unmaintained`</br>
+:egg: [Ballerina](#ballerina)</br>
 :hatched_chick: [Brainfuck](#brainfuck)</br>
 :hatched_chick: [C](#c)</br>
 :hatched_chick: [C#](#csharp)</br>
@@ -20,6 +21,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Clean](#clean)</br>
 :egg: [Co](#co)</br>
 :hatched_chick: [COBOL](#cobol)</br>
+:egg: [Crystal](#crystal)</br>
 :hatching_chick: [D](#d)</br>
 :hatching_chick: [Eel](#eel)</br>
 :hatching_chick: [Elixir](#elixir)</br>
@@ -88,6 +90,13 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="ballerina"></a>Ballerina <sup>[top⇈](#contents)</sup>
+> Ballerina is an open-source programming language for the cloud that makes it easier to use, combine, and create network services.
+> The WebAssembly compiler is implemented for the native Ballerina compiler [nBallerina](https://github.com/ballerina-platform/nballerina).
+* [Main repository](https://github.com/poorna2152/nballerina) - Ballerina-to-wasm compiler 
+
+--------------------
+
 ### <a name="brainfuck"></a>Brainfuck <sup>[top⇈](#contents)</sup>
 > Brainfuck is an esoteric programming language created in 1993 by Urban Müller, and notable for its extreme minimalism.
 > The language consists of only eight simple commands and an instruction pointer. While it is fully Turing-complete, it is not intended for practical use, but to challenge and amuse programmers.
@@ -143,6 +152,20 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="crystal"></a>Crystal <sup>[top⇈](#contents)</sup>
+> Crystal is a programming language with the following goals:
+> 
+> - Have a syntax similar to Ruby (but compatibility with it is not a goal)
+> - Statically type-checked but without having to specify the type of variables or method arguments.
+> - Be able to call C code by writing bindings to it in Crystal.
+> - Have compile-time evaluation and generation of code, to avoid boilerplate code.
+> - Compile to efficient native code.
+    
+* [Crystal](https://github.com/crystal-lang/crystal) - main repository
+* [POC PR](https://github.com/crystal-lang/crystal/pull/10870) - PR adding initial support for WebAssembly
+
+--------------------
+
 ### <a name="d"></a>D <sup>[top⇈](#contents)</sup>
 > D is a general-purpose programming language with static typing, systems-level access, and C-like syntax.
 * [LDC](https://github.com/ldc-developers/ldc) - LLVM-based D compiler, which can generate WASM since version 1.11.0.
@@ -158,8 +181,8 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="elixir"></a>Elixir <sup>[top⇈](#contents)</sup>
 > Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 > Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.
-* ~[ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm. [Unmaintained]~
 * [Lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation (with AOT compiler) designed for WebAssembly.
+* ~[ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm. [Unmaintained]~
 
 --------------------
 
@@ -186,6 +209,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="forth"></a>Forth <sup>[top⇈](#contents)</sup>
 > Forth is an interactive, extensible, imperative, untyped, stack-based programming language.
 * [WASM Forth](https://github.com/stefano/wasm-forth) - Forth implementation for wasm.
+* [WAForth](https://github.com/remko/waforth) - Bootstrapping Dynamic Forth Interpreter/Compiler for & in WebAssembly.
 
 --------------------
 
@@ -232,12 +256,14 @@ This repo contains a list of languages that currently compile to or have their V
 > JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 * [Duktape](https://github.com/svaarala/duktape) - an embeddable Javascript engine, with a focus on portability and compact footprint that's capable of being run in the browser via WebAssembly.
 * [Javy](https://github.com/shopify/javy) - a JavaScript to WebAssembly toolchain, capable of generating WASI-compatible modules from JS by embedding the QuickJS engine.
+* [SpiderMonkey](https://github.com/bytecodealliance/spidermonkey-wasm-rs) - experimental Rust bindings and generic builtins for SpiderMonkey for building WASI-compatible modules from JavaScript.
 
 --------------------
 
 ### <a name="julia"></a>Julia <sup>[top⇈](#contents)</sup>
 > Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
-* [Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to WebAssembly/Javascript compiler
+* [julia-wasm](https://github.com/Keno/julia-wasm) - Emscripten & LLVM Julia to WASM compiler.
+* ~[Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to WebAssembly/Javascript compiler~ `Unmaintained`
 
 --------------------
 
@@ -356,6 +382,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 > Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
 * [SWI-Prolog port to WebAssembly](https://github.com/SWI-Prolog/swipl-wasm) - a port of SWI-Prolog to WebAssembly. SWI-Prolog is a free implementation of the programming language Prolog commonly used for teaching and semantic web applications.
+* [Ciao Prolog](https://github.com/ciao-lang/ciao) - includes a WebAssembly compilation target based on Emscripten. Ciao Prolog is a modern Prolog implementation designed to be portable, extensible and modular. Check the playground [here](https://ciao-lang.org/playground).
 
 --------------------
 
