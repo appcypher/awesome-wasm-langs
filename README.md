@@ -154,7 +154,8 @@ This repo contains a list of languages that currently compile to or have their V
 > - Compile to efficient native code.
     
 * [Crystal](https://github.com/crystal-lang/crystal) - main repository
-  * [Hello WebAssembly!](https://github.com/crystal-lang/crystal/pull/10870) - PR adding initial support for WebAssembly
+* [POC PR](https://github.com/crystal-lang/crystal/pull/10870) - PR adding initial support for WebAssembly
+
 --------------------
 
 ### <a name="d"></a>D <sup>[top⇈](#contents)</sup>
@@ -172,8 +173,8 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="elixir"></a>Elixir <sup>[top⇈](#contents)</sup>
 > Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 > Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.
-* ~[ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm. [Unmaintained]~
 * [Lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation (with AOT compiler) designed for WebAssembly.
+* ~[ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm. [Unmaintained]~
 
 --------------------
 
