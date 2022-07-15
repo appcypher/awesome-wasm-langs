@@ -94,7 +94,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="ballerina"></a>Ballerina <sup>[top⇈](#contents)</sup>
 > Ballerina is an open-source programming language for the cloud that makes it easier to use, combine, and create network services.
 > The WebAssembly compiler is implemented for the native Ballerina compiler [nBallerina](https://github.com/ballerina-platform/nballerina).
-* [Main repository](https://github.com/poorna2152/nballerina) - Ballerina-to-wasm compiler 
+* [Main repository](https://github.com/ballerina-platform/nballerina/tree/wasm) - Ballerina-to-wasm compiler 
 
 --------------------
 
