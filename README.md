@@ -26,7 +26,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: [D](#d)</br>
 :hatching_chick: [Eel](#eel)</br>
 :hatching_chick: [Elixir](#elixir)</br>
-:hatching_chick: [F#](#fsharp)</br>
+:hatched_chick: [F#](#fsharp)</br>
 :egg: [Faust](#faust)</br>
 :egg: [Forest](#forest)</br>
 :hatched_chick: [Forth](#forth)</br>
