@@ -67,6 +67,7 @@ This repo contains a list of languages that currently compile to or have their V
 :egg: [Wase](#wase)</br>
 :hatched_chick: [WebAssembly](#webassembly)</br>
 :egg: ~[Wracket](#wracket)~ `Unmaintained`</br>
+:egg: [xcc](#c)</br>
 :hatched_chick: [Zig](#zig)</br>
 
 --------------------
@@ -487,6 +488,13 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="wracket"></a>Wracket <sup>[top⇈](#contents)</sup>
 > A lisp-like language that compiles to WebAssembly, written in racket
 * ~[Wracket](https://github.com/sschauss/wracket) - main repository.~ `Unmaintained`
+
+--------------------
+
+### <a name="xcc"></a>xcc <sup>[top⇈](#contents)</sup>
+> Toy C compiler for x86-64 and wasm
+* ~[xcc](https://github.com/tyfkda/xcc) - main repository.
+* ~[Online demo](https://tyfkda.github.io/xcc/).
 
 --------------------
 
