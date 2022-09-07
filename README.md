@@ -144,8 +144,8 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="clean"></a>Clean <sup>[top⇈](#contents)</sup>
 > Clean is a general purpose, state-of-the-art, pure and lazy functional programming language designed for making real-world applications.
 > Some of its most notable language features are uniqueness typing, dynamic typing, and generic functions.
-* [ABC interpreter](https://gitlab.science.ru.nl/clean-and-itasks/abc-interpreter) - interpreter for Clean's intermediate language ABC, with a WebAssembly version.
-* [iTasks](https://gitlab.science.ru.nl/clean-and-itasks/iTasks-SDK) - integration of the above ABC interpreter with browser applications.
+* [ABC interpreter](https://gitlab.com/clean-and-itasks/abc-interpreter) - interpreter for Clean's intermediate language ABC, with a WebAssembly version.
+* [iTasks](https://gitlab.com/clean-and-itasks/itasks-sdk) - integration of the above ABC interpreter with browser applications.
 
 --------------------
 
@@ -425,7 +425,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="scopes"></a>Scopes <sup>[top⇈](#contents)</sup>
 > Scopes is a general purpose programming language and compiler infrastructure specifically suited for short turnaround prototyping and development of high performance applications in need of multi-stage compilation at runtime.
-* [Scopes](https://bitbucket.org/duangle/scopes/wiki/Home) - main repository
+* [Scopes](https://hg.sr.ht/~duangle/scopes) - main repository
 
 
 --------------------
