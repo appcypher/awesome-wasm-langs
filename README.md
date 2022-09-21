@@ -61,6 +61,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: [Swift](#swift)</br>
 :hatching_chick: ~[Turboscript](#turboscript)~ `Unmaintained`</br>
 :hatched_chick: [TypeScript](#typescript)</br>
+:egg: [Wa](#wa)</br>
 :hatched_chick: ~[Wah](#wah)~ `Unmaintained`</br>
 :hatching_chick: ~[Walt](#walt)~ `Unmaintained`</br>
 :hatching_chick: ~[Wam](#wam)~ `Unmaintained`</br>
@@ -453,6 +454,16 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="typescript"></a>TypeScript <sup>[top⇈](#contents)</sup>
 > TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.
 * See [AssemblyScript](#assemblyscript)
+
+--------------------
+
+### <a name="wa"></a>Wa <sup>[top⇈](#contents)</sup>
+
+> Wa is a general-purpose programming language designed for developing robustness and maintainability WebAssembly software. Instead of requiring complex toolchains to set up, you can simply go install it - or run it in a browser.
+
+> 凹语言™（凹读音“Wa”）是 针对 WASM 平台设计的的通用编程语言，支持 Linux、macOS 和 Windows 等主流操作系统和 Chrome 等浏览器环境，同时也支持作为独立Shell脚本和被嵌入脚本模式执行。
+
+* [Wa/凹语言](https://github.com/wa-lang/wa) - main repository.
 
 --------------------
 
