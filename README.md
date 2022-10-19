@@ -24,6 +24,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [COBOL](#cobol)</br>
 :egg: [Crystal](#crystal)</br>
 :hatching_chick: [D](#d)</br>
+:hatching_chick: [Eclair](#eclair)</br>
 :hatching_chick: [Eel](#eel)</br>
 :hatching_chick: [Elixir](#elixir)</br>
 :hatched_chick: [F#](#fsharp)</br>
@@ -180,6 +181,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="d"></a>D <sup>[top⇈](#contents)</sup>
 > D is a general-purpose programming language with static typing, systems-level access, and C-like syntax.
 * [LDC](https://github.com/ldc-developers/ldc) - LLVM-based D compiler, which can generate WASM since version 1.11.0.
+
+--------------------
+
+### <a name="eclair"></a>Eclair <sup>[top⇈](#contents)</sup>
+> Eclair is a minimal, fast Datalog implementation that compiles to LLVM IR and WASM.
+* [eclair-lang](https://github.com/luc-tielen/eclair-lang) - The Eclair compiler, which can compile Eclair code to LLVM IR and WASM.
 
 --------------------
 
