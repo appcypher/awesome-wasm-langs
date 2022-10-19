@@ -37,6 +37,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: [JavaScript](#javascript)</br>
 :egg: [Julia](#julia)</br>
 :hatching_chick: ~[Idris](#idris)~ `Unmaintained`</br>
+:hatching_chick: [KCL](#kcl)</br>
 :hatching_chick: [Kotlin/Native](#kotlin)</br>
 :egg: [Kou](#kou)</br>
 :hatching_chick: [Lisp](#lisp)</br>
@@ -274,6 +275,12 @@ This repo contains a list of languages that currently compile to or have their V
 > Julia was designed from the beginning for high performance. Julia programs compile to efficient native code for multiple platforms via LLVM.
 * [julia-wasm](https://github.com/Keno/julia-wasm) - Emscripten & LLVM Julia to WASM compiler.
 * ~[Charlotte.jl](https://github.com/MikeInnes/Charlotte.jl) - a Julia to WebAssembly/Javascript compiler~ `Unmaintained`
+
+--------------------
+
+### <a name="kcl"></a>KCL <sup>[top⇈](#contents)</sup>
+> KCL is a constraint-based record & functional language mainly used in configuration and policy scenarios.
+* [KCLVM](https://github.com/KusionStack/KCLVM) - LLVM-based KCL compiler, which can generate WASM.
 
 --------------------
 
