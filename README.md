@@ -55,6 +55,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatching_chick: [Poetry](#poetry)</br>
 :hatching_chick: [Python](#python)</br>
 :hatching_chick: [Prolog](#prolog)</br>
+:hatched_chick: [Rego](#rego)</br>
 :hatching_chick: [Ruby](#ruby)</br>
 :hatched_chick: [Rust](#rust)</br>
 :hatching_chick: [Scheme](#scheme)</br>
@@ -408,6 +409,19 @@ This repo contains a list of languages that currently compile to or have their V
 > Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
 * [SWI-Prolog port to WebAssembly](https://github.com/SWI-Prolog/swipl-wasm) - a port of SWI-Prolog to WebAssembly. SWI-Prolog is a free implementation of the programming language Prolog commonly used for teaching and semantic web applications.
 * [Ciao Prolog](https://github.com/ciao-lang/ciao) - includes a WebAssembly compilation target based on Emscripten. Ciao Prolog is a modern Prolog implementation designed to be portable, extensible and modular. Check the playground [here](https://ciao-lang.org/playground).
+
+--------------------
+
+### <a name="rego"></a>Rego <sup>[top⇈](#contents)</sup>
+
+> Open Policy Agent (OPA) is an open source, general-purpose policy engine that unifies policy enforcement across the stack. Rego is a high-level declarative policy language purpose-built for expressing policies over complex hierarchical data structures.
+
+* [OPA-Wasm](https://github.com/open-policy-agent/opa/tree/main/wasm) - Compilation and evaluation of Rego policies using Wasm.
+* [npm-opa-wasm](https://github.com/open-policy-agent/npm-opa-wasm) - NPM module providing an SDK for using Wasm compiled OPA policies.
+* [rust-opa-wasm](https://github.com/matrix-org/rust-opa-wasm) - A crate to use OPA policies compiled to Wasm.
+* [dotnet-opa-wasm](https://github.com/christophwille/dotnet-opa-wasm) - Call OPA policies in Wasm from C# .NET Core.
+* [python-opa-wasm](https://github.com/a2d24/python-opa-wasm) - OPA Wasm SDK for Python.
+* [java-opa-wasm](https://github.com/sangkeon/java-opa-wasm) - OPA Wasm SDK for Java.
 
 --------------------
 
