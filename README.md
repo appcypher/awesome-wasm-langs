@@ -22,7 +22,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Clean](#clean)</br>
 :egg: [Co](#co)</br>
 :hatched_chick: [COBOL](#cobol)</br>
-:egg: [Crystal](#crystal)</br>
+:hatching_chick: [Crystal](#crystal)</br>
 :hatching_chick: [D](#d)</br>
 :hatching_chick: [Eclair](#eclair)</br>
 :hatching_chick: [Eel](#eel)</br>
