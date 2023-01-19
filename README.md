@@ -32,7 +32,7 @@ This repo contains a list of languages that currently compile to or have their V
 :egg: [Forest](#forest)</br>
 :hatched_chick: [Forth](#forth)</br>
 :hatched_chick: [Go](#go)</br>
-:egg: [Grain](#grain)</br>
+:hatched_chick: [Grain](#grain)</br>
 :egg: [Haskell](#haskell)</br>
 :hatching_chick: [Java](#java)</br>
 :hatching_chick: [JavaScript](#javascript)</br>
