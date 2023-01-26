@@ -45,6 +45,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Lobster](#lobster)</br>
 :hatched_chick: [Lua](#lua)</br>
 :hatching_chick: [Lys](#lys)</br>
+:hatched_chick: [Nelua](#nelualua)</br>
 :hatched_chick: [Never](#never)</br>
 :egg: [Nim](#nim)</br>
 :egg: [Ocaml](#ocaml)</br>
@@ -335,6 +336,13 @@ This repo contains a list of languages that currently compile to or have their V
 > Lys is a typed functional language that compiles directly to WebAssembly.
 
 * [Lys](https://github.com/lys-lang/lys) - main repository.
+
+--------------------
+
+### <a name="nelua"></a>Nelua <sup>[top⇈](#contents)</sup>
+> Minimal, simple, efficient, statically typed, compiled, metaprogrammable, safe, and extensible systems programming language with a Lua flavor.
+* [Nelua](https://github.com/edubart/nelua-lang/) - project repository
+* [Nelua on the Web](https://github.com/edubart/nelua-lang/discussions/11) - Nelua-wasm discussion
 
 --------------------
 
