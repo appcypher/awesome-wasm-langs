@@ -6,6 +6,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 
 ## Contents
+
 - :hatched_chick: - Stable for production usage.
   - [.Net](#dotnet)
   - [AssemblyScript](#assemblyscript)
@@ -14,12 +15,15 @@ This repo contains a list of languages that currently compile to or have their V
   - [C#](#csharp)
   - [C++](#cpp)
   - [Clean](#clean)
+  - [Cyber](#cyber)
   - [COBOL](#cobol)
   - [F#](#fsharp)
   - [Forth](#forth)
   - [Go](#go)
+  - [Grain](#grain)
   - [Lobster](#lobster)
   - [Lua](#lua)
+  - [Nelua](#nelua)
   - [Never](#never)
   - [Rust](#rust)
   - [Rego](#rego)</br>
@@ -30,6 +34,7 @@ This repo contains a list of languages that currently compile to or have their V
   
 - :hatching_chick: - Unstable but usable.
   - [C4wa](#c4wa)
+  - [Crystal](#crystal)
   - [D](#d)
   - [Eclair](#eclair)
   - [Eel](#eel)
@@ -60,10 +65,8 @@ This repo contains a list of languages that currently compile to or have their V
   - ~[Astro](#astro)~ `Unmaintained`
   - [Ballerina](#ballerina)
   - [Co](#co)
-  - [Crystal](#crystal)
   - [Faust](#faust)
   - [Forest](#forest)
-  - [Grain](#grain)
   - [Haskell](#haskell)
   - [Julia](#julia)
   - [Kou](#kou)
@@ -74,7 +77,6 @@ This repo contains a list of languages that currently compile to or have their V
   - [Wase](#wase)
   - ~[Wracket](#wracket)~ `Unmaintained`
   - [xcc](#xcc)</br>
-
 
 --------------------
 
@@ -179,6 +181,12 @@ This repo contains a list of languages that currently compile to or have their V
     
 * [Crystal](https://github.com/crystal-lang/crystal) - main repository
 * [POC PR](https://github.com/crystal-lang/crystal/pull/10870) - PR adding initial support for WebAssembly
+
+--------------------
+
+### <a name="Cyber"></a>Cyber <sup>[top⇈](#contents)</sup>
+> Fast, efficient, and concurrent scripting. Dynamic and gradual types; Concurrency with fibers; Multithreaded; Memory safe; FFI and Embeddable.
+* [Cyber](https://github.com/fubark/cyber) - project repository
 
 --------------------
 
@@ -338,6 +346,13 @@ This repo contains a list of languages that currently compile to or have their V
 > Lys is a typed functional language that compiles directly to WebAssembly.
 
 * [Lys](https://github.com/lys-lang/lys) - main repository.
+
+--------------------
+
+### <a name="nelua"></a>Nelua <sup>[top⇈](#contents)</sup>
+> Minimal, simple, efficient, statically typed, compiled, metaprogrammable, safe, and extensible systems programming language with a Lua flavor.
+* [Nelua](https://github.com/edubart/nelua-lang/) - project repository
+* [Nelua on the Web](https://github.com/edubart/nelua-lang/discussions/11) - Nelua-wasm discussion
 
 --------------------
 
