@@ -22,20 +22,21 @@ This repo contains a list of languages that currently compile to or have their V
   - [Lua](#lua)
   - [Never](#never)
   - [Rust](#rust)
+  - [Rego](#rego)</br>
   - [TypeScript](#typescript)
   - ~[Wah](#wah)~ `Unmaintained`
   - [WebAssembly](#webassembly)
   - [Zig](#zig)</br>
   
 - :hatching_chick: - Unstable but usable.
+  - [C4wa](#c4wa)
   - [D](#d)
   - [Eclair](#eclair)
   - [Eel](#eel)
   - [Elixir](#elixir)
-  - [C4wa](#c4wa)
+  - ~[Idris](#idris)~ `Unmaintained`
   - [Java](#java)
   - [JavaScript](#javascript)
-  - ~[Idris](#idris)~ `Unmaintained`
   - [KCL](#kcl)
   - [Kotlin/Native](#kotlin)
   - [Lisp](#lisp)
@@ -413,6 +414,19 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="rego"></a>Rego <sup>[top⇈](#contents)</sup>
+
+> Open Policy Agent (OPA) is an open source, general-purpose policy engine that unifies policy enforcement across the stack. Rego is a high-level declarative policy language purpose-built for expressing policies over complex hierarchical data structures.
+
+* [OPA-Wasm](https://github.com/open-policy-agent/opa/tree/main/wasm) - Compilation and evaluation of Rego policies using Wasm.
+* [npm-opa-wasm](https://github.com/open-policy-agent/npm-opa-wasm) - NPM module providing an SDK for using Wasm compiled OPA policies.
+* [rust-opa-wasm](https://github.com/matrix-org/rust-opa-wasm) - A crate to use OPA policies compiled to Wasm.
+* [dotnet-opa-wasm](https://github.com/christophwille/dotnet-opa-wasm) - Call OPA policies in Wasm from C# .NET Core.
+* [python-opa-wasm](https://github.com/a2d24/python-opa-wasm) - OPA Wasm SDK for Python.
+* [java-opa-wasm](https://github.com/sangkeon/java-opa-wasm) - OPA Wasm SDK for Java.
+
+--------------------
+
 ### <a name="ruby"></a>Ruby <sup>[top⇈](#contents)</sup>
 > Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
 * [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
@@ -430,7 +444,6 @@ This repo contains a list of languages that currently compile to or have their V
 * [Wasm-Bindgen](https://github.com/rustwasm/wasm-bindgen) - A library and a CLI for Rust that facilitate high-level interactions between wasm modules and JavaScript.
 * [Woz](https://github.com/alexkehayias/woz) - Woz is a WebAssembly progressive web app (PWA) toolchain for building and deploying performant mobile apps with Rust. Distributing your app is as simple as sharing a hyperlink.
 
-
 --------------------
 
 ### <a name="scheme"></a>Scheme <sup>[top⇈](#contents)</sup>
@@ -439,14 +452,11 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
-
 ### <a name="scopes"></a>Scopes <sup>[top⇈](#contents)</sup>
 > Scopes is a general purpose programming language and compiler infrastructure specifically suited for short turnaround prototyping and development of high performance applications in need of multi-stage compilation at runtime.
 * [Scopes](https://hg.sr.ht/~duangle/scopes) - main repository
 
-
 --------------------
-
 
 ### <a name="speedyjs"></a>Speedy.js <sup>[top⇈](#contents)</sup>
 > Speedy.js is a compiler for a well considered, performance pitfalls free subset of JavaScript targeting WebAssembly. Because WebAssembly is statically-typed, the project uses TypeScript as type-checker and to resolve the types of the program symbols.
@@ -465,7 +475,6 @@ This repo contains a list of languages that currently compile to or have their V
 * [TurboScript](https://github.com/01alchemist/TurboScript) - main repository.
 
 --------------------
-
 
 ### <a name="typescript"></a>TypeScript <sup>[top⇈](#contents)</sup>
 > TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.
@@ -511,6 +520,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Yes, WebAssembly. `Wasm3` is the fastest WebAssembly interpreter, that enables WebAssembly self-hosting.
 * [Wasm3](https://github.com/wasm3/wasm3) - main repository.
 * [Wasm3 on WAPM](https://wapm.io/package/vshymanskyy/wasm3) - WAPM package.
+
 --------------------
 
 ### <a name="wracket"></a>Wracket <sup>[top⇈](#contents)</sup>
@@ -532,9 +542,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
-
 Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
-
 
 --------------------
 
