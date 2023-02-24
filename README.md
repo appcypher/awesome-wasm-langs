@@ -4,76 +4,79 @@ It is designed to be faster to parse than JavaScript, as well as faster to execu
 
 This repo contains a list of languages that currently compile to or have their VMs in WebAssembly(wasm)  :octocat:
 
-#### Legend
-:egg: - Work in progress.</br>
-:hatching_chick: - Unstable but usable.</br>
-:hatched_chick: - Stable for production usage.</br>
 
 ## Contents
-:hatched_chick: [.Net](#dotnet)</br>
-:hatched_chick: [AssemblyScript](#assemblyscript)</br>
-:egg: ~[Astro](#astro)~ `Unmaintained`</br>
-:egg: [Ballerina](#ballerina)</br>
-:hatched_chick: [Brainfuck](#brainfuck)</br>
-:hatched_chick: [C](#c)</br>
-:hatched_chick: [C#](#csharp)</br>
-:hatched_chick: [C++](#cpp)</br>
-:hatching_chick: [C4wa](#c4wa)</br>
-:hatched_chick: [Clean](#clean)</br>
-:egg: [Co](#co)</br>
-:hatched_chick: [COBOL](#cobol)</br>
-:egg: [Crystal](#crystal)</br>
-:hatched_chick: [Cyber](#cyber)</br>
-:hatching_chick: [D](#d)</br>
-:hatching_chick: [Eclair](#eclair)</br>
-:hatching_chick: [Eel](#eel)</br>
-:hatching_chick: [Elixir](#elixir)</br>
-:hatched_chick: [F#](#fsharp)</br>
-:egg: [Faust](#faust)</br>
-:egg: [Forest](#forest)</br>
-:hatched_chick: [Forth](#forth)</br>
-:hatched_chick: [Go](#go)</br>
-:egg: [Grain](#grain)</br>
-:egg: [Haskell](#haskell)</br>
-:hatching_chick: [Java](#java)</br>
-:hatching_chick: [JavaScript](#javascript)</br>
-:egg: [Julia](#julia)</br>
-:hatching_chick: ~[Idris](#idris)~ `Unmaintained`</br>
-:hatching_chick: [KCL](#kcl)</br>
-:hatching_chick: [Kotlin/Native](#kotlin)</br>
-:egg: [Kou](#kou)</br>
-:hatching_chick: [Lisp](#lisp)</br>
-:hatched_chick: [Lobster](#lobster)</br>
-:hatched_chick: [Lua](#lua)</br>
-:hatching_chick: [Lys](#lys)</br>
-:hatched_chick: [Nelua](#nelua)</br>
-:hatched_chick: [Never](#never)</br>
-:egg: [Nim](#nim)</br>
-:egg: [Ocaml](#ocaml)</br>
-:hatching_chick: [Pascal](#pascal)</br>
-:hatching_chick: [Perl](#perl)</br>
-:hatching_chick: [PHP](#php)</br>
-:egg: [Plorth](#plorth)</br>
-:hatching_chick: [Poetry](#poetry)</br>
-:hatching_chick: [Python](#python)</br>
-:hatching_chick: [Prolog](#prolog)</br>
-:hatching_chick: [Ruby](#ruby)</br>
-:hatched_chick: [Rust](#rust)</br>
-:hatching_chick: [Scheme](#scheme)</br>
-:hatching_chick: [Scopes](#scopes)</br>
-:hatching_chick: ~[Speedy.js](#speedyjs)~ `Unmaintained`</br>
-:hatching_chick: [Swift](#swift)</br>
-:hatching_chick: ~[Turboscript](#turboscript)~ `Unmaintained`</br>
-:hatched_chick: [TypeScript](#typescript)</br>
-:egg: [Wa](#wa)</br>
-:hatched_chick: ~[Wah](#wah)~ `Unmaintained`</br>
-:hatching_chick: ~[Walt](#walt)~ `Unmaintained`</br>
-:hatching_chick: ~[Wam](#wam)~ `Unmaintained`</br>
-:egg: [Wase](#wase)</br>
-:hatched_chick: [WebAssembly](#webassembly)</br>
-:egg: ~[Wracket](#wracket)~ `Unmaintained`</br>
-:egg: [xcc](#xcc)</br>
-:hatched_chick: [Zig](#zig)</br>
+
+- :hatched_chick: - Stable for production usage.
+  - [.Net](#dotnet)
+  - [AssemblyScript](#assemblyscript)
+  - [Brainfuck](#brainfuck)
+  - [C](#c)
+  - [C#](#csharp)
+  - [C++](#cpp)
+  - [Clean](#clean)
+  - [Cyber](#cyber)
+  - [COBOL](#cobol)
+  - [F#](#fsharp)
+  - [Forth](#forth)
+  - [Go](#go)
+  - [Grain](#grain)
+  - [Lobster](#lobster)
+  - [Lua](#lua)
+  - [Nelua](#nelua)
+  - [Never](#never)
+  - [Rust](#rust)
+  - [Rego](#rego)</br>
+  - [TypeScript](#typescript)
+  - ~[Wah](#wah)~ `Unmaintained`
+  - [WebAssembly](#webassembly)
+  - [Zig](#zig)</br>
+  
+- :hatching_chick: - Unstable but usable.
+  - [C4wa](#c4wa)
+  - [Crystal](#crystal)
+  - [D](#d)
+  - [Eclair](#eclair)
+  - [Eel](#eel)
+  - [Elixir](#elixir)
+  - ~[Idris](#idris)~ `Unmaintained`
+  - [Java](#java)
+  - [JavaScript](#javascript)
+  - [KCL](#kcl)
+  - [Kotlin/Native](#kotlin)
+  - [Lisp](#lisp)
+  - [Lys](#lys)
+  - [Pascal](#pascal)
+  - [Perl](#perl)
+  - [PHP](#php)
+  - [Poetry](#poetry)
+  - [Python](#python)
+  - [Prolog](#prolog)
+  - [Ruby](#ruby)</br>
+  - [Scheme](#scheme)
+  - [Scopes](#scopes)
+  - ~[Speedy.js](#speedyjs)~ `Unmaintained`
+  - [Swift](#swift)
+  - ~[Turboscript](#turboscript)~ `Unmaintained`
+  - ~[Walt](#walt)~ `Unmaintained`
+  - ~[Wam](#wam)~ `Unmaintained`
+  
+- :egg: - Work in progress.
+  - ~[Astro](#astro)~ `Unmaintained`
+  - [Ballerina](#ballerina)
+  - [Co](#co)
+  - [Faust](#faust)
+  - [Forest](#forest)
+  - [Haskell](#haskell)
+  - [Julia](#julia)
+  - [Kou](#kou)
+  - [Nim](#nim)
+  - [Ocaml](#ocaml)
+  - [Plorth](#plorth)
+  - [Wa](#wa)
+  - [Wase](#wase)
+  - ~[Wracket](#wracket)~ `Unmaintained`
+  - [xcc](#xcc)</br>
 
 --------------------
 
@@ -426,6 +429,19 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="rego"></a>Rego <sup>[top⇈](#contents)</sup>
+
+> Open Policy Agent (OPA) is an open source, general-purpose policy engine that unifies policy enforcement across the stack. Rego is a high-level declarative policy language purpose-built for expressing policies over complex hierarchical data structures.
+
+* [OPA-Wasm](https://github.com/open-policy-agent/opa/tree/main/wasm) - Compilation and evaluation of Rego policies using Wasm.
+* [npm-opa-wasm](https://github.com/open-policy-agent/npm-opa-wasm) - NPM module providing an SDK for using Wasm compiled OPA policies.
+* [rust-opa-wasm](https://github.com/matrix-org/rust-opa-wasm) - A crate to use OPA policies compiled to Wasm.
+* [dotnet-opa-wasm](https://github.com/christophwille/dotnet-opa-wasm) - Call OPA policies in Wasm from C# .NET Core.
+* [python-opa-wasm](https://github.com/a2d24/python-opa-wasm) - OPA Wasm SDK for Python.
+* [java-opa-wasm](https://github.com/sangkeon/java-opa-wasm) - OPA Wasm SDK for Java.
+
+--------------------
+
 ### <a name="ruby"></a>Ruby <sup>[top⇈](#contents)</sup>
 > Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
 * [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
@@ -443,7 +459,6 @@ This repo contains a list of languages that currently compile to or have their V
 * [Wasm-Bindgen](https://github.com/rustwasm/wasm-bindgen) - A library and a CLI for Rust that facilitate high-level interactions between wasm modules and JavaScript.
 * [Woz](https://github.com/alexkehayias/woz) - Woz is a WebAssembly progressive web app (PWA) toolchain for building and deploying performant mobile apps with Rust. Distributing your app is as simple as sharing a hyperlink.
 
-
 --------------------
 
 ### <a name="scheme"></a>Scheme <sup>[top⇈](#contents)</sup>
@@ -452,14 +467,11 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
-
 ### <a name="scopes"></a>Scopes <sup>[top⇈](#contents)</sup>
 > Scopes is a general purpose programming language and compiler infrastructure specifically suited for short turnaround prototyping and development of high performance applications in need of multi-stage compilation at runtime.
 * [Scopes](https://hg.sr.ht/~duangle/scopes) - main repository
 
-
 --------------------
-
 
 ### <a name="speedyjs"></a>Speedy.js <sup>[top⇈](#contents)</sup>
 > Speedy.js is a compiler for a well considered, performance pitfalls free subset of JavaScript targeting WebAssembly. Because WebAssembly is statically-typed, the project uses TypeScript as type-checker and to resolve the types of the program symbols.
@@ -478,7 +490,6 @@ This repo contains a list of languages that currently compile to or have their V
 * [TurboScript](https://github.com/01alchemist/TurboScript) - main repository.
 
 --------------------
-
 
 ### <a name="typescript"></a>TypeScript <sup>[top⇈](#contents)</sup>
 > TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.
@@ -524,6 +535,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Yes, WebAssembly. `Wasm3` is the fastest WebAssembly interpreter, that enables WebAssembly self-hosting.
 * [Wasm3](https://github.com/wasm3/wasm3) - main repository.
 * [Wasm3 on WAPM](https://wapm.io/package/vshymanskyy/wasm3) - WAPM package.
+
 --------------------
 
 ### <a name="wracket"></a>Wracket <sup>[top⇈](#contents)</sup>
@@ -545,9 +557,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
-
 Please read the [contribution guidelines](CONTRIBUTING.md) if you want to contribute.
-
 
 --------------------
 
