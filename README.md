@@ -23,6 +23,7 @@ This repo contains a list of languages that currently compile to or have their V
 :egg: [Co](#co)</br>
 :hatched_chick: [COBOL](#cobol)</br>
 :egg: [Crystal](#crystal)</br>
+:hatched_chick: [Cyber](#cyber)</br>
 :hatching_chick: [D](#d)</br>
 :hatching_chick: [Eclair](#eclair)</br>
 :hatching_chick: [Eel](#eel)</br>
@@ -45,7 +46,7 @@ This repo contains a list of languages that currently compile to or have their V
 :hatched_chick: [Lobster](#lobster)</br>
 :hatched_chick: [Lua](#lua)</br>
 :hatching_chick: [Lys](#lys)</br>
-:hatched_chick: [Nelua](#nelualua)</br>
+:hatched_chick: [Nelua](#nelua)</br>
 :hatched_chick: [Never](#never)</br>
 :egg: [Nim](#nim)</br>
 :egg: [Ocaml](#ocaml)</br>
@@ -177,6 +178,12 @@ This repo contains a list of languages that currently compile to or have their V
     
 * [Crystal](https://github.com/crystal-lang/crystal) - main repository
 * [POC PR](https://github.com/crystal-lang/crystal/pull/10870) - PR adding initial support for WebAssembly
+
+--------------------
+
+### <a name="Cyber"></a>Cyber <sup>[top⇈](#contents)</sup>
+> Fast, efficient, and concurrent scripting. Dynamic and gradual types; Concurrency with fibers; Multithreaded; Memory safe; FFI and Embeddable.
+* [Cyber](https://github.com/fubark/cyber) - project repository
 
 --------------------
 
