@@ -185,7 +185,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
-### <a name="Cyber"></a>Cyber <sup>[top⇈](#contents)</sup>
+### <a name="cyber"></a>Cyber <sup>[top⇈](#contents)</sup>
 > Fast, efficient, and concurrent scripting. Dynamic and gradual types; Concurrency with fibers; Multithreaded; Memory safe; FFI and Embeddable.
 * [Cyber](https://github.com/fubark/cyber) - project repository
 
