@@ -52,12 +52,14 @@ This repo contains a list of languages that currently compile to or have their V
   - [Poetry](#poetry)
   - [Python](#python)
   - [Prolog](#prolog)
+  - [R](#r)
   - [Ruby](#ruby)</br>
   - [Scheme](#scheme)
   - [Scopes](#scopes)
   - ~[Speedy.js](#speedyjs)~ `Unmaintained`
   - [Swift](#swift)
   - ~[Turboscript](#turboscript)~ `Unmaintained`
+  - [V](#v)
   - ~[Walt](#walt)~ `Unmaintained`
   - ~[Wam](#wam)~ `Unmaintained`
   
@@ -427,6 +429,8 @@ This repo contains a list of languages that currently compile to or have their V
 * [Pyodide](https://github.com/iodide-project/pyodide) - a port of Python to WebAssembly that includes the core packages of the scientific Python stack (Numpy, Pandas, matplotlib).  Objects transparently convert and share between Python and Javascript.
 * [MicroPython](https://github.com/micropython/micropython/tree/master/ports/webassembly) - a lean and efficient Python implementation for microcontrollers and constrained systems.
 * [RustPython](https://github.com/RustPython/RustPython) - A Python 3 interpreter written in Rust. Check the demo [here](https://rustpython.github.io/demo/)
+* [RPython](https://github.com/soIu/rpython) - A RPython (PyPy's Restricted Python) to WebAssembly compiler
+* [TPython](https://github.com/soIu/tpython) - Pythonic++ (a "dialect" of C++) to WebAssembly compiler
 
 --------------------
 
@@ -435,6 +439,14 @@ This repo contains a list of languages that currently compile to or have their V
 > Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
 * [SWI-Prolog port to WebAssembly](https://github.com/SWI-Prolog/swipl-wasm) - a port of SWI-Prolog to WebAssembly. SWI-Prolog is a free implementation of the programming language Prolog commonly used for teaching and semantic web applications.
 * [Ciao Prolog](https://github.com/ciao-lang/ciao) - includes a WebAssembly compilation target based on Emscripten. Ciao Prolog is a modern Prolog implementation designed to be portable, extensible and modular. Check the playground [here](https://ciao-lang.org/playground).
+
+--------------------
+
+### <a name="r"></a>R <sup>[top⇈](#contents)</sup>
+
+> R is a language and environment for statistical computing and graphics.
+
+* [WebR](https://github.com/georgestagg/webR) - R in the Browser. You can try it out [here](https://webr.r-wasm.org/latest/)
 
 --------------------
 
@@ -456,6 +468,9 @@ This repo contains a list of languages that currently compile to or have their V
 * [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
 * [run.rb](https://github.com/jasoncharnes/run.rb) run.rb - allows you to run Ruby code in the browser
 * [Artichoke](https://github.com/artichoke/artichoke/blob/f8e9881403a50c3ba7e2b1ffc16f205c0b5e0255/VISION.md#design-and-goals) - a Ruby implementation written in Rust and Ruby. You can try it out here: https://artichoke.run
+* [ruby.wasm](https://github.com/ruby/ruby.wasm/) - a collection of "official" WebAssembly ports of the CRuby. You can
+  try it out [here](https://try.ruby-lang.org/playground/#code=puts+RUBY_DESCRIPTION&engine=cruby-3.2.0)
+* [rlang](https://github.com/ljulliar/rlang) Rlang - a (subset of) Ruby to WebAssembly compiler
 
 --------------------
 
@@ -503,6 +518,14 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="typescript"></a>TypeScript <sup>[top⇈](#contents)</sup>
 > TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language.
 * See [AssemblyScript](#assemblyscript)
+
+--------------------
+
+### <a name="v"></a>V <sup>[top⇈](#contents)</sup>
+
+> V is a statically typed compiled programming language designed for building maintainable software.
+
+* [V](https://github.com/vlang/v) - main repository. You can try it out [here](https://play.vlang.io/)
 
 --------------------
 
