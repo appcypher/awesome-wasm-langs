@@ -43,7 +43,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Java](#java)
   - [JavaScript](#javascript)
   - [KCL](#kcl)
-  - [Kotlin/Native](#kotlin)
+  - [Kotlin/Wasm](#kotlin)
   - [Lisp](#lisp)
   - [Lys](#lys)
   - [Pascal](#pascal)
@@ -315,8 +315,13 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 ### <a name="kotlin"></a>Kotlin <sup>[top⇈](#contents)</sup>
-> Kotlin is a statically-typed programming language that runs on the Java virtual machine and also can be compiled to JavaScript source code or use the LLVM compiler infrastructure. Its primary development is from a team of JetBrains programmers based in Saint Petersburg, Russia. While the syntax is not compatible with Java, Kotlin is designed to interoperate with Java code and is reliant on Java code from the existing Java Class Library, such as the collections framework.
-* [Kotlin/Native](https://github.com/JetBrains/kotlin-native/) - main repository.
+> Kotlin is a modern but already mature programming language aimed to make developers happier. It's concise, safe, interoperable with Java and other languages, and provides many ways to reuse code between multiple platforms for productive programming.
+> 
+> Kotlin/Wasm is the new target and toolchain in the Kotlin family. It has a few special properties:
+> - It compiles to Wasm directly without any additional layers, to compile as fast as possible, including incrementally in the future.
+> - It uses experimental/fresh proposals like GC, Typed Function References, Exception Handling, and Stringref.
+* [Kotlin/Wasm (Kotlin WebAssembly)](https://kotl.in/wasm)
+* [Kotlin/Wasm examples](https://github.com/Kotlin/kotlin-wasm-examples)
 
 --------------------
 
