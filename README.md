@@ -22,6 +22,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Go](#go)
   - [Grain](#grain)
   - [Lobster](#lobster)
+  - [Lox](#lox)
   - [Lua](#lua)
   - [Nelua](#nelua)
   - [Never](#never)
@@ -347,6 +348,12 @@ This repo contains a list of languages that currently compile to or have their V
 * [Lobster github](https://github.com/aardappel/lobster)
 * [Compile to Wasm](http://aardappel.github.io/lobster/implementation.html) - how to compile.
 * [Wasm backend details](http://aardappel.github.io/lobster/implementation_wasm.html) - how it is implemented, useful for other language implementors.
+
+--------------------
+
+### <a name="lox"></a>Lox <sup>[top⇈](#contents)</sup>
+> Lox is a language created by Bob Nystrom, used to teach compilers in the book Crafting Interpreters. It is dynamically typed, and supports classes, closures, and first-class functions.
+* [loxcraft](https://github.com/ajeetdsouza/loxcraft) uses WebAssembly for its [online playground](https://ajeetdsouza.github.io/loxcraft/).
 
 --------------------
 
