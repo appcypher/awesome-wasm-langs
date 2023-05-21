@@ -361,7 +361,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Lua is a lightweight, multi-paradigm programming language designed primarily for embedded systems and clients.[2] Lua is cross-platform, since the interpreter is written in ANSI C, and has a relatively simple C API.
 > Lua was originally designed in 1993 as a language for extending software applications to meet the increasing demand for customization at the time.
 * [WasmLua](https://github.com/vvanders/wasm_lua) - a Lua VM running in the browser.
-* [Luwa](https://github.com/serprex/luwa) - a wasm-to-Lua JIT compiler.
+* [Luwa](https://github.com/serprex/luwa) - a Lua-to-wasm JIT compiler.
 * [Wasmoon](https://github.com/ceifa/wasmoon) - a high level Lua VM with JS bindings.
 * [Wasm2Lua](https://github.com/SwadicalRag/wasm2lua) - can compile WebAssembly modules to pure Lua (or with FFI LuaJIT for extra speed).
 
