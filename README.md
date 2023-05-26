@@ -34,6 +34,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Zig](#zig)</br>
   
 - :hatching_chick: - Unstable but usable.
+  - [Ada](#ada) 
   - [C4wa](#c4wa)
   - [Crystal](#crystal)
   - [D](#d)
@@ -61,6 +62,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Swift](#swift)
   - ~[Turboscript](#turboscript)~ `Unmaintained`
   - [V](#v)
+  - [Virgil](#virgil)
   - ~[Walt](#walt)~ `Unmaintained`
   - ~[Wam](#wam)~ `Unmaintained`
   
@@ -90,6 +92,12 @@ This repo contains a list of languages that currently compile to or have their V
 * [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor) - a web UI framework using C#/Razor and HTML, running client-side via WebAssembly. Source is maintained on [ASP.Net Core](https://github.com/dotnet/aspnetcore) repo.
 * [Bolero](https://fsbolero.io/) - Bolero brings Blazor to F# developers with an easy to use Model-View-Update architecture, HTML combinators, hot reloaded templates, type-safe endpoints, advanced routing and remoting capabilities, and more.
 * [NativeAOT-LLVM](https://github.com/dotnet/runtimelab/tree/feature/NativeAOT-LLVM) - an experimental fork of the CoreCLR .NET runtime that compiles .NET applications into single-file executables, with the primary target being WASM
+
+--------------------
+
+### <a name="ada"></a>Ada <sup>[top⇈](#contents)</sup>
+> Ada is a mature, readable, correct, and performant programming language used in applications where safety, security, and reliability are critical.
+* [AdaWebPack](https://github.com/godunko/adawebpack/) - Ada WASM Runtime and Bindings for Web API.
 
 --------------------
 
@@ -291,6 +299,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [JWebAssembly](https://github.com/i-net-software/JWebAssembly) - A Java bytecode to WebAssembly compiler. It can generate the WebAssembly binary or text format. It is written in Java itself and can be integrated with other Java build tools.
 * [Bytecoder](https://github.com/mirkosertic/Bytecoder) - A Rich Domain Model for Java Bytecode and Framework to interpret and transpile it to other languages such as JavaScript, OpenCL or WebAssembly.
 * [CheerpJ](https://github.com/leaningtech/cheerpj-meta) - A Java compiler for the web that converts any Java client application into standard HTML5/WebAssembly/JavaScript.
+* [Rise JVM](https://github.com/AmazingRise/rise-jvm) - Rise JVM is a minimal Java VM based on WASM. You can try it out [here](https://risehere.net/rise-jvm).
 
 --------------------
 
@@ -337,6 +346,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="lisp"></a>Lisp <sup>[top⇈](#contents)</sup>
 > Lisp (historically LISP) is a family of programming languages with a long history and a distinctive, fully parenthesized prefix notation.
 * [Femto Emacs](https://github.com/FemtoEmacs/wasCm) - translates Low Level Lisp into WebAssembly.
+* [Wisp](https://github.com/mbrock/wisp) - Wisp is a Lisp system for WebAssembly and native execution.
 
 --------------------
 
@@ -502,6 +512,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="scheme"></a>Scheme <sup>[top⇈](#contents)</sup>
 > Scheme is a programming language that supports multiple paradigms, including functional programming and imperative programming, and is one of the two main dialects of Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension..
 * [Schism](https://github.com/schism-lang/schism) - Schism is an experimental self-hosting compiler from a subset of R6RS Scheme to WebAssembly. Development so far has focused on features necessary for self-hosting. The compiler itself is written in, and compiles, a very small subset of Scheme.
+* [scheme.wasm](https://github.com/pollrobots/scheme) - An R7RS Scheme implemented in WebAssembly. You can try it out [here](https://pollrobots.com/scheme/).
 
 --------------------
 
@@ -540,6 +551,14 @@ This repo contains a list of languages that currently compile to or have their V
 > V is a statically typed compiled programming language designed for building maintainable software.
 
 * [V](https://github.com/vlang/v) - main repository. You can try it out [here](https://play.vlang.io/)
+
+--------------------
+
+### <a name="virgil"></a>Virgil <sup>[top⇈](#contents)</sup>
+
+> A fast and lightweight safe, garbage-collected systems programming language. Its compiler produces optimized, standalone native executables, WebAssembly modules, or JARs for the JVM.
+
+* [Virgil](https://github.com/titzer/virgil) - main repository.
 
 --------------------
 
