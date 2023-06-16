@@ -456,6 +456,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [RustPython](https://github.com/RustPython/RustPython) - A Python 3 interpreter written in Rust. Check the demo [here](https://rustpython.github.io/demo/)
 * [RPython](https://github.com/soIu/rpython) - A RPython (PyPy's Restricted Python) to WebAssembly compiler
 * [TPython](https://github.com/soIu/tpython) - Pythonic++ (a "dialect" of C++) to WebAssembly compiler
+* [micropython-wasm](https://github.com/rafi16jan/micropython-wasm) - MicroPython build which features wide JS interop, e.g. waiting for JS promises.
 
 --------------------
 
@@ -496,6 +497,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [ruby.wasm](https://github.com/ruby/ruby.wasm/) - a collection of "official" WebAssembly ports of the CRuby. You can
   try it out [here](https://try.ruby-lang.org/playground/#code=puts+RUBY_DESCRIPTION&engine=cruby-3.2.0)
 * [rlang](https://github.com/ljulliar/rlang) Rlang - a (subset of) Ruby to WebAssembly compiler
+* [cry-wasm](https://github.com/kojix2/cry-wasm) - speeds up Ruby code using Crystal. By applying simple type restrictions to Ruby code, convert it to Crystal code, compile it to WebAssembly, and call it with Wasmer or Wasmtime. 
 
 --------------------
 
