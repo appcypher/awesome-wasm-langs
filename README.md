@@ -126,7 +126,7 @@ This repo contains a list of languages that currently compile to or have their V
 > C is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations.
 > C was originally developed by Dennis Ritchie between 1969 and 1973 at Bell Labs,[6] and used to re-implement the Unix operating system.
 * [Emscripten](https://github.com/kripken/emscripten) - an LLVM-to-JavaScript/Webassembly compiler. It takes LLVM bitcode - which can be generated from C/C++, using llvm-gcc (DragonEgg) or clang, or any other language that can be converted into LLVM - and compiles that into JavaScript or wasm.
-* [Cheerp](https://github.com/leaningtech/cheerp-meta) - an open-source, commercial C/C++ compiler for Web applications. It can compile virtually any C/C++ code (up to C++14) to WebAssembly, JavaScript, asm.js or a combination thereof.
+* [Cheerp](https://github.com/leaningtech/cheerp-meta) - an open-source, enterprise-grade C/C++ compiler for Web applications. Cheerp can compile virtually any C/C++ code to WebAssembly and/or JavaScript.
 
 --------------------
 
