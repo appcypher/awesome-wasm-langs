@@ -98,6 +98,8 @@ This repo contains a list of languages that currently compile to or have their V
 > Ada is a structured, statically typed, imperative, and object-oriented high-level programming language, inspired by Pascal and other languages. It has built-in language support for design by contract (DbC), extremely strong typing, explicit concurrency, tasks, synchronous message passing, protected objects, and non-determinism. Ada improves code safety and maintainability by using the compiler to find errors in favor of runtime errors.
 * [adawebpack](https://github.com/godunko/adawebpack) - GNAT-LLVM compiler for WebAssembly target, GNAT Run Time Library and AdaWebPack bindings for Web API.
 * [adagl](https://github.com/godunko/adagl) - Multiplatform Ada/OpenGL bindings (ported to native/OpenGL, A2JS/WebGL and WASM/WebGL).
+* [adawebui](https://github.com/godunko/adawebui) - GUI based on adawebpack.
+
 --------------------
 
 ### <a name="assemblyscript"></a>AssemblyScript <sup>[top⇈](#contents)</sup>
