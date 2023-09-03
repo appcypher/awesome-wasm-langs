@@ -7,29 +7,30 @@ This repo contains a list of languages that currently compile to or have their V
 
 ## Contents
 
+- :chicken: - In Production.
+  - [C](#c)
+  - [C++](#cpp)
+  - [Rust](#rust)
+  - [Go](#go)
+  
 - :hatched_chick: - Stable for production usage.
   - [.Net](#dotnet)
   - [AssemblyScript](#assemblyscript)
   - [Brainfuck](#brainfuck)
-  - [C](#c)
   - [C#](#csharp)
-  - [C++](#cpp)
   - [Clean](#clean)
   - [Cyber](#cyber)
   - [COBOL](#cobol)
   - [F#](#fsharp)
   - [Forth](#forth)
-  - [Go](#go)
   - [Grain](#grain)
   - [Lobster](#lobster)
   - [Lox](#lox)
   - [Lua](#lua)
   - [Nelua](#nelua)
   - [Never](#never)
-  - [Rust](#rust)
   - [Rego](#rego)</br>
   - [TypeScript](#typescript)
-  - ~[Wah](#wah)~ `Unmaintained`
   - [WebAssembly](#webassembly)
   - [Zig](#zig)</br>
   
@@ -41,7 +42,6 @@ This repo contains a list of languages that currently compile to or have their V
   - [Eclair](#eclair)
   - [Eel](#eel)
   - [Elixir](#elixir)
-  - ~[Idris](#idris)~ `Unmaintained`
   - [Java](#java)
   - [JavaScript](#javascript)
   - [KCL](#kcl)
@@ -58,17 +58,12 @@ This repo contains a list of languages that currently compile to or have their V
   - [Ruby](#ruby)</br>
   - [Scheme](#scheme)
   - [Scopes](#scopes)
-  - ~[Speedy.js](#speedyjs)~ `Unmaintained`
   - [Swift](#swift)
   - [Tcl](#tcl)
-  - ~[Turboscript](#turboscript)~ `Unmaintained`
   - [V](#v)
   - [Virgil](#virgil)
-  - ~[Walt](#walt)~ `Unmaintained`
-  - ~[Wam](#wam)~ `Unmaintained`
   
 - :egg: - Work in progress.
-  - ~[Astro](#astro)~ `Unmaintained`
   - [Ballerina](#ballerina)
   - [Co](#co)
   - [Dart](#dart)
@@ -82,8 +77,18 @@ This repo contains a list of languages that currently compile to or have their V
   - [Plorth](#plorth)
   - [Wa](#wa)
   - [Wase](#wase)
-  - ~[Wracket](#wracket)~ `Unmaintained`
   - [xcc](#xcc)</br>
+
+- :skull_and_crossbones: - Unmaintained or Deprecated
+  - ~[Astro](#astro)~ `Unmaintained`
+  - ~[Idris](#idris)~ `Unmaintained`
+  - ~[Speedy.js](#speedyjs)~ `Unmaintained`
+  - ~[Turboscript](#turboscript)~ `Unmaintained`
+  - ~[Wah](#wah)~ `Unmaintained`
+  - ~[Walt](#walt)~ `Unmaintained`
+  - ~[Wam](#wam)~ `Unmaintained`
+  - ~[Wracket](#wracket)~ `Unmaintained`
+  
 
 --------------------
 
