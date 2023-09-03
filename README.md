@@ -60,8 +60,10 @@ This repo contains a list of languages that currently compile to or have their V
   - [Scopes](#scopes)
   - ~[Speedy.js](#speedyjs)~ `Unmaintained`
   - [Swift](#swift)
+  - [Tcl](#tcl)
   - ~[Turboscript](#turboscript)~ `Unmaintained`
   - [V](#v)
+  - [Virgil](#virgil)
   - ~[Walt](#walt)~ `Unmaintained`
   - ~[Wam](#wam)~ `Unmaintained`
   
@@ -98,7 +100,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Ada is a structured, statically typed, imperative, and object-oriented high-level programming language, inspired by Pascal and other languages. It has built-in language support for design by contract (DbC), extremely strong typing, explicit concurrency, tasks, synchronous message passing, protected objects, and non-determinism. Ada improves code safety and maintainability by using the compiler to find errors in favor of runtime errors.
 * [adawebpack](https://github.com/godunko/adawebpack) - GNAT-LLVM compiler for WebAssembly target, GNAT Run Time Library and AdaWebPack bindings for Web API.
 * [adagl](https://github.com/godunko/adagl) - Multiplatform Ada/OpenGL bindings (ported to native/OpenGL, A2JS/WebGL and WASM/WebGL).
-* [adawebui](https://github.com/godunko/adawebui) - GUI based on adawebpack.
+* [adawebui](https://github.com/godunko/adawebui) - GUI based on adawebpack.\
 
 --------------------
 
@@ -135,7 +137,7 @@ This repo contains a list of languages that currently compile to or have their V
 > C is a general-purpose, imperative computer programming language, supporting structured programming, lexical variable scope and recursion, while a static type system prevents many unintended operations.
 > C was originally developed by Dennis Ritchie between 1969 and 1973 at Bell Labs,[6] and used to re-implement the Unix operating system.
 * [Emscripten](https://github.com/kripken/emscripten) - an LLVM-to-JavaScript/Webassembly compiler. It takes LLVM bitcode - which can be generated from C/C++, using llvm-gcc (DragonEgg) or clang, or any other language that can be converted into LLVM - and compiles that into JavaScript or wasm.
-* [Cheerp](https://github.com/leaningtech/cheerp-meta) - an open-source, commercial C/C++ compiler for Web applications. It can compile virtually any C/C++ code (up to C++14) to WebAssembly, JavaScript, asm.js or a combination thereof.
+* [Cheerp](https://github.com/leaningtech/cheerp-meta) - an open-source, enterprise-grade C/C++ compiler for Web applications. Cheerp can compile virtually any C/C++ code to WebAssembly and/or JavaScript.
 
 --------------------
 
@@ -300,13 +302,14 @@ This repo contains a list of languages that currently compile to or have their V
 * [JWebAssembly](https://github.com/i-net-software/JWebAssembly) - A Java bytecode to WebAssembly compiler. It can generate the WebAssembly binary or text format. It is written in Java itself and can be integrated with other Java build tools.
 * [Bytecoder](https://github.com/mirkosertic/Bytecoder) - A Rich Domain Model for Java Bytecode and Framework to interpret and transpile it to other languages such as JavaScript, OpenCL or WebAssembly.
 * [CheerpJ](https://github.com/leaningtech/cheerpj-meta) - A Java compiler for the web that converts any Java client application into standard HTML5/WebAssembly/JavaScript.
+* [Rise JVM](https://github.com/AmazingRise/rise-jvm) - Rise JVM is a minimal Java VM based on WASM. You can try it out [here](https://risehere.net/rise-jvm).
 
 --------------------
 
 ### <a name="javascript"></a>JavaScript <sup>[top⇈](#contents)</sup>
 > JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It is a language that is also characterized as dynamic, weakly typed, prototype-based and multi-paradigm.
 * [Duktape](https://github.com/svaarala/duktape) - an embeddable Javascript engine, with a focus on portability and compact footprint that's capable of being run in the browser via WebAssembly.
-* [Javy](https://github.com/shopify/javy) - a JavaScript to WebAssembly toolchain, capable of generating WASI-compatible modules from JS by embedding the QuickJS engine.
+* [Javy](https://github.com/bytecodealliance/javy) - a JavaScript to WebAssembly toolchain, capable of generating WASI-compatible modules from JS by embedding the QuickJS engine.
 * [SpiderMonkey](https://github.com/bytecodealliance/spidermonkey-wasm-rs) - experimental Rust bindings and generic builtins for SpiderMonkey for building WASI-compatible modules from JavaScript.
 * [quickjs-emscripten](https://github.com/justjake/quickjs-emscripten) - Safely execute untrusted Javascript in your JS/TS, and execute synchronous code that uses async functions.
 * [wasmedge-quickjs](https://github.com/second-state/wasmedge-quickjs) - A high-performance, secure, extensible, and OCI-complaint JavaScript runtime for WasmEdge.  Features TCP/UDP support via WasmEdge Sockets.
@@ -346,6 +349,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="lisp"></a>Lisp <sup>[top⇈](#contents)</sup>
 > Lisp (historically LISP) is a family of programming languages with a long history and a distinctive, fully parenthesized prefix notation.
 * [Femto Emacs](https://github.com/FemtoEmacs/wasCm) - translates Low Level Lisp into WebAssembly.
+* [Wisp](https://github.com/mbrock/wisp) - Wisp is a Lisp system for WebAssembly and native execution.
 
 --------------------
 
@@ -370,7 +374,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Lua is a lightweight, multi-paradigm programming language designed primarily for embedded systems and clients.[2] Lua is cross-platform, since the interpreter is written in ANSI C, and has a relatively simple C API.
 > Lua was originally designed in 1993 as a language for extending software applications to meet the increasing demand for customization at the time.
 * [WasmLua](https://github.com/vvanders/wasm_lua) - a Lua VM running in the browser.
-* [Luwa](https://github.com/serprex/luwa) - a wasm-to-Lua JIT compiler.
+* [Luwa](https://github.com/serprex/luwa) - a Lua-to-wasm JIT compiler.
 * [Wasmoon](https://github.com/ceifa/wasmoon) - a high level Lua VM with JS bindings.
 * [Wasm2Lua](https://github.com/SwadicalRag/wasm2lua) - can compile WebAssembly modules to pure Lua (or with FFI LuaJIT for extra speed).
 
@@ -454,6 +458,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [RustPython](https://github.com/RustPython/RustPython) - A Python 3 interpreter written in Rust. Check the demo [here](https://rustpython.github.io/demo/)
 * [RPython](https://github.com/soIu/rpython) - A RPython (PyPy's Restricted Python) to WebAssembly compiler
 * [TPython](https://github.com/soIu/tpython) - Pythonic++ (a "dialect" of C++) to WebAssembly compiler
+* [micropython-wasm](https://github.com/rafi16jan/micropython-wasm) - MicroPython build which features wide JS interop, e.g. waiting for JS promises.
 
 --------------------
 
@@ -494,6 +499,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [ruby.wasm](https://github.com/ruby/ruby.wasm/) - a collection of "official" WebAssembly ports of the CRuby. You can
   try it out [here](https://try.ruby-lang.org/playground/#code=puts+RUBY_DESCRIPTION&engine=cruby-3.2.0)
 * [rlang](https://github.com/ljulliar/rlang) Rlang - a (subset of) Ruby to WebAssembly compiler
+* [cry-wasm](https://github.com/kojix2/cry-wasm) - speeds up Ruby code using Crystal. By applying simple type restrictions to Ruby code, convert it to Crystal code, compile it to WebAssembly, and call it with Wasmer or Wasmtime. 
 
 --------------------
 
@@ -511,6 +517,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="scheme"></a>Scheme <sup>[top⇈](#contents)</sup>
 > Scheme is a programming language that supports multiple paradigms, including functional programming and imperative programming, and is one of the two main dialects of Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension..
 * [Schism](https://github.com/schism-lang/schism) - Schism is an experimental self-hosting compiler from a subset of R6RS Scheme to WebAssembly. Development so far has focused on features necessary for self-hosting. The compiler itself is written in, and compiles, a very small subset of Scheme.
+* [scheme.wasm](https://github.com/pollrobots/scheme) - An R7RS Scheme implemented in WebAssembly. You can try it out [here](https://pollrobots.com/scheme/).
 
 --------------------
 
@@ -532,6 +539,12 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="tcl"></a>Tcl <sup>[top⇈](#contents)</sup>
+> Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, mature but evolving, highly extensible and suitable for a very wide range of uses.
+* [Wacl](https://github.com/ecky-l/wacl) - A Tcl distibution for WebAssembly or Javascript. Features JS/DOM bindings. You can try it out [here](https://ecky-l.github.io/wacl/).
+
+--------------------
+
 ### <a name="turboscript"></a>TurboScript <sup>[top⇈](#contents)</sup>
 > TurboScript is an experimental programming language for parallel programming for web which compiles to JavaScript (asm.js) and WebAssembly (targeting post-MVP). The syntax is similar to TypeScript and the compiler is open source and written in TypeScript. TurboScript has zero dependencies.
 * [TurboScript](https://github.com/01alchemist/TurboScript) - main repository.
@@ -549,6 +562,14 @@ This repo contains a list of languages that currently compile to or have their V
 > V is a statically typed compiled programming language designed for building maintainable software.
 
 * [V](https://github.com/vlang/v) - main repository. You can try it out [here](https://play.vlang.io/)
+
+--------------------
+
+### <a name="virgil"></a>Virgil <sup>[top⇈](#contents)</sup>
+
+> A fast and lightweight safe, garbage-collected systems programming language. Its compiler produces optimized, standalone native executables, WebAssembly modules, or JARs for the JVM.
+
+* [Virgil](https://github.com/titzer/virgil) - main repository.
 
 --------------------
 
