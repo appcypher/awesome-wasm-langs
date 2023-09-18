@@ -62,6 +62,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Tcl](#tcl)
   - [V](#v)
   - [Virgil](#virgil)
+  - [Yacc/Lex](#yacclex)
   
 - :egg: - Work in progress.
   - [Ballerina](#ballerina)
@@ -575,6 +576,15 @@ This repo contains a list of languages that currently compile to or have their V
 > A fast and lightweight safe, garbage-collected systems programming language. Its compiler produces optimized, standalone native executables, WebAssembly modules, or JARs for the JVM.
 
 * [Virgil](https://github.com/titzer/virgil) - main repository.
+
+--------------------
+
+### <a name="yacclex"></a>Yacc/Lex <sup>[top⇈](#contents)</sup>
+
+> An online Yacc/Lex editor/tester with several examples, select one example from `Examples` then click `Parse` to see a parser tree of the souce in the `Input source` editor.
+
+* [Yacc/Lex](https://github.com/mingodad/parsertl-playground) - main repository.
+* [Yacc/Lex online playground](https://github.com/mingodad/parsertl-playground) - online playground.
 
 --------------------
 
