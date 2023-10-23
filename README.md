@@ -62,6 +62,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Tcl](#tcl)
   - [V](#v)
   - [Virgil](#virgil)
+  - [Yacc/Lex](#yaccLex)
   
 - :egg: - Work in progress.
   - [Ballerina](#ballerina)
@@ -629,6 +630,13 @@ This repo contains a list of languages that currently compile to or have their V
 > Toy C compiler for x86-64 and wasm
 * [xcc](https://github.com/tyfkda/xcc) - main repository.
 * [Online demo](https://tyfkda.github.io/xcc/).
+
+--------------------
+
+### <a name="yaccLex"></a>Yacc/Lex <sup>[top⇈](#contents)</sup>
+> Yacc/Lex compatible online editor/tester with several non trivial examples
+* [Yacc/Lex](https://github.com/mingodad/parsertl-playground) - main repository.
+* [Online demo](https://mingodad.github.io/parsertl-playground/playground/).
 
 --------------------
 
