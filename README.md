@@ -36,6 +36,7 @@ This repo contains a list of languages that currently compile to or have their V
   
 - :hatching_chick: - Unstable but usable.
   - [Ada](#ada)
+  - [BASIC](#basic)
   - [C4wa](#c4wa)
   - [Crystal](#crystal)
   - [D](#d)
@@ -62,6 +63,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Tcl](#tcl)
   - [V](#v)
   - [Virgil](#virgil)
+  - [Wonkey](#wonkey)
   
 - :egg: - Work in progress.
   - [Ballerina](#ballerina)
@@ -72,6 +74,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Haskell](#haskell)
   - [Julia](#julia)
   - [Kou](#kou)
+  - [Nerd](#nerd)
   - [Nim](#nim)
   - [Ocaml](#ocaml)
   - [Plorth](#plorth)
@@ -125,6 +128,16 @@ This repo contains a list of languages that currently compile to or have their V
 > Ballerina is an open-source programming language for the cloud that makes it easier to use, combine, and create network services.
 > The WebAssembly compiler is implemented for the native Ballerina compiler [nBallerina](https://github.com/ballerina-platform/nballerina).
 * [Main repository](https://github.com/ballerina-platform/nballerina/tree/wasm) - Ballerina-to-wasm compiler 
+
+--------------------
+
+### <a name="basic"></a>BASIC <sup>[top⇈](#contents)</sup>
+> BASIC (acronym for "Beginners' All-purpose Symbolic Instruction Code") is an early general-purpose and high-level programming language. It's still one of the simplest and easy to learn languages. 
+
+* [basic_rs](https://github.com/yiransheng/basic_rs) - a BASIC Interpreter/Compiler for the Original Dartmouth Version written in Rust. Also provides `basic2wasm` tool which compiles BASIC to WebAssembly using binaryen. 
+* [basicwasm](https://github.com/navionguy/basicwasm) - a GWBasic interpreter compiled to WASM with a Web UI.
+* [EndBASIC](https://github.com/endbasic/endbasic) - BASIC environment with a REPL, a web interface, a graphical console, and RPi support written in Rust. You can try it out [here](https://repl.endbasic.dev/).
+* [gobasic](https://github.com/skx/gobasic) - a BASIC interpreter written in Golang.
 
 --------------------
 
@@ -277,6 +290,14 @@ This repo contains a list of languages that currently compile to or have their V
 * [TinyGo](https://github.com/aykevl/tinygo) - a subset of Go targeted to embedded devices and WebAssembly.
 
 --------------------
+
+#### <a name="go-scripting"></a>Golang scripting languages <sup>[top⇈](#contents)</sup>
+> These languages are implemented in Golang, have Golang-like syntax in general, and may be used as scripting inside Go programs. Each of them deserves its own section in this list, and will get it eventually when its ecosystem will grow up.
+* [Anko](https://github.com/mattn/anko) - scriptable interpreter written in Golang.
+* [Risor](https://github.com/risor-io/risor) - fast and flexible scripting for Go developers and DevOps. Its modules integrate the Go standard library. You can try it out [here](https://risor.io/#editor).
+* [Tengo](https://github.com/d5/tengo) - a small, dynamic, fast, secure script language for Go. You can try it out [here](https://tengolang.com/).
+
+--------------------
 ### <a name="grain"></a>Grain <sup>[top⇈](#contents)</sup>
 > Grain is a strongly-typed functional programming language built for the modern web.
 * [Grain](https://github.com/grain-lang/grain) - main repository.
@@ -382,6 +403,11 @@ This repo contains a list of languages that currently compile to or have their V
 * [Luwa](https://github.com/serprex/luwa) - a Lua-to-wasm JIT compiler.
 * [Wasmoon](https://github.com/ceifa/wasmoon) - a high level Lua VM with JS bindings.
 * [Wasm2Lua](https://github.com/SwadicalRag/wasm2lua) - can compile WebAssembly modules to pure Lua (or with FFI LuaJIT for extra speed).
+* [DCLua](https://github.com/milochristiansen/lua) - a Lua 5.3 VM and compiler written in Go. It's intended to allow easy embedding into Go programs, with minimal fuss and bother.
+* [go-lua](https://github.com/Shopify/go-lua) - a port of the Lua 5.2 VM to pure Go. It is compatible with binary files dumped by `luac`. The motivation is to enable simple scripting of Go applications.
+* [GopherLua](https://github.com/yuin/gopher-lua) - a Lua5.1(+ goto statement in Lua5.2) VM and compiler written in Go. It provides Go APIs that allow you to easily embed a scripting language to your Go host programs.  
+* [ofunc/lua](https://github.com/erdian718/lua) - a fork of DCLua, featuring IO capabilities, HTTP client, IoC, and more.  
+* [Pluto](https://github.com/PlutoLang/Pluto) - a superset of Lua 5.4 - with unique features, optimizations, and improvements, which aims to specialize for general-purpose programming. You can try it out [here](https://pluto-lang.org/web/).
 
 --------------------
 
@@ -396,6 +422,13 @@ This repo contains a list of languages that currently compile to or have their V
 > Minimal, simple, efficient, statically typed, compiled, metaprogrammable, safe, and extensible systems programming language with a Lua flavor.
 * [Nelua](https://github.com/edubart/nelua-lang/) - project repository
 * [Nelua on the Web](https://github.com/edubart/nelua-lang/discussions/11) - Nelua-wasm discussion
+
+--------------------
+
+### <a name="nerd"></a>Nerd <sup>[top⇈](#contents)</sup>
+> NerdLang is a substract of JS with some additions, focus on efficiency.
+> Nerd is a JavaScript native compiler aiming to make JavaScript universal, Nerd is able to compile native apps for Windows, Mac, Linux, iOS, Android, Raspberry, STM32, Arduino, Web (including WASM), and more.
+* [Nerd](https://github.com/NerdLang/nerd) - main repository.
 
 --------------------
 
@@ -464,6 +497,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [RPython](https://github.com/soIu/rpython) - A RPython (PyPy's Restricted Python) to WebAssembly compiler
 * [TPython](https://github.com/soIu/tpython) - Pythonic++ (a "dialect" of C++) to WebAssembly compiler
 * [micropython-wasm](https://github.com/rafi16jan/micropython-wasm) - MicroPython build which features wide JS interop, e.g. waiting for JS promises.
+* [gpython](https://github.com/go-python/gpython) - GPython is a Python 3.4 interpreter written in Go "batteries not included". Can be used as embedded language in Go programs.
 
 --------------------
 
@@ -616,6 +650,12 @@ This repo contains a list of languages that currently compile to or have their V
 > Yes, WebAssembly. `Wasm3` is the fastest WebAssembly interpreter, that enables WebAssembly self-hosting.
 * [Wasm3](https://github.com/wasm3/wasm3) - main repository.
 * [Wasm3 on WAPM](https://wapm.io/package/vshymanskyy/wasm3) - WAPM package.
+
+--------------------
+
+### <a name="wonkey"></a>Wonkey <sup>[top⇈](#contents)</sup>
+> Wonkey is an easy to learn, object-oriented, modern and cross-platform programming language for creating cross-platform video games, highly inspired by the "BlitzBasic" range of languages.
+* [Wonkey](https://github.com/wonkey-coders/wonkey) - main repository. Check the demo games [here](https://wonkey-coders.github.io/examples/).
 
 --------------------
 
