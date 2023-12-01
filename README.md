@@ -56,6 +56,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Python](#python)
   - [Prolog](#prolog)
   - [R](#r)
+  - [Ring](#ring)
   - [Ruby](#ruby)</br>
   - [Scheme](#scheme)
   - [Scopes](#scopes)
@@ -292,7 +293,7 @@ This repo contains a list of languages that currently compile to or have their V
 --------------------
 
 #### <a name="go-scripting"></a>Golang scripting languages <sup>[top⇈](#contents)</sup>
-> These languages are implemented in Golang, have Golang-like syntax in general, and may be used as scripting inside Go programs. Each of them deserves its own section in this list, and will get it eventually when its ecosystem will grow up.
+> These languages are implemented in Golang, have Golang-like syntax in general, and may be used as scripting inside Go programs. Each of them deserves its own section in this list, and will get it eventually as ecosystem grows up.
 * [Anko](https://github.com/mattn/anko) - scriptable interpreter written in Golang.
 * [Risor](https://github.com/risor-io/risor) - fast and flexible scripting for Go developers and DevOps. Its modules integrate the Go standard library. You can try it out [here](https://risor.io/#editor).
 * [Tengo](https://github.com/d5/tengo) - a small, dynamic, fast, secure script language for Go. You can try it out [here](https://tengolang.com/).
@@ -530,6 +531,16 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="ring"></a>Ring <sup>[top⇈](#contents)</sup>
+
+> Ring is a Simple, Small, and Flexible practical general-purpose multi-paradigm language. The supported programming paradigms are Imperative, Procedural, Object-Oriented, Functional, Metaprogramming, Declarative programming using nested structures, and Natural programming.
+> The language is portable (MS-DOS, Windows, Linux, macOS, Android, WebAssembly, etc.) and can be used to create Console, GUI, Web, Games, and Mobile applications.
+
+* [Ring](https://github.com/ring-lang/ring) - main repository. You can try it out [here](https://tio.run/#ring).
+* [WASM apps in Ring](https://ring-lang.github.io/doc1.19/qtwebassembly.html#online-applications) - list of demo web applications implemented in Ring.
+
+--------------------
+
 ### <a name="ruby"></a>Ruby <sup>[top⇈](#contents)</sup>
 > Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
 * [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
@@ -557,6 +568,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Scheme is a programming language that supports multiple paradigms, including functional programming and imperative programming, and is one of the two main dialects of Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension..
 * [Schism](https://github.com/schism-lang/schism) - Schism is an experimental self-hosting compiler from a subset of R6RS Scheme to WebAssembly. Development so far has focused on features necessary for self-hosting. The compiler itself is written in, and compiles, a very small subset of Scheme.
 * [scheme.wasm](https://github.com/pollrobots/scheme) - An R7RS Scheme implemented in WebAssembly. You can try it out [here](https://pollrobots.com/scheme/).
+* [Guile Hoot](https://gitlab.com/spritely/guile-hoot) - a Scheme to WebAssembly compiler backend for GNU Guile and a general purpose WASM toolchain.
 
 --------------------
 
