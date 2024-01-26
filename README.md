@@ -24,6 +24,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [F#](#fsharp)
   - [Forth](#forth)
   - [Grain](#grain)
+  - [LabVIEW](#labview)
   - [Lobster](#lobster)
   - [Lox](#lox)
   - [Lua](#lua)
@@ -348,6 +349,13 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="kou"></a>Kou <sup>[top⇈](#contents)</sup>
 > A minimal language compiled into wasm bytecode.
 * [Kou](https://github.com/utatti/kou) - main repository.
+
+--------------------
+
+### <a name="labview"></a>LabVIEW <sup>[top⇈](#contents)</sup>
+> LabVIEW is a development environment for the G dataflow graphical programming language used for data acquisition, instrument control, and industrial automation.
+* [G Web Development Software](https://www.ni.com/en/shop/electronic-test-instrumentation/programming-environments-for-electronic-test-and-instrumentation/what-is-g-web-development-software.html) - A standalone development environment implementing a subset of the G dataflow graphical programming language to create web-based user interfaces for test and measurement applications.
+* [Vireo](https://github.com/ni/vireosdk) - An open-source runtime capable of running the virtual instrument assembly representation of the G dataflow graphical programming language created by G Web Development Software.
 
 --------------------
 
