@@ -441,6 +441,7 @@ This repo contains a list of languages that currently compile to or have their V
 > PHP is a general-purpose scripting language that is especially suited to server-side web development, in which case PHP generally runs on a web server. Any PHP code in a requested file is executed by the PHP runtime, usually to create dynamic web page content or dynamic images used on websites or elsewhere.
 * [PIB](https://github.com/oraoto/pib) - a PHP runtime in the browser.
 * [PHP WASM](https://github.com/soyuka/php-wasm) - maintained fork of PIB with PHP 8 support based on the work of [seanmorris](https://github.com/seanmorris/php-wasm).
+* [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date PHP (including php-cgi) prebuilt for WASI
 
 --------------------
 
@@ -464,6 +465,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [RPython](https://github.com/soIu/rpython) - A RPython (PyPy's Restricted Python) to WebAssembly compiler
 * [TPython](https://github.com/soIu/tpython) - Pythonic++ (a "dialect" of C++) to WebAssembly compiler
 * [micropython-wasm](https://github.com/rafi16jan/micropython-wasm) - MicroPython build which features wide JS interop, e.g. waiting for JS promises.
+* [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date CPython prebuilt for WASI
 
 --------------------
 
@@ -504,7 +506,9 @@ This repo contains a list of languages that currently compile to or have their V
 * [ruby.wasm](https://github.com/ruby/ruby.wasm/) - a collection of "official" WebAssembly ports of the CRuby. You can
   try it out [here](https://try.ruby-lang.org/playground/#code=puts+RUBY_DESCRIPTION&engine=cruby-3.2.0)
 * [rlang](https://github.com/ljulliar/rlang) Rlang - a (subset of) Ruby to WebAssembly compiler
-* [cry-wasm](https://github.com/kojix2/cry-wasm) - speeds up Ruby code using Crystal. By applying simple type restrictions to Ruby code, convert it to Crystal code, compile it to WebAssembly, and call it with Wasmer or Wasmtime. 
+* [cry-wasm](https://github.com/kojix2/cry-wasm) - speeds up Ruby code using Crystal. By applying simple type restrictions to Ruby code, convert it to Crystal code, compile it to WebAssembly, and call it with Wasmer or Wasmtime.
+* [Ruvy](https://github.com/Shopify/ruvy) - toolchain for bundling ruby.wasm pre-initialized and bundled with Ruby code
+* [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date MRI Ruby prebuilt for WASI
 
 --------------------
 
