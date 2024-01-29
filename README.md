@@ -319,6 +319,9 @@ This repo contains a list of languages that currently compile to or have their V
 * [SpiderMonkey](https://github.com/bytecodealliance/spidermonkey-wasm-rs) - experimental Rust bindings and generic builtins for SpiderMonkey for building WASI-compatible modules from JavaScript.
 * [quickjs-emscripten](https://github.com/justjake/quickjs-emscripten) - Safely execute untrusted Javascript in your JS/TS, and execute synchronous code that uses async functions.
 * [wasmedge-quickjs](https://github.com/second-state/wasmedge-quickjs) - A high-performance, secure, extensible, and OCI-complaint JavaScript runtime for WasmEdge.  Features TCP/UDP support via WasmEdge Sockets.
+* [Boa](https://github.com/boa-dev/boa) - an embeddable and experimental Javascript engine written in Rust. You can try it out [here](https://boajs.dev/boa/playground/).
+* [goja](https://github.com/dop251/goja) - an implementation of ECMAScript 5.1 in pure Go with emphasis on standard compliance and performance.
+* [otto](https://github.com/robertkrimen/otto) - a JavaScript parser and interpreter written natively in Go.
 
 --------------------
 
