@@ -474,6 +474,8 @@ This repo contains a list of languages that currently compile to or have their V
 * [TPython](https://github.com/soIu/tpython) - Pythonic++ (a "dialect" of C++) to WebAssembly compiler
 * [micropython-wasm](https://github.com/rafi16jan/micropython-wasm) - MicroPython build which features wide JS interop, e.g. waiting for JS promises.
 * [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date CPython prebuilt for WASI
+* [gpython](https://github.com/go-python/gpython) - GPython is a Python 3.4 interpreter written in Go "batteries not included". Can be used as embedded language in Go programs.
+* [pyjs](https://github.com/emscripten-forge/pyjs) - Python <=> JavaScript bindings using high level embind and pybind11. You can try it out [here](https://emscripten-forge.github.io/sample-python-repl/). 
 
 --------------------
 
