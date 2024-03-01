@@ -217,8 +217,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
-### <a name="dart"></a>
-<sup>[top⇈](#contents)</sup>
+### <a name="dart"></a>Dart <sup>[top⇈](#contents)</sup>
 > Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a flexible execution runtime platform for app frameworks.
 * [sdk](https://github.com/dart-lang/sdk) - The Dart SDK, including the VM, dart2js, core libraries, and more.
 * [language](https://github.com/dart-lang/language) - Design of the Dart language
