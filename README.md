@@ -393,7 +393,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [DCLua](https://github.com/milochristiansen/lua) - a Lua 5.3 VM and compiler written in Go. It's intended to allow easy embedding into Go programs, with minimal fuss and bother.
 * [erdian718/lua](https://github.com/erdian718/lua) (aka ofunc/lua) - a fork of DCLua, featuring IO capabilities, HTTP client, IoC, and more.
 * [GopherLua](https://github.com/yuin/gopher-lua) - a Lua5.1(+ goto statement in Lua5.2) VM and compiler written in Go. It provides Go APIs that allow you to easily embed a scripting language to your Go host programs.
-* [Pluto](https://github.com/PlutoLang/Pluto) - a superset of Lua 5.4 - with unique features, optimizations, and improvements, which aims to specialize for general-purpose programming. You can try it out [here](https://pluto-lang.org/web/).
+* [Pluto](https://github.com/PlutoLang/Pluto) - a superset of Lua 5.4 with a focus on general-purpose programming. You can try it out [here](https://pluto-lang.org/web/).
 * [PlutoScript](https://github.com/PlutoLang/PlutoScript) - Pluto's extension aimed for web scripting. Provides JS interop and ability to use Pluto anywhere JavaScript works.  
 
 --------------------
