@@ -40,6 +40,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [C4wa](#c4wa)
   - [Crystal](#crystal)
   - [D](#d)
+  - [Dart](#dart)
   - [Eclair](#eclair)
   - [Eel](#eel)
   - [Elixir](#elixir)
@@ -68,7 +69,6 @@ This repo contains a list of languages that currently compile to or have their V
 - :egg: - Work in progress.
   - [Ballerina](#ballerina)
   - [Co](#co)
-  - [Dart](#dart)
   - [Faust](#faust)
   - [Forest](#forest)
   - [Haskell](#haskell)
@@ -219,9 +219,10 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="dart"></a>
 <sup>[top⇈](#contents)</sup>
-> Dart is a client-optimized language for developing fast apps on any platform. Its goal is to offer the most productive programming language for multi-platform development, paired with a flexible execution runtime platform for app frameworks.
+> An approachable, portable, and productive language for high-quality apps on any platform
 * [sdk](https://github.com/dart-lang/sdk) - The Dart SDK, including the VM, dart2js, core libraries, and more.
 * [language](https://github.com/dart-lang/language) - Design of the Dart language
+* [Use via Flutter](https://flutter.dev/wasm) - How to compile Dart to WebAssembly for a Flutter Web application
 
 --------------------
 
