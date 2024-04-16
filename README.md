@@ -57,6 +57,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Python](#python)
   - [Prolog](#prolog)
   - [R](#r)
+  - [Ring](#ring)
   - [Ruby](#ruby)</br>
   - [Scheme](#scheme)
   - [Scopes](#scopes)
@@ -65,18 +66,22 @@ This repo contains a list of languages that currently compile to or have their V
   - [V](#v)
   - [Virgil](#virgil)
   - [Wa](#wa)
+  - [Wonkey](#wonkey)
 
 - :egg: - Work in progress.
   - [Ballerina](#ballerina)
+  - [BASIC](#basic)
   - [Co](#co)
   - [Faust](#faust)
   - [Forest](#forest)
   - [Haskell](#haskell)
   - [Julia](#julia)
   - [Kou](#kou)
+  - [Nerd](#nerd)
   - [Nim](#nim)
   - [Ocaml](#ocaml)
   - [Plorth](#plorth)
+  - [Roc](#roc)
   - [Wase](#wase)
   - [xcc](#xcc)</br>
 
@@ -126,6 +131,15 @@ This repo contains a list of languages that currently compile to or have their V
 > Ballerina is an open-source programming language for the cloud that makes it easier to use, combine, and create network services.
 > The WebAssembly compiler is implemented for the native Ballerina compiler [nBallerina](https://github.com/ballerina-platform/nballerina).
 * [Main repository](https://github.com/ballerina-platform/nballerina/tree/wasm) - Ballerina-to-wasm compiler 
+
+--------------------
+
+### <a name="basic"></a>BASIC <sup>[top⇈](#contents)</sup>
+> BASIC (acronym for "Beginners' All-purpose Symbolic Instruction Code") is an early general-purpose and high-level programming language. It's still one of the simplest and easy to learn languages.
+* [basic_rs](https://github.com/yiransheng/basic_rs) - a BASIC Interpreter/Compiler for the Original Dartmouth Version written in Rust. Also provides `basic2wasm` tool which compiles BASIC to WebAssembly using binaryen.
+* [basicwasm](https://github.com/navionguy/basicwasm) - a GWBasic interpreter compiled to WASM with a Web UI.
+* [EndBASIC](https://github.com/endbasic/endbasic) - BASIC environment with a REPL, a web interface, a graphical console, and RPi support written in Rust. You can try it out [here](https://repl.endbasic.dev/).
+* [gobasic](https://github.com/skx/gobasic) - a BASIC interpreter written in Golang.
 
 --------------------
 
@@ -217,8 +231,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
-### <a name="dart"></a>
-<sup>[top⇈](#contents)</sup>
+### <a name="dart"></a>Dart <sup>[top⇈](#contents)</sup>
 > An approachable, portable, and productive language for high-quality apps on any platform
 * [sdk](https://github.com/dart-lang/sdk) - The Dart SDK, including the VM, dart2js, core libraries, and more.
 * [language](https://github.com/dart-lang/language) - Design of the Dart language
@@ -320,6 +333,9 @@ This repo contains a list of languages that currently compile to or have their V
 * [SpiderMonkey](https://github.com/bytecodealliance/spidermonkey-wasm-rs) - experimental Rust bindings and generic builtins for SpiderMonkey for building WASI-compatible modules from JavaScript.
 * [quickjs-emscripten](https://github.com/justjake/quickjs-emscripten) - Safely execute untrusted Javascript in your JS/TS, and execute synchronous code that uses async functions.
 * [wasmedge-quickjs](https://github.com/second-state/wasmedge-quickjs) - A high-performance, secure, extensible, and OCI-complaint JavaScript runtime for WasmEdge.  Features TCP/UDP support via WasmEdge Sockets.
+* [Boa](https://github.com/boa-dev/boa) - an embeddable and experimental Javascript engine written in Rust. You can try it out [here](https://boajs.dev/boa/playground/).
+* [goja](https://github.com/dop251/goja) - an implementation of ECMAScript 5.1 in pure Go with emphasis on standard compliance and performance.
+* [otto](https://github.com/robertkrimen/otto) - a JavaScript parser and interpreter written natively in Go.
 
 --------------------
 
@@ -405,6 +421,13 @@ This repo contains a list of languages that currently compile to or have their V
 > Minimal, simple, efficient, statically typed, compiled, metaprogrammable, safe, and extensible systems programming language with a Lua flavor.
 * [Nelua](https://github.com/edubart/nelua-lang/) - project repository
 * [Nelua on the Web](https://github.com/edubart/nelua-lang/discussions/11) - Nelua-wasm discussion
+
+--------------------
+
+### <a name="nerd"></a>Nerd <sup>[top⇈](#contents)</sup>
+> NerdLang is a substract of JS with some additions, focus on efficiency.
+> Nerd is a JavaScript native compiler aiming to make JavaScript universal, Nerd is able to compile native apps for Windows, Mac, Linux, iOS, Android, Raspberry, STM32, Arduino, Web (including WASM), and more.
+* [Nerd](https://github.com/NerdLang/nerd) - main repository.
 
 --------------------
 
@@ -507,6 +530,25 @@ This repo contains a list of languages that currently compile to or have their V
 
 --------------------
 
+### <a name="ring"></a>Ring <sup>[top⇈](#contents)</sup>
+
+> Ring is a Simple, Small, and Flexible practical general-purpose multi-paradigm language. The supported programming paradigms are Imperative, Procedural, Object-Oriented, Functional, Metaprogramming, Declarative programming using nested structures, and Natural programming.
+> The language is portable (MS-DOS, Windows, Linux, macOS, Android, WebAssembly, etc.) and can be used to create Console, GUI, Web, Games, and Mobile applications.
+* [Ring](https://github.com/ring-lang/ring) - main repository. You can try it out [here](https://tio.run/#ring).
+* [WASM apps in Ring](https://ring-lang.github.io/doc1.19/qtwebassembly.html#online-applications) - list of demo web applications implemented in Ring.
+
+--------------------
+
+### <a name="roc"></a>Roc <sup>[top⇈](#contents)</sup>
+
+> A fast, friendly, functional language. Compiles to machine code or WASM. Roc is a direct descendant of the Elm programming language.
+
+* [roc](https://github.com/roc-lang/roc) - main repository. You can try it out [here](https://www.roc-lang.org/#try-roc).
+* [basic-cli](https://github.com/roc-lang/basic-cli) - a Roc [platform](https://github.com/roc-lang/roc/wiki/Roc-concepts-explained#platform) to work with files, commands, HTTP, TCP, command line arguments, etc.
+* [basic-webserver](https://github.com/roc-lang/basic-webserver) - a basic Web Server for Roc.
+
+--------------------
+
 ### <a name="ruby"></a>Ruby <sup>[top⇈](#contents)</sup>
 > Ruby is an open source interpreted high-level programming language for general-purpose programming. Created by Matz. Ruby has a design philosophy that emphasizes code readability, notably using as few sigils (special chars`:.{}%[]&=>;`) as possible.
 * [Wruby](https://github.com/pannous/wruby) Web ruby - a port of minimal ruby (mruby).
@@ -536,6 +578,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Scheme is a programming language that supports multiple paradigms, including functional programming and imperative programming, and is one of the two main dialects of Lisp. Unlike Common Lisp, the other main dialect, Scheme follows a minimalist design philosophy specifying a small standard core with powerful tools for language extension..
 * [Schism](https://github.com/schism-lang/schism) - Schism is an experimental self-hosting compiler from a subset of R6RS Scheme to WebAssembly. Development so far has focused on features necessary for self-hosting. The compiler itself is written in, and compiles, a very small subset of Scheme.
 * [scheme.wasm](https://github.com/pollrobots/scheme) - An R7RS Scheme implemented in WebAssembly. You can try it out [here](https://pollrobots.com/scheme/).
+* [Guile Hoot](https://gitlab.com/spritely/guile-hoot) - a Scheme to WebAssembly compiler backend for GNU Guile and a general purpose WASM toolchain.
 
 --------------------
 
@@ -631,6 +674,12 @@ This repo contains a list of languages that currently compile to or have their V
 > Yes, WebAssembly. `Wasm3` is the fastest WebAssembly interpreter, that enables WebAssembly self-hosting.
 * [Wasm3](https://github.com/wasm3/wasm3) - main repository.
 * [Wasm3 on WAPM](https://wapm.io/package/vshymanskyy/wasm3) - WAPM package.
+
+--------------------
+
+### <a name="wonkey"></a>Wonkey <sup>[top⇈](#contents)</sup>
+> Wonkey is an easy to learn, object-oriented, modern and cross-platform programming language for creating cross-platform video games, highly inspired by the "BlitzBasic" range of languages.
+* [Wonkey](https://github.com/wonkey-coders/wonkey) - main repository. Check the demo games [here](https://wonkey-coders.github.io/examples/).
 
 --------------------
 
