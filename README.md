@@ -69,6 +69,7 @@ This repo contains a list of languages that currently compile to or have their V
 
 - :egg: - Work in progress.
   - [Ballerina](#ballerina)
+  - [BASIC](#basic)
   - [Co](#co)
   - [Dart](#dart)
   - [Faust](#faust)
@@ -129,6 +130,15 @@ This repo contains a list of languages that currently compile to or have their V
 > Ballerina is an open-source programming language for the cloud that makes it easier to use, combine, and create network services.
 > The WebAssembly compiler is implemented for the native Ballerina compiler [nBallerina](https://github.com/ballerina-platform/nballerina).
 * [Main repository](https://github.com/ballerina-platform/nballerina/tree/wasm) - Ballerina-to-wasm compiler 
+
+--------------------
+
+### <a name="basic"></a>BASIC <sup>[top⇈](#contents)</sup>
+> BASIC (acronym for "Beginners' All-purpose Symbolic Instruction Code") is an early general-purpose and high-level programming language. It's still one of the simplest and easy to learn languages.
+* [basic_rs](https://github.com/yiransheng/basic_rs) - a BASIC Interpreter/Compiler for the Original Dartmouth Version written in Rust. Also provides `basic2wasm` tool which compiles BASIC to WebAssembly using binaryen.
+* [basicwasm](https://github.com/navionguy/basicwasm) - a GWBasic interpreter compiled to WASM with a Web UI.
+* [EndBASIC](https://github.com/endbasic/endbasic) - BASIC environment with a REPL, a web interface, a graphical console, and RPi support written in Rust. You can try it out [here](https://repl.endbasic.dev/).
+* [gobasic](https://github.com/skx/gobasic) - a BASIC interpreter written in Golang.
 
 --------------------
 
