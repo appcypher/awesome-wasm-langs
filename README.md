@@ -81,6 +81,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Nim](#nim)
   - [Ocaml](#ocaml)
   - [Plorth](#plorth)
+  - [Roc](#roc)
   - [Wase](#wase)
   - [xcc](#xcc)</br>
 
@@ -535,6 +536,16 @@ This repo contains a list of languages that currently compile to or have their V
 > The language is portable (MS-DOS, Windows, Linux, macOS, Android, WebAssembly, etc.) and can be used to create Console, GUI, Web, Games, and Mobile applications.
 * [Ring](https://github.com/ring-lang/ring) - main repository. You can try it out [here](https://tio.run/#ring).
 * [WASM apps in Ring](https://ring-lang.github.io/doc1.19/qtwebassembly.html#online-applications) - list of demo web applications implemented in Ring.
+
+--------------------
+
+### <a name="roc"></a>Roc <sup>[top⇈](#contents)</sup>
+
+> A fast, friendly, functional language. Compiles to machine code or WASM. Roc is a direct descendant of the Elm programming language.
+
+* [roc](https://github.com/roc-lang/roc) - main repository. You can try it out [here](https://www.roc-lang.org/#try-roc).
+* [basic-cli](https://github.com/roc-lang/basic-cli) - a Roc [platform](https://github.com/roc-lang/roc/wiki/Roc-concepts-explained#platform) to work with files, commands, HTTP, TCP, command line arguments, etc.
+* [basic-webserver](https://github.com/roc-lang/basic-webserver) - a basic Web Server for Roc.
 
 --------------------
 
