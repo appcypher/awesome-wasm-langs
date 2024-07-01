@@ -77,6 +77,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Haskell](#haskell)
   - [Julia](#julia)
   - [Kou](#kou)
+  - [MoonBit](#moonbit)
   - [Nerd](#nerd)
   - [Nim](#nim)
   - [Ocaml](#ocaml)
@@ -419,6 +420,14 @@ This repo contains a list of languages that currently compile to or have their V
 > Lys is a typed functional language that compiles directly to WebAssembly.
 
 * [Lys](https://github.com/lys-lang/lys) - main repository.
+
+--------------------
+
+### <a name="moonbit"></a>MoonBit <sup>[top⇈](#contents)</sup>
+> MoonBit is an end-to-end programming language toolchain for cloud and edge computing using WebAssembly. The language is like Rust with GC support. The fast compiler is optimized to produce very compact WASM binaries. 
+
+* [MoonBit](https://www.moonbitlang.com) - main website. You can try the language out [here](https://try.moonbitlang.com/).
+* [Core library](https://github.com/moonbitlang/core) - open-sourced standard library. Compiler source code is not available yet.
 
 --------------------
 
