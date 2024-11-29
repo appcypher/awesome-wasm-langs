@@ -82,6 +82,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Ocaml](#ocaml)
   - [Plorth](#plorth)
   - [Roc](#roc)
+  - [Theta](#theta)
   - [Wase](#wase)
   - [xcc](#xcc)</br>
 
@@ -608,6 +609,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="tcl"></a>Tcl <sup>[top⇈](#contents)</sup>
 > Tcl (Tool Command Language) is a very powerful but easy to learn dynamic programming language, mature but evolving, highly extensible and suitable for a very wide range of uses.
 * [Wacl](https://github.com/ecky-l/wacl) - A Tcl distibution for WebAssembly or Javascript. Features JS/DOM bindings. You can try it out [here](https://ecky-l.github.io/wacl/).
+
+--------------------
+
+### <a name="theta"></a>Theta <sup>[top⇈](#contents)</sup>
+> Theta is a modern, general purpose, functional programming language with a strong type system and expressive syntax. It features a modular design and supports pattern matching, function overloading, and other goodies.
+* [ThetaLang](https://github.com/alexdovzhanyn/ThetaLang) - main repository.
 
 --------------------
 
