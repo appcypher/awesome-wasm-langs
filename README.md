@@ -44,6 +44,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Eclair](#eclair)
   - [Eel](#eel)
   - [Elixir](#elixir)
+  - [Janet](#janet)
   - [Java](#java)
   - [JavaScript](#javascript)
   - [KCL](#kcl)
@@ -314,6 +315,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="idris"></a>Idris <sup>[top⇈](#contents)</sup>
 > Idris is a general purpose pure functional programming language with dependent types. Dependent types allow types to be predicated on values, meaning that some aspects of a program’s behaviour can be specified precisely in the type. It is compiled, with eager evaluation. Its features are influenced by Haskell and ML.
 * ~[Idris-codegen-WASM](https://github.com/SPY/idris-codegen-wasm) - WASM codegen repository.~ `Unmaintained`
+
+--------------------
+
+### <a name="janet"></a>Janet <sup>[top⇈](#contents)</sup>
+> Janet makes a good system scripting language, or a language to embed in other programs. It's like a "modern Lisp", featuring great and easy C interop and a variety of data types like arrays, structs, tables, etc. 
+* [Janet](https://github.com/janet-lang/janet) - main repository. You can try it out [here](https://janet-lang.org/#Try-It).
 
 --------------------
 
