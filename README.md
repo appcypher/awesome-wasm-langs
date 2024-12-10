@@ -37,6 +37,7 @@ This repo contains a list of languages that currently compile to or have their V
   
 - :hatching_chick: - Unstable but usable.
   - [Ada](#ada)
+  - [Berry](#berry)
   - [C4wa](#c4wa)
   - [Crystal](#crystal)
   - [D](#d)
@@ -140,6 +141,13 @@ This repo contains a list of languages that currently compile to or have their V
 * [basicwasm](https://github.com/navionguy/basicwasm) - a GWBasic interpreter compiled to WASM with a Web UI.
 * [EndBASIC](https://github.com/endbasic/endbasic) - BASIC environment with a REPL, a web interface, a graphical console, and RPi support written in Rust. You can try it out [here](https://repl.endbasic.dev/).
 * [gobasic](https://github.com/skx/gobasic) - a BASIC interpreter written in Golang.
+
+--------------------
+
+### <a name="berry"></a>Berry <sup>[top⇈](#contents)</sup>
+> Berry is an ultra-lightweight dynamically typed embedded scripting language. It's designed for lower-performance embedded devices, fast, multi-paradigm, simple, flexible, and has very small RAM footprint.
+* [berry](https://github.com/berry-lang/berry) - main repo.
+* [berry_web](https://github.com/berry-lang/berry_web/) - Berry web playground. The project contains port of the Berry to Emscripten platform.
 
 --------------------
 
