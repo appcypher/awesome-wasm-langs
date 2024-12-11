@@ -58,6 +58,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Python](#python)
   - [Prolog](#prolog)
   - [R](#r)
+  - [Rebol](#rebol)
   - [Ring](#ring)
   - [Ruby](#ruby)</br>
   - [Scheme](#scheme)
@@ -538,6 +539,17 @@ This repo contains a list of languages that currently compile to or have their V
 > R is a language and environment for statistical computing and graphics.
 
 * [WebR](https://github.com/georgestagg/webR) - R in the Browser. You can try it out [here](https://webr.r-wasm.org/latest/)
+
+--------------------
+
+### <a name="rebol"></a>Rebol <sup>[top⇈](#contents)</sup>
+
+> Homoiconic ("data is code" and vice-versa) dynamic programming language and data-format (representing data and metadata) language.
+> 
+> By its author, "Rebol rebels against the idea that modern software must be large and complex".
+
+* [Ren-C](https://github.com/metaeducation/ren-c) - Ren-C is a deeply redesigned derivative of the Rebol 3 codebase. Features "user-friendly" API for C and JavaScript. It has WASM-powered [Ren-C's replpad-js](https://github.com/hostilefork/replpad-js) - interactive Web Console for Rebol language (Ren-C branch). 
+* [Rye](https://github.com/refaktor/rye) - Rye is a high level, dynamic programming language based on ideas from Rebol, flavored by Factor, *nix shells and Golang. Implemented in Golang. You can try it out [here](https://ryelang.org/).
 
 --------------------
 
