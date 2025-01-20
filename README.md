@@ -267,7 +267,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="elixir"></a>Elixir <sup>[top⇈](#contents)</sup>
 > Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 > Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.
-* [Lumen](https://github.com/lumen/lumen) - An alternative BEAM implementation (with AOT compiler) designed for WebAssembly.
+* ~[Firefly](https://github.com/GetFirefly/firefly) - An alternative BEAM implementation (with AOT compiler) designed for WebAssembly. [Unmaintained]~
 * ~[ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm. [Unmaintained]~
 
 --------------------
@@ -314,8 +314,9 @@ This repo contains a list of languages that currently compile to or have their V
 
 ### <a name="haskell"></a>Haskell <sup>[top⇈](#contents)</sup>
 > Haskell is a standardized, general-purpose purely functional programming language, with non-strict semantics and strong static typing. It is named after logician Haskell Curry.[1] The latest standard of Haskell is Haskell 2010. As of May 2016, a group is working on the next version, Haskell 2020.
-* [Asterius](https://github.com/tweag/asterius) - a Haskell to WebAssembly compiler
-* [DHC](https://github.com/dfinity/dhc) - a Haskell compiler that accepts only a tiny subset of the language and produces WebAssembly binaries.
+* ~[Asterius](https://github.com/tweag/asterius) - a Haskell to WebAssembly compiler. [Unmaintained]~
+* ~[DHC](https://github.com/dfinity/dhc) - a Haskell compiler that accepts only a tiny subset of the language and produces WebAssembly binaries. [Unmaintained]~
+* [GHC WASM](https://gitlab.haskell.org/haskell-wasm/ghc-wasm-meta) - GHC's wasm backend.
 * ~[HaskellWasm](https://github.com/haskell-wasm/wasm) - a Haskell compiler infrastructure for generating WebAssembly. [Unmaintained]~
 * [haskell-wasm](https://github.com/SPY/haskell-wasm) - Haskell WebAssembly Toolkit. It includes Language helpers and a fully spec-compatible WASM interpreter.
 * [wasm-cross](https://github.com/WebGHC/wasm-cross) - A toolchain for cross compiling C and Haskell to WebAssembly, using the WebGHC and LLVM.
