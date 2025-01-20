@@ -303,6 +303,15 @@ This repo contains a list of languages that currently compile to or have their V
 > Go is a statically typed compiled language in the tradition of C, with memory safety, garbage collection, structural typing, and CSP-style concurrent programming features added.
 * [Go](https://github.com/golang/go) - main repository.
 * [TinyGo](https://github.com/aykevl/tinygo) - a subset of Go targeted to embedded devices and WebAssembly.
+* [Yaegi](https://github.com/traefik/yaegi) - Yaegi is Another Elegant Go Interpreter, implemented in pure Go. It powers executable Go scripts and plugins, in embedded interpreters or interactive shells, on top of the Go runtime.
+
+--------------------
+
+#### <a name="go-scripting"></a>Golang scripting languages <sup>[top⇈](#contents)</sup>
+> These languages are implemented in Golang, have Golang-like syntax in general, and may be used as scripting inside Go programs. Each of them deserves its own section in this list, and will get it eventually as ecosystem grows up.
+* [Anko](https://github.com/mattn/anko) - scriptable interpreter written in Golang.
+* [Risor](https://github.com/risor-io/risor) - fast and flexible scripting for Go developers and DevOps. Its modules integrate the Go standard library. You can try it out [here](https://risor.io/#editor).
+* [Tengo](https://github.com/d5/tengo) - a small, dynamic, fast, secure script language for Go. You can try it out [here](https://tengolang.com/).
 
 --------------------
 ### <a name="grain"></a>Grain <sup>[top⇈](#contents)</sup>
