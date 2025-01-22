@@ -541,6 +541,7 @@ This repo contains a list of languages that currently compile to or have their V
 > Prolog is a general-purpose logic programming language associated with artificial intelligence and computational linguistics. Prolog has its roots in first-order logic, a formal logic, and unlike many other programming languages, Prolog is intended primarily as a declarative programming language: the program logic is expressed in terms of relations, represented as facts and rules. A computation is initiated by running a query over these relations.
 * [SWI-Prolog port to WebAssembly](https://github.com/SWI-Prolog/swipl-wasm) - a port of SWI-Prolog to WebAssembly. SWI-Prolog is a free implementation of the programming language Prolog commonly used for teaching and semantic web applications.
 * [Ciao Prolog](https://github.com/ciao-lang/ciao) - includes a WebAssembly compilation target based on Emscripten. Ciao Prolog is a modern Prolog implementation designed to be portable, extensible and modular. Check the playground [here](https://ciao-lang.org/playground).
+* [Trealla Prolog](https://github.com/trealla-prolog/trealla) - a compact, efficient Prolog interpreter with ISO Prolog aspirations written in plain-old C. Trealla can be built targeting WASI and should be useful for both browsers and serverless runtimes. Check the playground [here](https://php.energy/trealla.html).
 
 --------------------
 
