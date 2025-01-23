@@ -145,6 +145,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [basicwasm](https://github.com/navionguy/basicwasm) - a GWBasic interpreter compiled to WASM with a Web UI.
 * [EndBASIC](https://github.com/endbasic/endbasic) - BASIC environment with a REPL, a web interface, a graphical console, and RPi support written in Rust. You can try it out [here](https://repl.endbasic.dev/).
 * [gobasic](https://github.com/skx/gobasic) - a BASIC interpreter written in Golang.
+* [FreeBASIC](https://github.com/freebasic/fbc) - a completely free, open-source, multi-platform BASIC compiler, with syntax similar to MS-QuickBASIC, that adds new features such as pointers, object orientation, unsigned data types, inline assembly, and many others.
 
 --------------------
 
