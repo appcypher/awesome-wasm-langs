@@ -544,6 +544,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [CSharpProlog](https://github.com/jsakamoto/CSharpProlog) - a C# implementation of Prolog. Check the playground [here](https://jsakamoto.github.io/Prolog-on-Browser/).
 * [Scryer Prolog](https://github.com/mthom/scryer-prolog) - a modern Prolog implementation written mostly in Rust. Check the playground [here](https://play.scryer.pl).
 * [Trealla Prolog](https://github.com/trealla-prolog/trealla) - a compact, efficient Prolog interpreter with ISO Prolog aspirations written in plain-old C. Trealla can be built targeting WASI and should be useful for both browsers and serverless runtimes. Check the playground [here](https://php.energy/trealla.html).
+* [ichiban/prolog](https://github.com/ichiban/prolog) - an embeddable ISO Prolog interpreter implemented in pure Go.
 
 --------------------
 
