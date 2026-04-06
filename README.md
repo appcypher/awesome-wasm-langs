@@ -5,6 +5,7 @@ It is designed to be faster to parse than JavaScript, as well as faster to execu
 This repo contains a list of languages that currently compile to or have their VMs in WebAssembly(wasm)  :octocat:
 
 
+- [guardian-agent-prompts](https://github.com/milkomida77/guardian-agent-prompts) - 49 production-tested AI agent system prompts for WebAssembly workflow orchestration, automated WASM compilation management, and multi-agent coordination. MIT licensed.
 ## Contents
 
 - :chicken: - In Production.
