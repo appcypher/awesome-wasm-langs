@@ -73,6 +73,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Wonkey](#wonkey)
 
 - :egg: - Work in progress.
+  - [Aver](#aver)
   - [Ballerina](#ballerina)
   - [BASIC](#basic)
   - [Co](#co)
@@ -130,6 +131,12 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="astro"></a>Astro <sup>[top⇈](#contents)</sup>
 > Astro is a fun safe language for rapid prototyping and high performance applications.
 * ~[Astro](https://github.com/astrolang/astro) - main repository.~ `Unmaintained`
+
+--------------------
+
+### <a name="aver"></a>Aver <sup>[top⇈](#contents)</sup>
+> Aver is a statically typed language designed for AI-assisted development. Every function carries optional prose intent, effects are tracked in the type system, and verify blocks act as executable specs.
+* [Aver](https://github.com/jasisz/aver) - compiles to standalone `.wasm` modules with typed ABI (Int→i64, Float→f64, Bool→i32, heap types→i32 ptr). Supports own `aver/*` import ABI for custom hosts, `--adapter wasi` for standalone wasmtime, and a built-in browser runner. Also compiles to native Rust and exports to Lean 4 proofs.
 
 --------------------
 
