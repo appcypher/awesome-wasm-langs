@@ -372,6 +372,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [hermes](https://github.com/facebook/hermes) - Hermes is a JavaScript engine optimized for fast start-up of React Native apps. It features ahead-of-time static optimization and compact bytecode. [Emscripten](https://github.com/facebook/hermes/blob/main/doc/Emscripten.md) and [WASI](https://github.com/guest271314/hermes/blob/shermes-wasm/doc/WASI.md) support.
 * [Jint](https://github.com/sebastienros/jint) - an embeddable Javascript interpreter for .NET which can run on any modern .NET platform as it supports .NET Standard 2.0 and .NET 4.6.2 targets (and later).
 * [Porffor](https://github.com/CanadaHonk/porffor) - a from-scratch experimental AOT optimizing JS/TS -> Wasm/C engine/compiler/runtime. You can try it out [here](https://porffor.dev/).
+* [jz](https://github.com/dy/jz) - A minimal, fast AOT compiler for a functional JavaScript subset to WebAssembly.
 * [sebastianwessel-quickjs](https://github.com/sebastianwessel/quickjs) - a typescript package to execute JavaScript and TypeScript code in a webassembly quickjs sandbox. You can try it out [here](https://sebastianwessel.github.io/quickjs/playground.html).
 
 --------------------
