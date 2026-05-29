@@ -81,6 +81,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Haskell](#haskell)
   - [Julia](#julia)
   - [Kou](#kou)
+  - [Lateralus](#lateralus)
   - [MoonBit](#moonbit)
   - [Nerd](#nerd)
   - [Nim](#nim)
@@ -451,6 +452,13 @@ This repo contains a list of languages that currently compile to or have their V
 * [GopherLua](https://github.com/yuin/gopher-lua) - a Lua5.1(+ goto statement in Lua5.2) VM and compiler written in Go. It provides Go APIs that allow you to easily embed a scripting language to your Go host programs.
 * [Pluto](https://github.com/PlutoLang/Pluto) - a superset of Lua 5.4 with a focus on general-purpose programming. You can try it out [here](https://pluto-lang.org/web/).
 * [PlutoScript](https://github.com/PlutoLang/PlutoScript) - Pluto's extension aimed for web scripting. Provides JS interop and ability to use Pluto anywhere JavaScript works.  
+
+--------------------
+
+### <a name="lateralus"></a>Lateralus <sup>[top⇈](#contents)</sup>
+> Lateralus is a pipeline-native programming language with pattern matching, algebraic data types, type inference, and borrow checking. Compiles to C, LLVM, and WebAssembly.
+
+* [Lateralus](https://github.com/bad-antics/lateralus-lang) - main repository.
 
 --------------------
 
