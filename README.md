@@ -280,6 +280,7 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="elixir"></a>Elixir <sup>[top⇈](#contents)</sup>
 > Elixir is a dynamic, functional language designed for building scalable and maintainable applications.
 > Elixir builds on top of Erlang and shares the same abstractions for building distributed, fault-tolerant applications.
+* [Firebird](https://github.com/hdresearch/firebird) - A toolkit for both Elixir-to-WASM and WASM-in-Elixir which can speed up your Elixir projects by up to 42x and Phoenix projects by 12x+
 * ~[Firefly](https://github.com/GetFirefly/firefly) - An alternative BEAM implementation (with AOT compiler) designed for WebAssembly. [Unmaintained]~
 * ~[ElixirWasm](https://github.com/jamen/elixir-wasm) - an elixir compiler for wasm. [Unmaintained]~
 
