@@ -73,6 +73,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Wonkey](#wonkey)
 
 - :egg: - Work in progress.
+  - [Awsum](#awsum)
   - [Ballerina](#ballerina)
   - [BASIC](#basic)
   - [Co](#co)
@@ -130,6 +131,13 @@ This repo contains a list of languages that currently compile to or have their V
 ### <a name="astro"></a>Astro <sup>[top⇈](#contents)</sup>
 > Astro is a fun safe language for rapid prototyping and high performance applications.
 * ~[Astro](https://github.com/astrolang/astro) - main repository.~ `Unmaintained`
+
+--------------------
+
+### <a name="awsum"></a>Awsum <sup>[top⇈](#contents)</sup>
+> Awsum is a functional programming language that compiles to LLVM, JVM, CLR, WebAssembly, and JavaScript, producing identical result on every target. Errors are values, effects are platform-aware, and the compiler guarantees stack safety for every recursion shape.
+* [Awsum](https://github.com/awsum-lang/awsum) - main repository.
+* [awsum-lang.org](https://awsum-lang.org) - language website.
 
 --------------------
 
