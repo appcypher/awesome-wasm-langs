@@ -550,6 +550,7 @@ This repo contains a list of languages that currently compile to or have their V
 * [TPython](https://github.com/soIu/tpython) - Pythonic++ (a "dialect" of C++) to WebAssembly compiler
 * [micropython-wasm](https://github.com/rafi16jan/micropython-wasm) - MicroPython build which features wide JS interop, e.g. waiting for JS promises.
 * [WebAssembly Language Runtimes](https://github.com/vmware-labs/webassembly-language-runtimes) - up-to-date CPython prebuilt for WASI
+* [Memphis](https://github.com/fromscratchcode/memphis) - an experimental Python interpreter written in Rust with WebAssembly support and an interactive [browser playground](https://memphis.fromscratchcode.com/).
 
 --------------------
 
