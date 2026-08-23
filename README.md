@@ -87,6 +87,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Ocaml](#ocaml)
   - [Plorth](#plorth)
   - [Roc](#roc)
+  - [SEMAPRAX](#semaprax)
   - [Theta](#theta)
   - [Wase](#wase)
   - [xcc](#xcc)</br>
@@ -642,6 +643,13 @@ This repo contains a list of languages that currently compile to or have their V
 * [Schism](https://github.com/schism-lang/schism) - Schism is an experimental self-hosting compiler from a subset of R6RS Scheme to WebAssembly. Development so far has focused on features necessary for self-hosting. The compiler itself is written in, and compiles, a very small subset of Scheme.
 * [scheme.wasm](https://github.com/pollrobots/scheme) - An R7RS Scheme implemented in WebAssembly. You can try it out [here](https://pollrobots.com/scheme/).
 * [Guile Hoot](https://gitlab.com/spritely/guile-hoot) - a Scheme to WebAssembly compiler backend for GNU Guile and a general purpose WASM toolchain.
+
+--------------------
+
+### <a name="semaprax"></a>SEMAPRAX <sup>[top⇈](#contents)</sup>
+> SEMAPRAX is an experimental agent-native systems programming language built around stable semantic identity, bounded graph operations, and revision-bound patches. Its pre-alpha compiler includes a deterministic WebAssembly Core projection for the currently admitted language subset.
+* [Project website](https://wavect.io/semaprax/) - overview, architecture, evidence, interoperability scope, and roadmap.
+* [Source repository](https://github.com/wavect/semaprax) - compiler source and examples.
 
 --------------------
 
