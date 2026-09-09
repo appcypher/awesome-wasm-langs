@@ -54,6 +54,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Kotlin/Wasm](#kotlin)
   - [Lisp](#lisp)
   - [Lys](#lys)
+  - [MATLAB](#matlab)
   - [Pascal](#pascal)
   - [Perl](#perl)
   - [PHP](#php)
@@ -458,6 +459,13 @@ This repo contains a list of languages that currently compile to or have their V
 > Lys is a typed functional language that compiles directly to WebAssembly.
 
 * [Lys](https://github.com/lys-lang/lys) - main repository.
+
+--------------------
+
+### <a name="matlab"></a>MATLAB <sup>[top⇈](#contents)</sup>
+> MATLAB is a programming language for numerical computing and data analysis.
+
+* [RunMat](https://github.com/runmat-org/runmat) - A MATLAB-syntax numerical runtime compiled to WebAssembly, with WebGPU acceleration for supported operations.
 
 --------------------
 
