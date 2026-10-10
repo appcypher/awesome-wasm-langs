@@ -78,6 +78,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Co](#co)
   - [Faust](#faust)
   - [Forest](#forest)
+  - [Gooo](#gooo)
   - [Haskell](#haskell)
   - [Julia](#julia)
   - [Kou](#kou)
@@ -318,6 +319,14 @@ This repo contains a list of languages that currently compile to or have their V
 * [TinyGo](https://github.com/aykevl/tinygo) - a subset of Go targeted to embedded devices and WebAssembly.
 
 --------------------
+
+### <a name="gooo"></a>Gooo <sup>[top⇈](#contents)</sup>
+> Gooo is an experimental language with typed entities and activities. Selected programs in its bounded Go code-generation profile can be compiled to WebAssembly through the Go toolchain.
+* [Gooo](https://github.com/kimjooyoon/meta-ontology-go) - language and compiler repository.
+* [Gooo Go Ports](https://github.com/kimjooyoon/gooo-go-ports) - reproducible WebAssembly build using unmodified generated Go, with a [browser demo](https://kimjooyoon.github.io/gooo-go-ports/).
+
+--------------------
+
 ### <a name="grain"></a>Grain <sup>[top⇈](#contents)</sup>
 > Grain is a strongly-typed functional programming language built for the modern web.
 * [Grain](https://github.com/grain-lang/grain) - main repository.
