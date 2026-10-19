@@ -76,6 +76,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Ballerina](#ballerina)
   - [BASIC](#basic)
   - [Co](#co)
+  - [Faber](#faber)
   - [Faust](#faust)
   - [Forest](#forest)
   - [Haskell](#haskell)
@@ -290,6 +291,13 @@ This repo contains a list of languages that currently compile to or have their V
 > WebAssembly support is achieved through [Bolero](https://fsbolero.io/), a set of free and open-source libraries and tools built on top of [Blazor](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor).
 > F# was mainly conceived by Don Syme of Microsoft Research but it's now maintained by the [F# Foundation](http://foundation.fsharp.org/) and its community.
 * See [.Net](#dotnet)
+
+--------------------
+
+### <a name="faber"></a>Faber <sup>[top⇈](#contents)</sup>
+> Faber (Faber Romanus) is an experimental statically typed language designed to be written by language models and read by people. Compiles through one analyzed program to about two dozen targets including WebAssembly. Open compiler front end, runner, stdlib, and grammar (MIT OR Apache-2.0).
+* [Faber](https://github.com/faberlang/faber) - main repository.
+* [Faber Web](https://faberlang.dev) - Web page.
 
 --------------------
 
