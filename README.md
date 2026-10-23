@@ -81,6 +81,7 @@ This repo contains a list of languages that currently compile to or have their V
   - [Haskell](#haskell)
   - [Julia](#julia)
   - [Kou](#kou)
+  - [Lom](#lom)
   - [MoonBit](#moonbit)
   - [Nerd](#nerd)
   - [Nim](#nim)
@@ -430,6 +431,12 @@ This repo contains a list of languages that currently compile to or have their V
 * [Lobster github](https://github.com/aardappel/lobster)
 * [Compile to Wasm](http://aardappel.github.io/lobster/implementation.html) - how to compile.
 * [Wasm backend details](http://aardappel.github.io/lobster/implementation_wasm.html) - how it is implemented, useful for other language implementors.
+
+--------------------
+
+### <a name="lom"></a>Lom <sup>[top⇈](#contents)</sup>
+> Lom is an LLM-repair-native dynamic language: the repair loop — stable diagnostic codes, confidence-graded fix suggestions governed by a written auto-apply safety axiom — is the reason the language exists. Implemented in Rust with zero third-party crates and zero unsafe.
+* [lom](https://github.com/lom-lang/lom) - main repository. The whole toolchain (interpreter, AOT `build` to wasm, formatter, LSP, fix engine) compiles to wasm32-wasip1 and runs in the [browser playground](https://lom-lang.github.io/lom/playground/), which includes a client-side self-hosting demo where the subset compiler regenerates itself as a byte-identical 272,925-byte quine.
 
 --------------------
 
